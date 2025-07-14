@@ -230,25 +230,227 @@ The project uses ISO 639-1 language codes:
 - `pt` - Portuguese
 - `pl` - Polish
 
+## Installation
+
+### NPM Package
+
+Install the prayer collection as an NPM package:
+
+```bash
+npm install @codexcommunion/prayer-collection
+```
+
+### Direct Download
+
+You can also download the JSON files directly from this repository and use them in your project.
+
 ## Usage
 
-These JSON files can be used for:
-- Prayer applications and websites
-- Internationalization of Catholic software
-- Educational resources
-- Devotional apps
-- Digital prayer books
-- Academic research
+### Node.js / JavaScript
 
-## Contributing
+```javascript
+const prayerCollection = require('@codexcommunion/prayer-collection');
 
-When adding new prayers or translations:
-1. Follow the established JSON structure
-2. Ensure translations are accurate and appropriate
-3. Include relevant metadata
-4. Use proper language codes
-5. Add descriptive notes where helpful
+// Get all available categories
+const categories = prayerCollection.getCategories();
+console.log(categories); // ['core', 'creeds', 'marian', 'saints', ...]
 
-## License
+// Get all prayers in a category
+const corePrayers = prayerCollection.getPrayersByCategory('core');
+console.log(corePrayers.length); // 3
 
-This collection is intended for educational and devotional use. Please respect the sacred nature of these prayers and use them appropriately.
+// Get a specific prayer
+const ourFather = prayerCollection.getPrayerById('our-father');
+console.log(ourFather.metadata.title); // "Our Father"
+
+// Get prayer text in a specific language
+const prayerText = prayerCollection.getPrayerText('our-father', 'en');
+console.log(prayerText); // "Our Father, who art in heaven..."
+
+// Search prayers
+const results = prayerCollection.searchPrayers('Mary');
+console.log(results.length); // Returns prayers containing "Mary"
+
+// Get all prayers
+const allPrayers = prayerCollection.getAllPrayers();
+console.log(Object.keys(allPrayers)); // All categories
+
+// Get supported languages
+const languages = prayerCollection.getSupportedLanguages();
+console.log(languages); // ['la', 'en', 'es', 'fr', 'de', 'it', 'pt', 'pl']
+```
+
+### TypeScript
+
+```typescript
+import { 
+  getPrayerById, 
+  getPrayerText, 
+  searchPrayers, 
+  Prayer, 
+  LanguageCode 
+} from '@codexcommunion/prayer-collection';
+
+// Type-safe usage
+const prayer: Prayer | null = getPrayerById('hail-mary');
+const text: string | null = getPrayerText('hail-mary', 'la');
+const results = searchPrayers('holy', 'en');
+```
+
+### React Example
+
+```jsx
+import React, { useState, useEffect } from 'react';
+import { getPrayersByCategory, getPrayerText } from '@codexcommunion/prayer-collection';
+
+function PrayerApp() {
+  const [prayers, setPrayers] = useState([]);
+  const [selectedLanguage, setSelectedLanguage] = useState('en');
+
+  useEffect(() => {
+    const corePrayers = getPrayersByCategory('core');
+    setPrayers(corePrayers);
+  }, []);
+
+  return (
+    <div>
+      <h1>Catholic Prayers</h1>
+      <select onChange={(e) => setSelectedLanguage(e.target.value)}>
+        <option value="en">English</option>
+        <option value="la">Latin</option>
+        <option value="es">Spanish</option>
+      </select>
+      
+      {prayers.map(prayer => (
+        <div key={prayer.metadata.id}>
+          <h2>{prayer.metadata.title}</h2>
+          <p>{getPrayerText(prayer.metadata.id, selectedLanguage)}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+```
+
+### Vue.js Example
+
+```vue
+<template>
+  <div>
+    <h1>Catholic Prayers</h1>
+    <select v-model="selectedLanguage">
+      <option value="en">English</option>
+      <option value="la">Latin</option>
+      <option value="es">Spanish</option>
+    </select>
+    
+    <div v-for="prayer in prayers" :key="prayer.metadata.id">
+      <h2>{{ prayer.metadata.title }}</h2>
+      <p>{{ getPrayerText(prayer.metadata.id, selectedLanguage) }}</p>
+    </div>
+  </div>
+</template>
+
+<script>
+import { getPrayersByCategory, getPrayerText } from '@codexcommunion/prayer-collection';
+
+export default {
+  data() {
+    return {
+      prayers: [],
+      selectedLanguage: 'en'
+    };
+  },
+  mounted() {
+    this.prayers = getPrayersByCategory('marian');
+  },
+  methods: {
+    getPrayerText
+  }
+};
+</script>
+```
+
+## API Reference
+
+### Functions
+
+#### `getCategories(): string[]`
+Returns an array of all available prayer categories.
+
+#### `getPrayersByCategory(category: string): Prayer[]`
+Returns all prayers in the specified category.
+
+#### `getPrayerById(prayerId: string): Prayer | null`
+Returns a specific prayer by its ID, or null if not found.
+
+#### `getAllPrayers(): { [category: string]: Prayer[] }`
+Returns all prayers organized by category.
+
+#### `getPrayerText(prayerId: string, language?: string): string | null`
+Returns the prayer text in the specified language (default: 'en').
+
+#### `searchPrayers(searchTerm: string, language?: string): Prayer[]`
+Searches for prayers containing the specified term.
+
+#### `getSupportedLanguages(): string[]`
+Returns an array of supported language codes.
+
+### Types (TypeScript)
+
+#### `Prayer`
+```typescript
+interface Prayer {
+  metadata: PrayerMetadata;
+  translations: { [languageCode: string]: PrayerTranslation };
+}
+```
+
+#### `PrayerMetadata`
+```typescript
+interface PrayerMetadata {
+  id: string;
+  title: string;
+  category: string;
+  type: string;
+  description: string;
+  origin: string;
+  origin_date: string;
+  usage: string;
+  feast_days: string[];
+  devotions: string[];
+  created_date: string;
+  last_modified: string;
+}
+```
+
+#### `PrayerTranslation`
+```typescript
+interface PrayerTranslation {
+  language: string;
+  text: string;
+  notes?: string;
+}
+```
+
+## Publishing
+
+To publish a new version:
+
+1. Update the version in `package.json`
+2. Run the build and validation scripts:
+   ```bash
+   npm run build
+   npm run validate
+   npm test
+   ```
+3. Commit your changes
+4. Create a git tag:
+   ```bash
+   git tag v1.0.0
+   git push origin v1.0.0
+   ```
+5. Publish to NPM:
+   ```bash
+   npm publish
+   ```
