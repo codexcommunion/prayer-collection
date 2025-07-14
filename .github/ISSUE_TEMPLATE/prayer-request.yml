@@ -1,0 +1,87 @@
+name: 🙏 New Prayer Request
+description: Request a new prayer to be added to the collection
+title: "[PRAYER] Add [Prayer Name]"
+labels: ["prayer-request", "enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new prayer for our collection! Please provide as much detail as possible.
+
+  - type: input
+    id: prayer-name
+    attributes:
+      label: Prayer Name
+      description: The common name of the prayer
+      placeholder: e.g., Prayer to St. Anthony, Regina Coeli, etc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category should this prayer belong to?
+      options:
+        - core
+        - creeds
+        - marian
+        - christological
+        - holy-spirit
+        - saints
+        - penitential
+        - daily
+        - liturgical
+        - devotional
+        - for-the-dead
+        - other (please specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the prayer and its significance
+      placeholder: Describe the prayer's purpose, origin, and use in Catholic tradition
+    validations:
+      required: true
+
+  - type: textarea
+    id: latin-text
+    attributes:
+      label: Latin Text (if available)
+      description: The original Latin text of the prayer
+      placeholder: Provide the Latin text if known
+
+  - type: textarea
+    id: english-text
+    attributes:
+      label: English Text
+      description: The English translation of the prayer
+      placeholder: Provide the English text
+    validations:
+      required: true
+
+  - type: textarea
+    id: origin-info
+    attributes:
+      label: Origin Information
+      description: Historical information about the prayer's origin
+      placeholder: e.g., "13th century Franciscan prayer", "Pope Leo XIII, 1886", etc.
+
+  - type: textarea
+    id: feast-days
+    attributes:
+      label: Associated Feast Days
+      description: Liturgical celebrations associated with this prayer
+      placeholder: e.g., "Feast of St. Michael", "All Saints Day", etc.
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other relevant information about the prayer
+      placeholder: Usage context, devotional associations, variations, etc.

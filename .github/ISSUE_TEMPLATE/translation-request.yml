@@ -1,0 +1,90 @@
+name: 🌍 Translation Request
+description: Request a translation correction or addition
+title: "[TRANSLATION] "
+labels: ["translation", "enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve our translations! Your contributions help make these sacred prayers accessible to more people.
+
+  - type: input
+    id: prayer-id
+    attributes:
+      label: Prayer ID
+      description: Which prayer needs translation work?
+      placeholder: e.g., our-father, hail-mary, etc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language needs work?
+      options:
+        - Latin (la)
+        - English (en)
+        - Spanish (es)
+        - French (fr)
+        - German (de)
+        - Italian (it)
+        - Portuguese (pt)
+        - Polish (pl)
+        - Other (please specify)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request Type
+      description: What type of translation work is needed?
+      options:
+        - Correction of existing translation
+        - Addition of missing translation
+        - Improvement of translation quality
+        - Addition of translation notes
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-translation
+    attributes:
+      label: Current Translation (if applicable)
+      description: The current translation that needs correction
+      placeholder: Copy the current translation here
+
+  - type: textarea
+    id: proposed-translation
+    attributes:
+      label: Proposed Translation
+      description: Your suggested translation
+      placeholder: Provide your suggested translation
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Why is this translation better?
+      placeholder: Explain the reasoning behind your suggestion (liturgical accuracy, traditional usage, etc.)
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Sources or references for your translation
+      placeholder: e.g., "Roman Missal (2011)", "Traditional Catholic prayers", liturgical books, etc.
+
+  - type: input
+    id: expertise
+    attributes:
+      label: Your Expertise
+      description: What qualifies you to suggest this translation?
+      placeholder: e.g., "Native speaker", "Theology degree", "Liturgical experience", etc.

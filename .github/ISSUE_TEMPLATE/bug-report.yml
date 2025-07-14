@@ -1,0 +1,81 @@
+name: 🐛 Bug Report
+description: Report a bug or issue with the prayer collection
+title: "[BUG] "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug! Please provide as much detail as possible.
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Bug Type
+      description: What type of issue are you experiencing?
+      options:
+        - JSON format error
+        - Translation error
+        - API function not working
+        - Missing prayer data
+        - Documentation error
+        - Build/packaging issue
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: affected-prayer
+    attributes:
+      label: Affected Prayer (if applicable)
+      description: Which prayer is affected by this issue?
+      placeholder: e.g., our-father, hail-mary, etc.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug clearly and concisely
+      placeholder: What happened? What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Import the package
+        2. Call function X
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What should happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Your environment details
+      placeholder: |
+        - OS: [e.g., Windows 10, macOS 12.0, Ubuntu 20.04]
+        - Node.js version: [e.g., 18.17.0]
+        - Package version: [e.g., 1.0.0]
+        - Browser (if applicable): [e.g., Chrome 91.0]
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other context about the problem
+      placeholder: Screenshots, error messages, related issues, etc.

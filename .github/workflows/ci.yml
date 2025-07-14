@@ -1,0 +1,109 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  release:
+    types: [created]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x, 20.x]
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci --only=prod
+    
+    - name: Run build
+      run: npm run build
+    
+    - name: Run validation
+      run: npm run validate
+    
+    - name: Run tests
+      run: npm test
+    
+    - name: Check prayer count
+      run: |
+        echo "Prayer count check:"
+        node -e "
+          const pc = require('./index');
+          const all = pc.getAllPrayers();
+          const total = Object.values(all).reduce((sum, prayers) => sum + prayers.length, 0);
+          console.log('Total prayers:', total);
+          console.log('Categories:', Object.keys(all).length);
+          if (total < 9) {
+            console.error('❌ Prayer count regression detected!');
+            process.exit(1);
+          }
+          console.log('✅ Prayer count validation passed');
+        "
+
+  lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Use Node.js 18
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci --only=prod
+    
+    - name: Validate JSON files
+      run: |
+        find prayers -name "*.json" -exec node -e "
+          const fs = require('fs');
+          try {
+            const content = fs.readFileSync('{}', 'utf8');
+            JSON.parse(content);
+            console.log('✅ {}');
+          } catch (e) {
+            console.error('❌ {}: ' + e.message);
+            process.exit(1);
+          }
+        " \;
+
+  publish:
+    needs: [test, lint]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Use Node.js 18
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: 'npm'
+        registry-url: 'https://registry.npmjs.org'
+    
+    - name: Install dependencies
+      run: npm ci --only=prod
+    
+    - name: Build package
+      run: npm run build
+    
+    - name: Publish to NPM
+      run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
