@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "st-michael-prayer",
+    "title": "Prayer to St. Michael the Archangel",
+    "category": "petition",
+    "type": "devotional",
+    "description": "A prayer for protection against evil, invoking the intercession of St. Michael the Archangel",
+    "origin": "Composed by Pope Leo XIII after a vision, originally part of the Leonine Prayers",
+    "origin_date": "1886",
+    "usage": "Recited for spiritual protection, after Mass (historically), and in times of spiritual warfare",
+    "feast_days": ["st-michael-archangel", "all-saints"],
+    "devotions": ["daily-prayers", "spiritual-warfare", "protection-prayers"],
+    "created_date": "2025-07-14",
+    "last_modified": "2025-07-14"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Sancte Michael Archangele, defende nos in proelio, contra nequitiam et insidias diaboli esto praesidium. Imperet illi Deus, supplices deprecamur: tuque, Princeps militiae caelestis, Satanam aliosque spiritus malignos, qui ad perditionem animarum pervagantur in mundo, divina virtute, in infernum detrude. Amen.",
+      "notes": "Original Latin version composed by Pope Leo XIII"
+    },
+    "en": {
+      "language": "English",
+      "text": "Saint Michael the Archangel, defend us in battle, be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray; and do thou, O Prince of the heavenly host, by the power of God, thrust into hell Satan and all the evil spirits who prowl about the world seeking the ruin of souls. Amen.",
+      "notes": "Traditional English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "San Miguel Arcángel, defiéndenos en la batalla, sé nuestro amparo contra la perversidad y asechanzas del demonio. Reprímale Dios, suplicamos suplicantes, y tú, Príncipe de la Milicia celestial, arroja al infierno con el divino poder a Satanás y a los otros espíritus malignos que andan dispersos por el mundo para la perdición de las almas. Amén.",
+      "notes": "Traducción católica española tradicional"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Saint Michel Archange, défendez-nous dans le combat, soyez notre secours contre la méchanceté et les embûches du démon. Que Dieu exerce sur lui son empire, nous vous en supplions; et vous, Prince de la milice céleste, repoussez en enfer, par la force divine, Satan et les autres esprits mauvais qui rôdent dans le monde pour la perte des âmes. Amen.",
+      "notes": "Version française catholique traditionnelle"
+    },
+    "de": {
+      "language": "German",
+      "text": "Heiliger Erzengel Michael, verteidige uns im Kampfe, gegen die Bosheit und die Nachstellungen des Teufels sei unser Schutz. Gott gebiete ihm, so bitten wir flehentlich; und du, Fürst der himmlischen Heerscharen, stürze den Satan und die anderen bösen Geister, die in der Welt umhergehen, um die Seelen zu verderben, durch die Kraft Gottes in die Hölle. Amen.",
+      "notes": "Deutsche katholische Übersetzung"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "San Michele Arcangelo, difendici nella battaglia, sii tu nostro sostegno contro la perversità e le insidie del diavolo. Che Dio eserciti il suo dominio su di lui, te ne preghiamo supplichevoli; e tu, Principe della milizia celeste, ricaccia nell'inferno satana e gli altri spiriti del male che si aggirano per il mondo per la perdizione delle anime. Amen.",
+      "notes": "Versione italiana cattolica tradizionale"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "São Miguel Arcanjo, defendei-nos no combate, sede o nosso refúgio contra a maldade e as ciladas do demônio. Ordene-lhe Deus, assim o pedimos suplicantes; e vós, Príncipe da milícia celestial, pela virtude divina, precipitai no inferno a Satanás e aos outros espíritos malignos que andam pelo mundo para perdição das almas. Amém.",
+      "notes": "Versão portuguesa católica tradicional"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Święty Michale Archaniele, broń nas w walce, bądź naszą ochroną przeciwko niegodziwości i pułapkom diabła. Niech go Bóg ukróci, pokornie prosimy; a ty, Książę Zastępów niebieskich, mocą Bożą strąć do piekła szatana i innych złych duchów, którzy krążą po świecie na zgubę dusz. Amen.",
+      "notes": "Polska katolicka wersja tradycyjna"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "hail-mary",
+    "title": "Hail Mary",
+    "category": "marian",
+    "type": "devotional",
+    "description": "A traditional Catholic prayer to the Virgin Mary, combining the angel Gabriel's greeting and Elizabeth's blessing",
+    "origin": "Based on Luke 1:28 (Angel Gabriel's greeting) and Luke 1:42 (Elizabeth's blessing), with traditional Catholic addition",
+    "origin_date": "1050/1150",
+    "usage": "Central prayer of the Rosary, daily Marian devotions, and Catholic worship",
+    "feast_days": ["annunciation", "visitation", "all-marian-feasts"],
+    "devotions": ["rosary", "angelus", "marian-devotions"],
+    "created_date": "2025-07-14",
+    "last_modified": "2025-07-14"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.",
+      "notes": "Traditional Latin version used in Catholic liturgy"
+    },
+    "en": {
+      "language": "English",
+      "text": "Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.",
+      "notes": "Traditional English Catholic version"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Dios te salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.",
+      "notes": "Standard Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Je vous salue, Marie, pleine de grâce, le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes, et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen.",
+      "notes": "French Catholic liturgical version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus. Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.",
+      "notes": "German Catholic liturgical version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Ave, o Maria, piena di grazia, il Signore è con te. Tu sei benedetta fra le donne e benedetto è il frutto del tuo seno, Gesù. Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.",
+      "notes": "Italian Catholic liturgical version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ave Maria, cheia de graça, o Senhor é convosco. Bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.",
+      "notes": "Portuguese Catholic liturgical version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Zdrowaś Maryjo, łaski pełna, Pan z Tobą. Błogosławiona jesteś między niewiastami, i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej. Amen.",
+      "notes": "Polish Catholic liturgical version"
+    }
+  }
+}

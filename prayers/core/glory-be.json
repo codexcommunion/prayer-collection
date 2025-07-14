@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "glory-be",
+    "title": "Glory Be",
+    "category": "praise",
+    "type": "doxology",
+    "description": "A short hymn of praise to the Trinity, also known as the Gloria Patri or Lesser Doxology",
+    "origin": "Ancient Christian doxology, developed in early centuries of the Church",
+    "origin_date": "~0200",
+    "usage": "Recited after psalms, decades of the Rosary, and various prayers as praise to the Trinity",
+    "feast_days": ["trinity-sunday", "all-liturgical-celebrations"],
+    "devotions": ["rosary", "divine-office", "daily-prayers"],
+    "created_date": "2025-07-14",
+    "last_modified": "2025-07-14"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen.",
+      "notes": "Traditional Latin doxology used in liturgy"
+    },
+    "en": {
+      "language": "English",
+      "text": "Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.",
+      "notes": "Traditional English Catholic version"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.",
+      "notes": "Standard Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Gloire au Père, et au Fils, et au Saint-Esprit. Comme il était au commencement, maintenant et toujours, pour les siècles des siècles. Amen.",
+      "notes": "French Catholic liturgical version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist. Wie es war im Anfang, so auch jetzt und allezeit und in Ewigkeit. Amen.",
+      "notes": "German Catholic liturgical version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Gloria al Padre e al Figlio e allo Spirito Santo. Come era nel principio, e ora e sempre nei secoli dei secoli. Amen.",
+      "notes": "Italian Catholic liturgical version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Glória ao Pai, e ao Filho, e ao Espírito Santo. Como era no princípio, agora e sempre, pelos séculos dos séculos. Amém.",
+      "notes": "Portuguese Catholic liturgical version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Chwała Ojcu i Synowi, i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.",
+      "notes": "Polish Catholic liturgical version"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "apostles-creed",
+    "title": "Apostles' Creed",
+    "category": "credal",
+    "type": "liturgical",
+    "description": "A statement of Christian faith summarizing the core beliefs of Christianity, organized around the three persons of the Trinity",
+    "origin": "Early Christian communities, developed gradually from apostolic times through the 8th century",
+    "origin_date": "0100/0800",
+    "usage": "Recited during baptisms, confirmations, personal devotions, and as part of the Rosary",
+    "feast_days": ["all-saints", "baptism-of-the-lord", "easter-vigil"],
+    "devotions": ["rosary", "baptismal-renewal", "morning-prayer"],
+    "created_date": "2025-07-14",
+    "last_modified": "2025-07-14"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Credo in Deum Patrem omnipotentem, Creatorem caeli et terrae, et in Iesum Christum, Filium Eius unicum, Dominum nostrum, qui conceptus est de Spiritu Sancto, natus ex Maria Virgine, passus sub Pontio Pilato, crucifixus, mortuus, et sepultus, descendit ad inferos, tertia die resurrexit a mortuis, ascendit ad caelos, sedet ad dexteram Patris omnipotentis, inde venturus est iudicare vivos et mortuos. Credo in Spiritum Sanctum, sanctam Ecclesiam catholicam, sanctorum communionem, remissionem peccatorum, carnis resurrectionem, vitam aeternam. Amen.",
+      "notes": "Traditional Latin text of the Apostles' Creed as used in the Roman Catholic Church"
+    },
+    "en": {
+      "language": "English",
+      "text": "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.",
+      "notes": "Standard English translation used in Catholic liturgy and devotions"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Creo en Dios, Padre todopoderoso, Creador del cielo y de la tierra. Creo en Jesucristo, su único Hijo, nuestro Señor, que fue concebido por obra y gracia del Espíritu Santo, nació de santa María Virgen, padeció bajo el poder de Poncio Pilato, fue crucificado, muerto y sepultado, descendió a los infiernos, al tercer día resucitó de entre los muertos, subió a los cielos y está sentado a la derecha de Dios, Padre todopoderoso. Desde allí ha de venir a juzgar a vivos y muertos. Creo en el Espíritu Santo, la santa Iglesia católica, la comunión de los santos, el perdón de los pecados, la resurrección de la carne y la vida eterna. Amén.",
+      "notes": "Texto tradicional español del Credo de los Apóstoles usado en la liturgia católica"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Je crois en Dieu, le Père tout-puissant, Créateur du ciel et de la terre. Et en Jésus Christ, son Fils unique, notre Seigneur, qui a été conçu du Saint-Esprit, est né de la Vierge Marie, a souffert sous Ponce Pilate, a été crucifié, est mort et a été enseveli, est descendu aux enfers, le troisième jour est ressuscité des morts, est monté aux cieux, est assis à la droite de Dieu le Père tout-puissant, d'où il viendra juger les vivants et les morts. Je crois en l'Esprit Saint, à la sainte Église catholique, à la communion des saints, à la rémission des péchés, à la résurrection de la chair, à la vie éternelle. Amen.",
+      "notes": "Texte français traditionnel du Credo des Apôtres utilisé dans la liturgie catholique"
+    },
+    "de": {
+      "language": "German",
+      "text": "Ich glaube an Gott, den Vater, den Allmächtigen, den Schöpfer des Himmels und der Erde, und an Jesus Christus, seinen eingeborenen Sohn, unsern Herrn, empfangen durch den Heiligen Geist, geboren von der Jungfrau Maria, gelitten unter Pontius Pilatus, gekreuzigt, gestorben und begraben, hinabgestiegen in das Reich des Todes, am dritten Tage auferstanden von den Toten, aufgefahren in den Himmel; er sitzt zur Rechten Gottes, des allmächtigen Vaters; von dort wird er kommen, zu richten die Lebenden und die Toten. Ich glaube an den Heiligen Geist, die heilige katholische Kirche, Gemeinschaft der Heiligen, Vergebung der Sünden, Auferstehung der Toten und das ewige Leben. Amen.",
+      "notes": "Deutscher traditioneller Text des Apostolischen Glaubensbekenntnisses"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Io credo in Dio, Padre onnipotente, Creatore del cielo e della terra. E in Gesù Cristo, suo unico Figlio, nostro Signore, il quale fu concepito di Spirito Santo, nacque da Maria Vergine, patì sotto Ponzio Pilato, fu crocifisso, morì e fu sepolto; discese agli inferi; il terzo giorno risuscitò da morte; salì al cielo, siede alla destra di Dio Padre onnipotente: di là verrà a giudicare i vivi e i morti. Credo nello Spirito Santo, la santa Chiesa cattolica, la comunione dei santi, la remissione dei peccati, la risurrezione della carne, la vita eterna. Amen.",
+      "notes": "Testo italiano tradizionale del Credo degli Apostoli utilizzato nella liturgia cattolica"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Creio em Deus Pai todo-poderoso, Criador do céu e da terra. E em Jesus Cristo, seu único Filho, nosso Senhor, que foi concebido pelo poder do Espírito Santo, nasceu da Virgem Maria, padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado, desceu à mansão dos mortos, ressuscitou ao terceiro dia, subiu aos céus, está sentado à direita de Deus Pai todo-poderoso, donde há de vir a julgar os vivos e os mortos. Creio no Espírito Santo, na santa Igreja católica, na comunhão dos santos, na remissão dos pecados, na ressurreição da carne, na vida eterna. Amém.",
+      "notes": "Texto português tradicional do Credo dos Apóstolos usado na liturgia católica"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Wierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi. I w Jezusa Chrystusa, Syna Jego jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczony pod Ponckim Piłatem, ukrzyżowany, umarł i pogrzebany, zstąpił do piekieł, trzeciego dnia zmartwychwstał, wstąpił na niebiosa, siedzi po prawicy Boga Ojca wszechmogącego, stamtąd przyjdzie sądzić żywych i umarłych. Wierzę w Ducha Świętego, święty Kościół powszechny, obcowanie świętych, odpuszczenie grzechów, ciała zmartwychwstanie, żywot wieczny. Amen.",
+      "notes": "Tradycyjny polski tekst Składu Apostolskiego używany w liturgii katolickiej"
+    }
+  }
+}

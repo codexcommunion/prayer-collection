@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "act-of-contrition",
+    "title": "Act of Contrition",
+    "category": "petition",
+    "type": "penitential",
+    "description": "A prayer expressing sorrow for sins committed and firm purpose of amendment, commonly recited during confession",
+    "origin": "Traditional Catholic prayer developed for the sacrament of penance",
+    "origin_date": "~1400",
+    "usage": "Recited during the sacrament of confession, examination of conscience, and personal prayer",
+    "feast_days": ["all-saints", "sacred-heart"],
+    "devotions": ["confession", "daily-prayers", "examination-of-conscience"],
+    "created_date": "2025-07-14",
+    "last_modified": "2025-07-14"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Deus meus, ex toto corde paenitet me omnium meorum peccatorum, eaque detestor, quia peccando, non solum poenas a te iuste statutas promeritus sum, sed praesertim quia offendi te, summum bonum, et amore dignissimum. Ideo firmiter propono, adiuvante gratia tua, de cetero me non peccaturum peccandique occasiones proximas fugiturum. Amen.",
+      "notes": "Traditional Latin version used in confession"
+    },
+    "en": {
+      "language": "English",
+      "text": "O my God, I am heartily sorry for having offended Thee, and I detest all my sins because I dread the loss of heaven and the pains of hell, but most of all because they offend Thee, my God, who art all good and deserving of all my love. I firmly resolve, with the help of Thy grace, to confess my sins, to do penance, and to amend my life. Amen.",
+      "notes": "Traditional English Catholic version commonly used in confession"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Dios mío, me pesa de todo corazón haber pecado, porque al pecar he merecido el castigo del infierno y, sobre todo, porque te he ofendido a ti, que eres tan bueno y que tanto me amas. Por eso, con tu gracia, propongo firmemente confesarme, hacer penitencia y no volver a pecar. Amén.",
+      "notes": "Versión católica española tradicional para la confesión"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Mon Dieu, j'ai un très grand regret de vous avoir offensé, parce que vous êtes infiniment bon, infiniment aimable, et que le péché vous déplaît. Je prends la ferme résolution, avec le secours de votre sainte grâce, de ne plus vous offenser et de faire pénitence. Amen.",
+      "notes": "Version française catholique traditionnelle pour la confession"
+    },
+    "de": {
+      "language": "German",
+      "text": "Mein Gott, es reut mich von ganzem Herzen, dass ich gesündigt habe, weil ich dadurch die Strafe des Fegefeuers und der Hölle verdient habe, aber vor allem, weil ich dich beleidigt habe, meinen Gott, der du unendlich gut bist und alle meine Liebe verdienst. Darum nehme ich mir fest vor, mit Hilfe deiner Gnade zu beichten, Buße zu tun und mein Leben zu bessern. Amen.",
+      "notes": "Deutsche katholische Version für die Beichte"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Mio Dio, mi pento e mi dolgo con tutto il cuore dei miei peccati, perché peccando ho meritato i tuoi castighi e molto più perché ho offeso te, infinitamente buono e degno di essere amato sopra ogni cosa. Propongo col tuo santo aiuto di non offenderti mai più e di fuggire le occasioni di peccato. Amen.",
+      "notes": "Versione italiana cattolica tradizionale per la confessione"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Meu Deus, eu me arrependo, de todo o coração, de vos ter ofendido, porque pequei contra vós, que sois tão bom e digno de ser amado sobre todas as coisas, e assim mereço ser castigado por vós. Proponho, com a vossa santa graça, nunca mais pecar e fugir das ocasiões de pecado. Meu Jesus, misericórdia! Amém.",
+      "notes": "Versão portuguesa católica tradicional para a confissão"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Żałuję z całego serca, że zgrzeszyłem, i wszystkie grzechy moje nienawidzę, nie tylko dlatego, że przez nie zasłużyłem sobie na kary, które mi słusznie wyznaczyłeś, ale głównie dlatego, że obraziłem Ciebie, najwyższe dobro i najgodniejsze miłości. Dlatego mocno postanawiam z pomocą łaski Twojej więcej już nie grzeszyć i unikać okazji do grzechu. Amen.",
+      "notes": "Polska katolicka wersja tradycyjna dla spowiedzi"
+    }
+  }
+}

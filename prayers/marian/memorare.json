@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "id": "memorare",
+    "title": "Memorare",
+    "category": "marian",
+    "type": "devotional",
+    "description": "A traditional prayer to the Virgin Mary asking for her intercession, expressing confidence in her maternal care",
+    "origin": "Attributed to St. Bernard of Clairvaux, popularized by St. Claude de la Colombière",
+    "origin_date": "1090/1153",
+    "usage": "Recited in times of need, distress, or when seeking Mary's intercession and protection",
+    "feast_days": ["all-marian-feasts", "assumption", "immaculate-conception"],
+    "devotions": ["marian-devotions", "daily-prayers"],
+    "created_date": "2025-07-14",
+    "last_modified": "2025-07-14"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Memorare, o piissima Virgo Maria, non esse auditum a saeculo, quemquam ad tua currentem praesidia, tua implorantem auxilia, tua petentem suffragia, esse derelictum. Ego tali animatus confidentia, ad te, Virgo Virginum, Mater, curro, ad te venio, coram te gemens peccator assisto. Noli, Mater Verbi, verba mea despicere; sed audi propitia et exaudi. Amen.",
+      "notes": "Traditional Latin version attributed to St. Bernard of Clairvaux"
+    },
+    "en": {
+      "language": "English",
+      "text": "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided. Inspired by this confidence, I fly unto thee, O Virgin of virgins, my Mother; to thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen.",
+      "notes": "Traditional English Catholic translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que han acudido a vuestra protección, implorado vuestra asistencia y reclamado vuestro socorro, haya sido abandonado de vos. Animado por esta confianza, a vos acudo, oh Madre, Virgen de las vírgenes, y gimiendo bajo el peso de mis pecados, me postro ante vos. Oh Madre del Verbo divino, no desechéis mis súplicas, antes bien, escuchadlas y acogedlas benignamente. Amén.",
+      "notes": "Versión católica española tradicional"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Souvenez-vous, ô très miséricordieuse Vierge Marie, qu'on n'a jamais entendu dire qu'aucun de ceux qui ont eu recours à votre protection, imploré votre assistance et réclamé votre secours, ait été abandonné. Animé d'une pareille confiance, ô Vierge des vierges, ô ma Mère, je cours vers vous, et gémissant sous le poids de mes péchés, je me prosterne à vos pieds. Ô Mère du Verbe incarné, ne méprisez pas mes prières, mais écoutez-les favorablement et daignez les exaucer. Amen.",
+      "notes": "Version française catholique traditionnelle"
+    },
+    "de": {
+      "language": "German",
+      "text": "Gedenke, o gütigste Jungfrau Maria, es ist noch nie gehört worden, dass jemand, der zu deinem Schutz seine Zuflucht nahm, deine Hilfe anrief und um deine Fürsprache flehte, von dir verlassen worden sei. Von solchem Vertrauen beseelt, eile ich zu dir, o Jungfrau der Jungfrauen, meine Mutter; zu dir komme ich, vor dir stehe ich seufzend als Sünder. O Mutter des ewigen Wortes, verschmähe nicht meine Bitten, sondern höre mich gnädig an und erhöre mich. Amen.",
+      "notes": "Deutsche katholische Übersetzung"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Ricordati, o piissima Vergine Maria, che non si è mai sentito al mondo che alcuno abbia ricorso al tuo patrocinio, implorato il tuo aiuto, chiesto la tua protezione, e sia stato da te abbandonato. Animato da tale confidenza, a te ricorro, o Madre, Vergine delle vergini; a te vengo, e peccatore contrito mi prostro ai tuoi piedi. Non volere, o Madre del Verbo, disprezzare le mie preghiere, ma benigna ascoltale ed esaudiscile. Amen.",
+      "notes": "Versione italiana cattolica tradizionale"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Lembrai-vos, ó puríssima Virgem Maria, que jamais se ouviu dizer que alguém que tenha recorrido à vossa proteção, implorado a vossa assistência e solicitado o vosso patrocínio, fosse por vós desamparado. Animado desta confiança, a vós recorro, ó Mãe, Virgem das virgens; a vós venho e, diante de vós me prostro, pecador contrito. Não desprezeis as minhas súplicas, ó Mãe do Verbo divino, mas escutai-as propícia e dignai-vos atendê-las. Amém.",
+      "notes": "Versão portuguesa católica tradicional"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Wspomnij, o najmiłosiersza Panno Maryjo, że nie słyszano od wieków, aby ktokolwiek, uciekając się pod Twoją obronę, wzywający Twojej pomocy, błagający o Twoje wstawiennictwo, został opuszczony. Ja też, ożywiony taką ufnością, uciekam się do Ciebie, o Panno nad pannami, o moja Matko; do Ciebie przychodzę, przed Tobą staję, jęcząc jako grzesznik. Nie gardź, o Matko Słowa Wcielonego, moimi słowami, ale łaskawie wysłuchaj i spełnij. Amen.",
+      "notes": "Polska katolicka wersja tradycyjna"
+    }
+  }
+}
