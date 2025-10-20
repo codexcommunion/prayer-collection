@@ -32,6 +32,17 @@ prayers/
 3. **Required Fields**: All metadata fields are mandatory, especially `origin_date` (use ISO 8601 ranges like "0030/0033")
 4. **Language Coverage**: Include all 8 supported languages; partial translations trigger warnings
 
+### Git Workflow
+To maintain code quality and minimize risk:
+
+1. **Branching**: Always create a feature branch for new work (`git checkout -b feature/add-new-prayer`)
+2. **Incremental Commits**: Make frequent, small commits during development to capture progress and enable easy rollbacks
+3. **Validation**: Run `npm run validate` and `npm test` before each commit
+4. **Merge Strategy**: When work is complete, merge back to main with squash commits if the branch has many small commits
+5. **Push**: Push feature branches to origin for backup and collaboration
+
+This ensures that main always remains stable and work-in-progress doesn't interfere with production code.
+
 ### Build System Commands
 ```bash
 npm run build      # Validates JSONs, creates lib/build-report.json and lib/prayer-index.json
