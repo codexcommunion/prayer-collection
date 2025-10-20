@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "confiteor",
+    "title": "Confiteor",
+    "primary_category": "penitential",
+    "labels": ["penitential", "liturgical", "mass", "common"],
+    "importance": "common",
+    "type": "liturgical",
+    "description": "Liturgical prayer of confession used in the Catholic Mass",
+    "origin": "Traditional Catholic liturgy, developed in the early Middle Ages",
+    "origin_date": "~0800",
+    "usage": "Recited during Mass before communion, and in other penitential contexts",
+    "feast_days": ["all-liturgical-celebrations"],
+    "devotions": ["mass"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Confiteor Deo omnipotenti et vobis, fratres, quia peccavi nimis cogitatione, verbo, opere et omissione, mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, omnes Angelos et Sanctos, et vos, fratres, orare pro me ad Dominum Deum nostrum.",
+      "notes": "Traditional Latin version used in the Roman Catholic liturgy"
+    },
+    "en": {
+      "language": "English",
+      "text": "I confess to almighty God and to you, my brothers and sisters, that I have greatly sinned, in my thoughts and in my words, in what I have done and in what I have failed to do, through my fault, through my fault, through my most grievous fault; therefore I ask blessed Mary ever-Virgin, all the Angels and Saints, and you, my brothers and sisters, to pray for me to the Lord our God.",
+      "notes": "English translation commonly used in Catholic liturgy"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Me confieso a Dios todopoderoso y a vosotros, hermanos, que he pecado mucho de pensamiento, palabra, obra y omisión, por mi culpa, por mi culpa, por mi grandísima culpa. Por eso ruego a la bienaventurada siempre Virgen María, a los ángeles y santos, y a vosotros, hermanos, que intercedáis por mí ante Dios nuestro Señor.",
+      "notes": "Spanish Catholic liturgical version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Je confesse à Dieu tout-puissant et à vous, mes frères, que j'ai péché en pensées, en paroles, en actions et en omissions, par ma faute, par ma faute, par ma très grande faute. C'est pourquoi je supplie la bienheureuse Marie toujours Vierge, les anges et les saints, et vous, mes frères, de prier pour moi le Seigneur notre Dieu.",
+      "notes": "French Catholic liturgical version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Ich bekenne Gott, dem Allmächtigen, und euch, Brüder, dass ich gesündigt habe in Gedanken, Worten und Werken, durch meine Schuld, durch meine Schuld, durch meine übergroße Schuld. Darum bitte ich die selige, immerwährende Jungfrau Maria, alle Engel und Heiligen und euch, Brüder, für mich zu beten zu Gott, unserem Herrn.",
+      "notes": "German Catholic liturgical version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Confesso a Dio onnipotente e a voi, fratelli, che ho peccato molto in pensieri, parole, opere e omissioni, per mia colpa, per mia colpa, per mia grandissima colpa. Perciò prego la beata sempre vergine Maria, tutti gli angeli e i santi, e voi, fratelli, di pregare per me il Signore Dio nostro.",
+      "notes": "Italian Catholic liturgical version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Confesso a Deus todo-poderoso e a vós, irmãos, que pequei muito em pensamentos, palavras, obras e omissões, por minha culpa, por minha culpa, por minha máxima culpa. Por isso, peço à bem-aventurada sempre Virgem Maria, a todos os anjos e santos, e a vós, irmãos, que rogueis por mim a Deus nosso Senhor.",
+      "notes": "Portuguese Catholic liturgical version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Wyznaję Bogu wszechmogącemu i wam, bracia, że bardzo zgrzeszyłem myślą, słowem, uczynkiem i zaniedbaniem, przez mą winę, przez mą winę, przez mą najcięższą winę. Przeto błagam błogosławioną zawsze Dziewicę Maryję, wszystkich aniołów i świętych oraz was, bracia, abyście się za mną modlili do Pana Boga naszego.",
+      "notes": "Polish Catholic liturgical version"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "lenten-prayer",
+    "title": "Lenten Prayer",
+    "primary_category": "seasonal",
+    "labels": ["seasonal", "lent", "penitential"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Prayer for spiritual renewal and repentance during the Lenten season",
+    "origin": "Traditional Lenten prayer from the liturgy",
+    "origin_date": "~0500",
+    "usage": "Prayed during Lent for repentance and preparation for Easter",
+    "feast_days": ["ash-wednesday", "lent"],
+    "devotions": ["lent-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Omnipotens et misericors Deus, qui nos per observantiam Quadragesimae ad regnum tuum introducis, concede ut per haec sancta mysteria Paschae, peccatorum nostrorum indulgentiam consequamur et voluntati tuae firmius adhaereamus. Per Christum Dominum nostrum. Amen.",
+      "notes": "Latin Lenten prayer from the Roman liturgy"
+    },
+    "en": {
+      "language": "English",
+      "text": "Almighty and ever-living God, you invite us deeper into your kingdom through our Lenten observance. As we prepare to celebrate the Easter mysteries, help us to repent of our sins and renew our commitment to your will. We ask this through Christ our Lord. Amen.",
+      "notes": "English translation of the Lenten collect prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Dios omnipotente y misericordioso, que nos introduces en tu reino por la observancia de la Cuaresma, concédenos que por estos santos misterios de Pascua consigamos el perdón de nuestros pecados y nos adhieramos más firmemente a tu voluntad. Por Cristo nuestro Señor. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Dieu tout-puissant et miséricordieux, qui nous introduis dans ton royaume par l'observance du Carême, accorde-nous que par ces saints mystères de Pâques, nous obtenions le pardon de nos péchés et que nous adhérions plus fermement à ta volonté. Par le Christ notre Seigneur. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Allmächtiger und barmherziger Gott, der du uns durch die Beobachtung der Fastenzeit in dein Reich einführst, verleihe uns, dass wir durch diese heiligen Geheimnisse der Osterzeit die Vergebung unserer Sünden erlangen und deinem Willen fester anhängen. Durch Christus, unsern Herrn. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Dio onnipotente e misericordioso, che ci introduci nel tuo regno mediante l'osservanza della Quaresima, concedici che per questi santi misteri di Pasqua otteniamo il perdono dei nostri peccati e aderiamo più fermamente alla tua volontà. Per Cristo nostro Signore. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Deus omnipotente e misericordioso, que nos introduces no teu reino pela observância da Quaresma, concede-nos que por estes santos mistérios da Páscoa obtenhamos o perdão dos nossos pecados e nos apeguemos mais firmemente à tua vontade. Por Cristo nosso Senhor. Amém.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Wszechmogący i miłosierny Boże, który wprowadzasz nas do swego królestwa przez zachowanie Wielkiego Postu, spraw, abyśmy przez te święte tajemnice Wielkanocy uzyskali przebaczenie naszych grzechów i mocniej trzymali się Twojej woli. Przez Chrystusa, Pana naszego. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

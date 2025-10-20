@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "christmas-prayer",
+    "title": "Christmas Prayer",
+    "primary_category": "seasonal",
+    "labels": ["seasonal", "christmas", "devotional"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Prayer celebrating the Nativity of Christ and the light of salvation",
+    "origin": "Traditional Christmas prayer from the liturgy",
+    "origin_date": "~0500",
+    "usage": "Prayed during Christmas season and on Christmas Day",
+    "feast_days": ["christmas", "nativity-of-the-lord"],
+    "devotions": ["christmas-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Deus, qui hanc sacratissimam noctem veri luminis fecisti illustratione clarescere: da, quaesumus, ut, cuius in terra lucis agnoscimus mysteria, eius quoque in caelo perfruamur gaudiis. Per eundem Dominum nostrum Iesum Christum Filium tuum, qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia saecula saeculorum. Amen.",
+      "notes": "Latin Christmas prayer from the Roman liturgy"
+    },
+    "en": {
+      "language": "English",
+      "text": "O God, who hast made this most sacred night to shine with the illumination of the true Light: grant, we beseech Thee, that we who have known the mysteries of His light on earth, may also perfectly enjoy Him in heaven; who liveth and reigneth with Thee in the unity of the Holy Ghost, God, world without end. Amen.",
+      "notes": "English translation of the Christmas collect prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Dios, que has hecho brillar esta noche sacratísima con la iluminación de la verdadera luz: concede, te rogamos, que nosotros, que conocemos en la tierra los misterios de su luz, gocemos también perfectamente de Él en el cielo; que vive y reina contigo en la unidad del Espíritu Santo, Dios, por los siglos de los siglos. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô Dieu, qui avez fait resplendir cette nuit très sainte de l'illumination de la vraie lumière : accordez-nous, nous vous en prions, que nous qui connaissons sur la terre les mystères de sa lumière, jouissions aussi parfaitement de lui dans le ciel ; lui qui vit et règne avec vous dans l'unité du Saint-Esprit, Dieu, pour tous les siècles des siècles. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "O Gott, der du diese heiligste Nacht mit der Erleuchtung des wahren Lichtes hast erstrahlen lassen: verleihe uns, wir bitten dich, dass wir, die wir auf Erden die Geheimnisse seines Lichtes erkennen, auch im Himmel vollkommen seiner genießen; der mit dir lebt und herrscht in der Einheit des Heiligen Geistes, Gott, von Ewigkeit zu Ewigkeit. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O Dio, che hai fatto risplendere questa notte santissima con l'illuminazione della vera luce: concedi, ti preghiamo, che noi, che conosciamo sulla terra i misteri della sua luce, godiamo anche perfettamente di lui in cielo; che vive e regna con te nell'unità dello Spirito Santo, Dio, per tutti i secoli dei secoli. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó Deus, que fizeste brilhar esta noite sacratíssima com a iluminação da verdadeira luz: concede-nos, nós te rogamos, que nós, que conhecemos na terra os mistérios da sua luz, gozemos também perfeitamente dele no céu; que vive e reina contigo na unidade do Espírito Santo, Deus, pelos séculos dos séculos. Amém.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Boże, któryś uczynił tę najświętszą noc błyszczącą oświeceniem prawdziwego światła: daj nam, prosimy, abyśmy, którzy poznajemy na ziemi tajemnice Jego światła, również w niebie doskonale nim się radowali; który żyje i króluje z Tobą w jedności Ducha Świętego, Bóg, na wieki wieków. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "grace-after-meals",
+    "title": "Grace After Meals",
+    "primary_category": "daily",
+    "labels": ["daily", "meals", "family", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "A prayer of thanksgiving recited after eating meals",
+    "origin": "Traditional Catholic prayer of thanksgiving after meals",
+    "origin_date": "~0100",
+    "usage": "Recited after meals in family or communal settings",
+    "feast_days": [],
+    "devotions": ["family-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Agimus tibi gratias, omnipotens Deus, pro universis beneficiis tuis, qui vivis et regnas in saecula saeculorum. Amen.",
+      "notes": "Traditional Latin thanksgiving after meals"
+    },
+    "en": {
+      "language": "English",
+      "text": "We give Thee thanks, almighty God, for all Thy benefits, Who livest and reignest, world without end. Amen.",
+      "notes": "Common English version used in Catholic households"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Te damos gracias, Dios todopoderoso, por todos tus beneficios, que vives y reinas por los siglos de los siglos. Amén.",
+      "notes": "Spanish Catholic version for thanksgiving after meals"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Nous vous rendons grâces, Dieu tout-puissant, pour tous vos bienfaits, qui vivez et régnez dans les siècles des siècles. Amen.",
+      "notes": "French Catholic thanksgiving prayer"
+    },
+    "de": {
+      "language": "German",
+      "text": "Wir danken dir, allmächtiger Gott, für alle deine Wohltaten, der du lebst und herrschest von Ewigkeit zu Ewigkeit. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Ti rendiamo grazie, Dio onnipotente, per tutti i tuoi benefici, che vivi e regni nei secoli dei secoli. Amen.",
+      "notes": "Italian Catholic thanksgiving"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Damos-Te graças, Deus omnipotente, por todos os Teus benefícios, que vives e reinas pelos séculos dos séculos. Amém.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Składamy Ci dzięki, wszechmogący Boże, za wszystkie Twoje dobrodziejstwa, który żyjesz i królujesz na wieki wieków. Amen.",
+      "notes": "Polish Catholic thanksgiving after meals"
+    }
+  }
+}

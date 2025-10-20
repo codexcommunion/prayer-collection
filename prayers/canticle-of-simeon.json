@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "canticle-of-simeon",
+    "title": "Canticle of Simeon",
+    "primary_category": "liturgical",
+    "labels": ["liturgical", "biblical", "evening", "common"],
+    "importance": "common",
+    "type": "biblical",
+    "description": "The Nunc Dimittis, the canticle sung by Simeon in Luke 2:29-32",
+    "origin": "Gospel of Luke 2:29-32, sung by Simeon in the temple",
+    "origin_date": "~0085",
+    "usage": "Evening prayer in the Liturgy of the Hours, and other liturgical celebrations",
+    "feast_days": ["all-liturgical-celebrations"],
+    "devotions": ["liturgy-of-the-hours"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Nunc dimittis servum tuum, Domine, secundum verbum tuum in pace, quia viderunt oculi mei salutare tuum, quod parasti ante faciem omnium populorum, lumen ad revelationem gentium et gloriam plebis tuae Israel.",
+      "notes": "Latin Vulgate version from Luke 2:29-32"
+    },
+    "en": {
+      "language": "English",
+      "text": "Lord, now lettest thou thy servant depart in peace, according to thy word: For mine eyes have seen thy salvation, Which thou hast prepared before the face of all people; A light to lighten the Gentiles, and the glory of thy people Israel.",
+      "notes": "English translation from the King James Version"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Ahora, Señor, despides a tu siervo en paz, conforme a tu palabra; porque han visto mis ojos tu salvación, la cual has preparado en presencia de todos los pueblos; luz para revelación a los gentiles, y gloria de tu pueblo Israel.",
+      "notes": "Spanish translation from the Reina-Valera version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Maintenant, ô Maître souverain, tu peux laisser ton serviteur s'en aller en paix, selon ta parole. Car mes yeux ont vu ton salut, que tu as préparé à la face de tous les peuples, lumière pour éclairer les nations et gloire d'Israël ton peuple.",
+      "notes": "French translation from the Bible de Jérusalem"
+    },
+    "de": {
+      "language": "German",
+      "text": "Herr, nun lässest du deinen Diener in Frieden fahren, wie du gesagt hast; denn meine Augen haben deinen Heiland gesehen, welchen du bereitet hast vor dem Angesichte aller Völker, ein Licht, zu erleuchten die Heiden und zum Preis deines Volkes Israel.",
+      "notes": "German translation from the Luther Bible"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Ora lascia, o Signore, che il tuo servo vada in pace secondo la tua parola, perché i miei occhi hanno visto la tua salvezza, preparata da te davanti a tutti i popoli, luce per illuminare le genti e gloria del tuo popolo, Israele.",
+      "notes": "Italian translation from the Conferenza Episcopale Italiana"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Agora, Senhor, despede em paz o teu servo, segundo a tua palavra; pois os meus olhos viram a tua salvação, que preparaste diante de todos os povos; luz para iluminar as nações e glória do teu povo Israel.",
+      "notes": "Portuguese translation from the Bíblia Sagrada"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Teraz, Panie, pozwól odejść słudze Twemu w pokoju, według słowa Twego, bo oczy moje ujrzały Twoje zbawienie, któreś przygotował wobec wszystkich narodów, światło na oświecenie pogan i chwałę ludu Twego Izraela.",
+      "notes": "Polish translation from the Biblia Tysiąclecia"
+    }
+  }
+}

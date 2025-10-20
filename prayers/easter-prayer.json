@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "easter-prayer",
+    "title": "Easter Prayer",
+    "primary_category": "seasonal",
+    "labels": ["seasonal", "easter", "liturgical"],
+    "importance": "common",
+    "type": "liturgical",
+    "description": "Prayer celebrating the Resurrection of Christ and victory over death",
+    "origin": "Traditional Easter prayer from the liturgy",
+    "origin_date": "~0500",
+    "usage": "Prayed during Easter season and on Easter Sunday",
+    "feast_days": ["easter-sunday", "resurrection-of-the-lord"],
+    "devotions": ["easter-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Deus, qui hodierna die per Unigenitum tuum, aeternitatis nobis aditum, devicta morte, reserasti: vota nostra, quae praeveniendo aspiras, etiam adiuvando prosequere. Per eundem Dominum nostrum Iesum Christum Filium tuum, qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia saecula saeculorum. Amen.",
+      "notes": "Latin Easter prayer from the Roman liturgy"
+    },
+    "en": {
+      "language": "English",
+      "text": "O God, who on this day, through Thine only-begotten Son, hast conquered death, and thrown open to us the gate of everlasting life, give effect by thine aid to our desires, which thou dost anticipate and inspire. Through the same Jesus Christ, thy Son, our Lord, who liveth and reigneth with thee in the unity of the Holy Ghost, God, world without end. Amen.",
+      "notes": "English translation of the Easter collect prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Dios, que en este día, por tu Unigénito, vencida la muerte, nos has abierto la puerta de la eternidad: lleva a cabo nuestros deseos, que previniendo los inspiras, ayudándolos también. Por el mismo Jesucristo, tu Hijo, nuestro Señor, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por los siglos de los siglos. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô Dieu, qui en ce jour, par votre Fils unique, avez vaincu la mort et nous avez ouvert l'entrée de l'éternité : accomplissez nos désirs que vous inspirez en les prévenant, et que vous secondez en les aidant. Par le même Jésus-Christ, votre Fils, notre Seigneur, qui vit et règne avec vous dans l'unité du Saint-Esprit, Dieu, pour tous les siècles des siècles. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "O Gott, der du an diesem Tage durch deinen eingeborenen Sohn den Tod besiegt und uns den Eingang zur Ewigkeit eröffnet hast: erfülle unsere Wünsche, die du vorwegnehmend einhauchst, auch durch deine Hilfe. Durch denselben Jesus Christus, deinen Sohn, unsern Herrn, der mit dir lebt und herrscht in der Einheit des Heiligen Geistes, Gott, von Ewigkeit zu Ewigkeit. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O Dio, che in questo giorno per il tuo Unigenito, vinta la morte, ci hai aperto l'ingresso all'eternità: porta a compimento i nostri desideri, che prevenendo li ispiri, anche aiutandoli. Per lo stesso Gesù Cristo, tuo Figlio, nostro Signore, che vive e regna con te nell'unità dello Spirito Santo, Dio, per tutti i secoli dei secoli. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó Deus, que neste dia, pelo teu Unigénito, vencida a morte, nos abriste a porta da eternidade: leva a cabo os nossos desejos, que prevenindo os inspiras, ajudando-os também. Pelo mesmo Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo na unidade do Espírito Santo, Deus, pelos séculos dos séculos. Amém.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Boże, któryś w dniu dzisiejszym przez Syna swego Jednorodzonego śmierć zwyciężył i bramę życia wiecznego nam otworzył: spełnij pragnienia nasze, które uprzedzając wnosisz, a wspomagając wykonaj. Przez tegoż Pana naszego Jezusa Chrystusa, Syna twego, który z Tobą żyje i króluje w jedności Ducha Świętego, Bóg, na wieki wieków. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

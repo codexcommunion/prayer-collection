@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "eternal-rest",
+    "title": "Eternal Rest",
+    "primary_category": "for-the-dead",
+    "labels": ["for-the-dead", "brief", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Brief prayer for the repose of the souls of the deceased",
+    "origin": "Traditional Catholic prayer from the Requiem Mass",
+    "origin_date": "~0800",
+    "usage": "Prayed for the dead, especially at funerals and on All Souls' Day",
+    "feast_days": ["all-souls", "commemoration-of-the-faithful-departed"],
+    "devotions": ["prayers-for-the-dead"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Requiem aeternam dona eis, Domine, et lux perpetua luceat eis. Requiescant in pace. Amen.",
+      "notes": "Latin prayer from the Requiem Mass"
+    },
+    "en": {
+      "language": "English",
+      "text": "Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May they rest in peace. Amen.",
+      "notes": "English translation commonly used in Catholic liturgy"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Concede, Señor, el descanso eterno a los difuntos, y brille para ellos la luz perpetua. Descansen en paz. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Donne-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux. Qu'ils reposent en paix. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Gib ihnen, o Herr, die ewige Ruhe, und das ewige Licht leuchte ihnen. Lass sie ruhen in Frieden. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Dona loro, Signore, il riposo eterno, e splenda ad essi la luce perpetua. Riposino in pace. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Concede-lhes, Senhor, o descanso eterno, e brilhe para eles a luz perpétua. Descansem em paz. Amém.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci. Niech odpoczywają w pokoju. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

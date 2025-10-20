@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-for-the-dead",
+    "title": "Prayer for the Dead",
+    "primary_category": "for-the-dead",
+    "labels": ["for-the-dead", "intercession", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Intercessory prayer for the souls of the deceased in purgatory",
+    "origin": "Traditional Catholic prayer for the dead",
+    "origin_date": "~0100",
+    "usage": "Prayed for deceased loved ones, especially during All Souls' Day",
+    "feast_days": ["all-souls", "commemoration-of-the-faithful-departed"],
+    "devotions": ["prayers-for-the-dead"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Deus, Creator et Redemptor omnium fidelium, animabus famulorum famularumque tuarum remissionem cunctorum tribue peccatorum; ut indulgentiam, quam semper optaverunt, piis supplicationibus consequantur. Qui vivis et regnas in saecula saeculorum. Amen.",
+      "notes": "Latin prayer for the dead from the Roman Missal"
+    },
+    "en": {
+      "language": "English",
+      "text": "O God, the Creator and Redeemer of all the faithful, grant to the souls of Thy servants departed the remission of all their sins, that through our devout supplications they may obtain the pardon they have always desired. Who livest and reignest world without end. Amen.",
+      "notes": "English translation of the traditional prayer for the dead"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Dios, Creador y Redentor de todos los fieles, concede a las almas de tus siervos difuntos la remisión de todos sus pecados, para que por nuestras devotas súplicas obtengan el perdón que siempre desearon. Tú que vives y reinas por los siglos de los siglos. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô Dieu, Créateur et Rédempteur de tous les fidèles, accorde aux âmes de tes serviteurs défunts la rémission de tous leurs péchés, afin que, par nos pieuses supplications, ils obtiennent le pardon qu'ils ont toujours désiré. Toi qui vis et règnes dans les siècles des siècles. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "O Gott, Schöpfer und Erlöser aller Gläubigen, schenke den Seelen deiner verstorbenen Diener die Vergebung aller ihrer Sünden, damit sie durch unsere frommen Bitten die Verzeihung erlangen, die sie immer ersehnten. Der du lebst und herrschest in Ewigkeit. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O Dio, Creatore e Redentore di tutti i fedeli, concedi alle anime dei tuoi servi defunti la remissione di tutti i loro peccati, affinché per le nostre devote suppliche ottengano il perdono che sempre desiderarono. Tu che vivi e regni nei secoli dei secoli. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó Deus, Criador e Redentor de todos os fiéis, concede às almas dos teus servos falecidos a remissão de todos os seus pecados, para que pelas nossas devotas súplicas obtenham o perdão que sempre desejaram. Tu que vives e reinas pelos séculos dos séculos. Amém.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Boże, Stworzycielu i Odkupicielu wszystkich wiernych, obdarz dusze swoich sług i służebnic zmarłych odpuszczeniem wszystkich grzechów, aby przez nasze pobożne błagania uzyskały przebaczenie, którego zawsze pragnęły. Który żyjesz i królujesz na wieki wieków. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

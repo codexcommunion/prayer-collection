@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "advent-antiphons",
+    "title": "O Come, O Come Emmanuel",
+    "primary_category": "seasonal",
+    "labels": ["seasonal", "advent", "liturgical", "ancient"],
+    "importance": "common",
+    "type": "liturgical",
+    "description": "Ancient Advent hymn incorporating the Great O Antiphons",
+    "origin": "Medieval Advent hymn based on the O Antiphons",
+    "origin_date": "~1200",
+    "usage": "Sung during Advent season, especially the last week before Christmas",
+    "feast_days": ["advent"],
+    "devotions": ["advent-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Veni, veni Emmanuel! Captivum solve Israel, Qui gemit in exilio, Privatus Dei Filio. Gaude, gaude Emmanuel Nascetur pro te, Israel. Veni, O Iesse virgula! Ex hostis tuos ungula, De specu tuos tartari Educ et antro barathri. Gaude, gaude Emmanuel Nascetur pro te, Israel. Veni, veni O Oriens! Solare nos adveniens, Noctis depelle nebulas, Dirasque noctis tenebras. Gaude, gaude Emmanuel Nascetur pro te, Israel. Veni, Clavis Davidica! Regna reclude caelica, Fac iter tutum superum, Et claude vias inferum. Gaude, gaude Emmanuel Nascetur pro te, Israel. Veni, veni Adonai! Qui populo in Sinai Legem dedisti vertice, In maiestate gloriae. Gaude, gaude Emmanuel Nascetur pro te, Israel.",
+      "notes": "Latin version of the Advent hymn with selected verses"
+    },
+    "en": {
+      "language": "English",
+      "text": "O come, O come, Emmanuel, And ransom captive Israel, That mourns in lonely exile here Until the Son of God appear. Rejoice! Rejoice! Emmanuel Shall come to thee, O Israel. O come, thou Rod of Jesse, free Thine own from Satan's tyranny; From depths of hell thy people save, And give them victory o'er the grave. Rejoice! Rejoice! Emmanuel Shall come to thee, O Israel. O come, O come, thou Dayspring bright! Pour on our souls thy healing light; Dispel the long night's lingering gloom, And pierce the shadows of the tomb. Rejoice! Rejoice! Emmanuel Shall come to thee, O Israel. O come, thou Key of David, come, And open wide our heavenly home; Make safe the way that leads on high, And close the path to misery. Rejoice! Rejoice! Emmanuel Shall come to thee, O Israel. O come, O Lord of might, who to Thy tribes on Sinai's height In ancient times didst give the law In cloud and majesty and awe. Rejoice! Rejoice! Emmanuel Shall come to thee, O Israel.",
+      "notes": "English translation of the Advent hymn"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Ven, ven, Emmanuel, rescata a Israel cautivo, que gime en exilio solitario hasta que aparezca el Hijo de Dios. ¡Regocíjate! ¡Regocíjate! Emmanuel vendrá a ti, oh Israel. Ven, vara de Jesé, libera a los tuyos de la tiranía de Satanás; salva a tu pueblo de las profundidades del infierno y dale victoria sobre la tumba. ¡Regocíjate! ¡Regocíjate! Emmanuel vendrá a ti, oh Israel. Ven, ven, oh Oriens, ilumina nuestras almas con tu luz sanadora; disipa las tinieblas de la larga noche y atraviesa las sombras de la tumba. ¡Regocíjate! ¡Regocíjate! Emmanuel vendrá a ti, oh Israel. Ven, llave de David, abre de par en par nuestro hogar celestial; haz seguro el camino que lleva a lo alto y cierra el sendero de la miseria. ¡Regocíjate! ¡Regocíjate! Emmanuel vendrá a ti, oh Israel. Ven, Señor de poder, que a tus tribus en la altura del Sinaí diste la ley en nube, majestad y temor. ¡Regocíjate! ¡Regocíjate! Emmanuel vendrá a ti, oh Israel.",
+      "notes": "Spanish translation of the Advent hymn"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Viens, viens, Emmanuel, rachète Israël captif, qui gémit en exil solitaire jusqu'à ce que le Fils de Dieu paraisse. Réjouis-toi! Réjouis-toi! Emmanuel viendra à toi, ô Israël. Viens, rejeton de Jessé, délivre les tiens de la tyrannie de Satan; sauve ton peuple des profondeurs de l'enfer et donne-lui la victoire sur le tombeau. Réjouis-toi! Réjouis-toi! Emmanuel viendra à toi, ô Israël. Viens, viens, ô Orient, illumine nos âmes de ta lumière guérissante; dissipe les ténèbres de la longue nuit et perce les ombres du tombeau. Réjouis-toi! Réjouis-toi! Emmanuel viendra à toi, ô Israël. Viens, clé de David, ouvre grand notre demeure céleste; rends sûr le chemin qui conduit en haut et ferme le sentier du malheur. Réjouis-toi! Réjouis-toi! Emmanuel viendra à toi, ô Israël. Viens, Seigneur de puissance, qui à tes tribus sur la hauteur du Sinaï donnas la loi dans la nuée, la majesté et la crainte. Réjouis-toi! Réjouis-toi! Emmanuel viendra à toi, ô Israël.",
+      "notes": "French translation of the Advent hymn"
+    },
+    "de": {
+      "language": "German",
+      "text": "Komm, komm, Emmanuel, erlöse das gefangene Israel, das in einsamer Verbannung trauert, bis der Sohn Gottes erscheint. Freue dich! Freue dich! Emmanuel wird zu dir kommen, o Israel. Komm, du Reis aus dem Stamm Isai, befreie die Deinen von der Tyrannei Satans; rette dein Volk aus der Tiefe der Hölle und gib ihm Sieg über das Grab. Freue dich! Freue dich! Emmanuel wird zu dir kommen, o Israel. Komm, komm, du Morgenstern, erleuchte unsere Seelen mit deinem heilenden Licht; vertreibe die Dunkelheit der langen Nacht und durchdringe die Schatten des Grabes. Freue dich! Freue dich! Emmanuel wird zu dir kommen, o Israel. Komm, du Schlüssel Davids, öffne weit unser himmlisches Heim; mache den Weg sicher, der nach oben führt, und schließe den Pfad des Elends. Freue dich! Freue dich! Emmanuel wird zu dir kommen, o Israel. Komm, Herr der Macht, der du deinen Stämmen auf des Sinai Höhe das Gesetz gabst in Wolke, Majestät und Furcht. Freue dich! Freue dich! Emmanuel wird zu dir kommen, o Israel.",
+      "notes": "German translation of the Advent hymn"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Vieni, vieni, Emmanuel, riscatta Israele prigioniero, che geme in esilio solitario finché non appaia il Figlio di Dio. Rallegrati! Rallegrati! Emmanuel verrà a te, o Israele. Vieni, germoglio di Iesse, libera i tuoi dalla tirannia di Satana; salva il tuo popolo dalle profondità dell'inferno e dagli vittoria sul sepolcro. Rallegrati! Rallegrati! Emmanuel verrà a te, o Israele. Vieni, vieni, o Oriente, illumina le nostre anime con la tua luce guaritrice; dissipa le tenebre della lunga notte e trafiggi le ombre del sepolcro. Rallegrati! Rallegrati! Emmanuel verrà a te, o Israele. Vieni, chiave di Davide, apri spalancata la nostra dimora celeste; rendi sicuro il cammino che conduce in alto e chiudi il sentiero della miseria. Rallegrati! Rallegrati! Emmanuel verrà a te, o Israele. Vieni, Signore di potenza, che alle tue tribù sull'altezza del Sinai desti la legge in nube, maestà e timore. Rallegrati! Rallegrati! Emmanuel verrà a te, o Israele.",
+      "notes": "Italian translation of the Advent hymn"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Vem, vem, Emmanuel, resgata Israel cativo, que geme em exílio solitário até que apareça o Filho de Deus. Alegra-te! Alegra-te! Emmanuel virá a ti, ó Israel. Vem, vara de Jessé, liberta os teus da tirania de Satanás; salva o teu povo das profundezas do inferno e dá-lhe vitória sobre o sepulcro. Alegra-te! Alegra-te! Emmanuel virá a ti, ó Israel. Vem, vem, ó Oriente, ilumina as nossas almas com a tua luz curadora; dissipa as trevas da longa noite e trespassa as sombras do sepulcro. Alegra-te! Alegra-te! Emmanuel virá a ti, ó Israel. Vem, chave de Davi, abre de par em par o nosso lar celestial; faz seguro o caminho que leva ao alto e fecha o caminho da miséria. Alegra-te! Alegra-te! Emmanuel virá a ti, ó Israel. Vem, Senhor de poder, que às tuas tribos no cume do Sinai deste a lei em nuvem, majestade e temor. Alegra-te! Alegra-te! Emmanuel virá a ti, ó Israel.",
+      "notes": "Portuguese translation of the Advent hymn"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Przyjdź, przyjdź, Emmanuelu, wykup Izraela jeńca, który w samotnym wygnaniu płacze, aż Syn Boży się objawi. Raduj się! Raduj się! Emmanuel przyjdzie do ciebie, o Izraelu. Przyjdź, latorośli Jessego, uwolnij swoich od tyranii szatana; wybaw swój lud z głębin piekła i daj mu zwycięstwo nad grobem. Raduj się! Raduj się! Emmanuel przyjdzie do ciebie, o Izraelu. Przyjdź, przyjdź, o Wschodzie, oświeć nasze dusze swoim leczącym światłem; rozprosz mroki długiej nocy i przebij cienie grobu. Raduj się! Raduj się! Emmanuel przyjdzie do ciebie, o Izraelu. Przyjdź, kluczu Dawida, otwórz szeroko nasz dom niebieski; uczyń bezpiecznym szlak wiodący ku górze i zamknij ścieżkę nieszczęścia. Raduj się! Raduj się! Emmanuel przyjdzie do ciebie, o Izraelu. Przyjdź, Panie mocy, który swym plemionom na szczycie Synaju dałeś prawo w obłoku, majestacie i bojaźni. Raduj się! Raduj się! Emmanuel przyjdzie do ciebie, o Izraelu.",
+      "notes": "Polish translation of the Advent hymn"
+    }
+  }
+}

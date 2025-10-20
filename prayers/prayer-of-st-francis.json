@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-of-st-francis",
+    "title": "Prayer of St. Francis",
+    "primary_category": "devotional",
+    "labels": ["devotional", "peace", "franciscan"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "The famous peace prayer attributed to St. Francis of Assisi",
+    "origin": "Attributed to St. Francis of Assisi, though exact authorship is debated",
+    "origin_date": "~1220",
+    "usage": "Prayer for peace, service, and Christian living",
+    "feast_days": ["st-francis-of-assisi"],
+    "devotions": ["franciscan", "peace-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Domine, fac me instrumentum pacis tuae: ubi odium, amorem seminare; ubi iniuria, veniam; ubi dubium, fidem; ubi desperatio, spem; ubi tenebrae, lucem; ubi dolor, gaudium. O Magister divine, concede ut non quaeram esse consolatus, quam consolare; esse intellectus, quam intelligere; esse amatus, quam amare. Etenim dando recipitur, ignoscendo invenitur vita, moriendo denique ad vitam pervenitur aeternam.",
+      "notes": "Latin version of the Prayer of St. Francis"
+    },
+    "en": {
+      "language": "English",
+      "text": "Lord, make me an instrument of your peace: where there is hatred, let me sow love; where there is injury, pardon; where there is doubt, faith; where there is despair, hope; where there is darkness, light; where there is sadness, joy. O divine Master, grant that I may not so much seek to be consoled as to console; to be understood as to understand; to be loved as to love. For it is in giving that we receive; it is in pardoning that we are pardoned; and it is in dying that we are born to eternal life.",
+      "notes": "Common English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Señor, haz de mí un instrumento de tu paz: donde hay odio, siembre yo amor; donde hay injuria, perdón; donde hay duda, fe; donde hay desesperación, esperanza; donde hay tinieblas, luz; donde hay tristeza, alegría. Oh, Divino Maestro, concédeme que no busque tanto ser consolado, como consolar; ser comprendido, como comprender; ser amado, como amar. Porque es dando que se recibe; es perdonando que se es perdonado; y es muriendo que se resucita a la vida eterna.",
+      "notes": "Spanish translation"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Seigneur, fais de moi un instrument de ta paix : là où est la haine, que je mette l'amour ; là où est l'offense, que je mette le pardon ; là où est le doute, que je mette la foi ; là où est le désespoir, que je mette l'espérance ; là où sont les ténèbres, que je mette la lumière ; là où est la tristesse, que je mette la joie. Ô Maître divin, fais que je ne cherche pas tant à être consolé qu'à consoler ; à être compris qu'à comprendre ; à être aimé qu'à aimer. Car c'est en donnant qu'on reçoit ; c'est en s'oubliant qu'on se trouve ; c'est en pardonnant qu'on est pardonné ; c'est en mourant qu'on ressuscite à la vie éternelle.",
+      "notes": "French translation"
+    },
+    "de": {
+      "language": "German",
+      "text": "Herr, mach mich zu einem Werkzeug deines Friedens: Wo Hass ist, lass mich Liebe säen; wo Kränkung ist, Vergebung; wo Zweifel ist, Glaube; wo Verzweiflung ist, Hoffnung; wo Finsternis ist, Licht; wo Trauer ist, Freude. O göttlicher Meister, lass mich nicht so sehr suchen, getröstet zu werden, als zu trösten; verstanden zu werden, als zu verstehen; geliebt zu werden, als zu lieben. Denn wer gibt, der empfängt; wer vergibt, dem wird vergeben; und wer stirbt, der wird zum ewigen Leben geboren.",
+      "notes": "German translation"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Signore, fa' di me uno strumento della tua pace: là dove c'è odio, fa' che io porti l'amore; là dove c'è offesa, che io porti il perdono; là dove c'è discordia, che io porti l'unione; là dove c'è dubbio, che io porti la fede; là dove c'è errore, che io porti la verità; là dove c'è disperazione, che io porti la speranza; là dove c'è tristezza, che io porti la gioia; là dove ci sono le tenebre, che io porti la luce. O Maestro, fa' che io non cerchi tanto di essere consolato, quanto di consolare; di essere compreso, quanto di comprendere; di essere amato, quanto di amare. Perché è donando che si riceve; è perdonando che si è perdonati; è morendo che si risuscita alla vita eterna.",
+      "notes": "Italian translation"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Senhor, fazei de mim um instrumento da vossa paz: onde houver ódio, que eu leve o amor; onde houver ofensa, que eu leve o perdão; onde houver discórdia, que eu leve a união; onde houver dúvida, que eu leve a fé; onde houver erro, que eu leve a verdade; onde houver desespero, que eu leve a esperança; onde houver tristeza, que eu leve a alegria; onde houver trevas, que eu leve a luz. Ó Mestre, fazei que eu não busque tanto ser consolado, quanto consolar; ser compreendido, quanto compreender; ser amado, quanto amar. Pois é dando que se recebe; é perdoando que se é perdoado; é morrendo que se ressuscita para a vida eterna.",
+      "notes": "Portuguese translation"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Panie, uczyń ze mnie narzędzie Twojego pokoju: tam, gdzie jest nienawiść, pozwól mi siać miłość; tam, gdzie jest krzywda, wybaczenie; tam, gdzie jest zwątpienie, wiarę; tam, gdzie jest rozpacz, nadzieję; tam, gdzie są ciemności, światło; tam, gdzie jest smutek, radość. O Boski Mistrzu, spraw, abym nie szukał tyle pociechy, co pocieszał; tyle zrozumienia, co rozumiał; tyle miłości, co kochał. Bo dając się otrzymuje, wybaczając się znajduje życie, a umierając się osiąga życie wieczne.",
+      "notes": "Polish translation"
+    }
+  }
+}

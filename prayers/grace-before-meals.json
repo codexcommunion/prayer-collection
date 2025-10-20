@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "grace-before-meals",
+    "title": "Grace Before Meals",
+    "primary_category": "daily",
+    "labels": ["daily", "meals", "family", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "A blessing prayer recited before eating meals",
+    "origin": "Traditional Catholic prayer for blessing food",
+    "origin_date": "~0100",
+    "usage": "Recited before meals in family or communal settings",
+    "feast_days": [],
+    "devotions": ["family-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Benedic, Domine, nos et haec tua dona quae de tua largitate sumus sumpturi. Per Christum Dominum nostrum. Amen.",
+      "notes": "Traditional Latin blessing before meals"
+    },
+    "en": {
+      "language": "English",
+      "text": "Bless us, O Lord, and these Thy gifts, which we are about to receive from Thy bounty, through Christ our Lord. Amen.",
+      "notes": "Common English version used in Catholic households"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Bendícenos, Señor, y estos dones tuyos que vamos a recibir de tu generosidad, por Cristo nuestro Señor. Amén.",
+      "notes": "Spanish Catholic version for blessing meals"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Bénissez-nous, Seigneur, ainsi que ces dons que nous allons recevoir de votre bonté, par le Christ notre Seigneur. Amen.",
+      "notes": "French Catholic blessing before meals"
+    },
+    "de": {
+      "language": "German",
+      "text": "Segne uns, o Herr, und diese deine Gaben, die wir von deiner Güte empfangen sollen. Durch Christus, unsern Herrn. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Benedici noi, o Signore, e questi tuoi doni che stiamo per ricevere dalla tua liberalità. Per Cristo nostro Signore. Amen.",
+      "notes": "Italian Catholic blessing"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Abençoai-nos, Senhor, e estes vossos dons que vamos receber da vossa bondade, por Cristo nosso Senhor. Amém.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Błogosław nas, Panie, i te Twoje dary, które mamy otrzymać z Twej hojności. Przez Chrystusa, Pana naszego. Amen.",
+      "notes": "Polish Catholic blessing before meals"
+    }
+  }
+}

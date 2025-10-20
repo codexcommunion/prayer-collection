@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "fatima-prayer",
+    "title": "Fatima Prayer",
+    "primary_category": "devotional",
+    "labels": ["devotional", "marian", "fatima", "rosary"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Prayer taught by Our Lady of Fatima to the three shepherd children",
+    "origin": "Apparitions of Our Lady of Fatima to Lucia, Francisco, and Jacinta in 1917",
+    "origin_date": "1917",
+    "usage": "Recited in the Rosary after the Glory Be, and in Fatima devotions",
+    "feast_days": ["our-lady-of-fatima"],
+    "devotions": ["rosary", "fatima-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Domine Iesu, dimitte nobis debita nostra, salva nos ab igne inferiori, perduc in caelum omnes animas, praesertim eas, quae misericordiae tuae maxime indigent.",
+      "notes": "Latin version of the Fatima prayer"
+    },
+    "en": {
+      "language": "English",
+      "text": "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those most in need of Thy mercy.",
+      "notes": "English translation commonly used in Catholic prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Jesús mío, perdona nuestros pecados, líbranos del fuego del infierno, lleva al Cielo todas las almas, especialmente las más necesitadas de tu misericordia.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô mon Jésus, pardonnez-nous nos péchés, préservez-nous du feu de l'enfer, conduisez au Ciel toutes les âmes, surtout celles qui ont le plus besoin de votre miséricorde.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "O mein Jesus, vergib uns unsere Sünden, bewahre uns vor dem Feuer der Hölle, führe alle Seelen in den Himmel, besonders die, welche deiner Barmherzigkeit am meisten bedürfen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O mio Gesù, perdona i nostri peccati, salvaci dal fuoco dell'inferno, porta in cielo tutte le anime, specialmente quelle che più hanno bisogno della tua misericordia.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó meu Jesus, perdoai-nos os nossos pecados, livrai-nos do fogo do inferno, levai ao céu todas as almas, especialmente as que mais necessitam da vossa misericórdia.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "O mój Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź do nieba wszystkie dusze, szczególnie te, które najbardziej potrzebują Twojego miłosierdzia.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}
