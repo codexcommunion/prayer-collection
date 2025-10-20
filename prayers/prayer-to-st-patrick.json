@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-to-st-patrick",
+    "title": "Prayer to St. Patrick",
+    "primary_category": "saints",
+    "labels": ["saints", "patrick", "devotional", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Prayer to St. Patrick, patron saint of Ireland",
+    "origin": "Traditional prayer to St. Patrick",
+    "origin_date": "~0432",
+    "usage": "Prayed for protection, conversion, and intercession",
+    "feast_days": ["st-patrick"],
+    "devotions": ["saints-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Sancte Patricii, pastor animarum et apostole Hiberniae, ora pro nobis ut simus humiles, pii et mites servi Dei. Ora pro nobis ut simus pastores animarum et devoti servi Ecclesiae. Ora pro nobis ut simus homines orationis et ieiunii. Ora pro nobis ut simus homines magnae caritatis. Ora pro nobis ut simus homines magnae fidei. Ora pro nobis ut simus homines magnae spei. Ora pro nobis ut simus homines magni amoris. Amen.",
+      "notes": "Latin version of the prayer to St. Patrick"
+    },
+    "en": {
+      "language": "English",
+      "text": "St. Patrick, glorious and holy shepherd, who didst labor for the salvation of souls in the land of Ireland, obtain for us the grace to love God with our whole heart, and to love our neighbor as ourselves. St. Patrick, you were a humble, pious, and meek servant of God. You were a shepherd of souls, and a devoted servant of the Church. You were a man of prayer and fasting, and you were a man of great charity. You were a man of great faith, and you were a man of great hope. You were a man of great love. Pray for us, that we may be humble, pious, and meek. Pray for us, that we may be shepherds of souls. Pray for us, that we may be devoted servants of the Church. Pray for us, that we may be men and women of prayer and fasting. Pray for us, that we may be men and women of great charity. Pray for us, that we may be men and women of great faith. Pray for us, that we may be men and women of great hope. Pray for us, that we may be men and women of great love. Amen.",
+      "notes": "Traditional prayer to St. Patrick"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "San Patricio, glorioso y santo pastor, que trabajaste por la salvación de las almas en la tierra de Irlanda, obtén para nosotros la gracia de amar a Dios con todo nuestro corazón y amar a nuestro prójimo como a nosotros mismos. San Patricio, fuiste un humilde, piadoso y manso siervo de Dios. Fuiste pastor de almas y devoto siervo de la Iglesia. Fuiste hombre de oración y ayuno, y hombre de gran caridad. Fuiste hombre de gran fe, y hombre de gran esperanza. Fuiste hombre de gran amor. Ruega por nosotros, para que seamos humildes, piadosos y mansos. Ruega por nosotros, para que seamos pastores de almas. Ruega por nosotros, para que seamos devotos siervos de la Iglesia. Ruega por nosotros, para que seamos hombres y mujeres de oración y ayuno. Ruega por nosotros, para que seamos hombres y mujeres de gran caridad. Ruega por nosotros, para que seamos hombres y mujeres de gran fe. Ruega por nosotros, para que seamos hombres y mujeres de gran esperanza. Ruega por nosotros, para que seamos hombres y mujeres de gran amor. Amén.",
+      "notes": "Spanish translation of the prayer to St. Patrick"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Saint Patrick, glorieux et saint pasteur, qui as travaillé pour le salut des âmes dans la terre d'Irlande, obtiens pour nous la grâce d'aimer Dieu de tout notre cœur et d'aimer notre prochain comme nous-mêmes. Saint Patrick, tu étais un humble, pieux et doux serviteur de Dieu. Tu étais pasteur d'âmes et dévoué serviteur de l'Église. Tu étais homme de prière et de jeûne, et homme de grande charité. Tu étais homme de grande foi, et homme de grand espoir. Tu étais homme de grand amour. Prie pour nous, afin que nous soyons humbles, pieux et doux. Prie pour nous, afin que nous soyons pasteurs d'âmes. Prie pour nous, afin que nous soyons dévoués serviteurs de l'Église. Prie pour nous, afin que nous soyons hommes et femmes de prière et de jeûne. Prie pour nous, afin que nous soyons hommes et femmes de grande charité. Prie pour nous, afin que nous soyons hommes et femmes de grande foi. Prie pour nous, afin que nous soyons hommes et femmes de grand espoir. Prie pour nous, afin que nous soyons hommes et femmes de grand amour. Amen.",
+      "notes": "French translation of the prayer to St. Patrick"
+    },
+    "de": {
+      "language": "German",
+      "text": "Heiliger Patrick, glorreicher und heiliger Hirte, der du für das Heil der Seelen im Land Irland gearbeitet hast, erlange uns die Gnade, Gott von ganzem Herzen zu lieben und unseren Nächsten wie uns selbst zu lieben. Heiliger Patrick, du warst ein demütiger, frommer und sanfter Diener Gottes. Du warst ein Hirte der Seelen und ein ergebener Diener der Kirche. Du warst ein Mann des Gebets und des Fastens, und du warst ein Mann großer Nächstenliebe. Du warst ein Mann großen Glaubens, und du warst ein Mann großer Hoffnung. Du warst ein Mann großer Liebe. Bitte für uns, dass wir demütig, fromm und sanft sein mögen. Bitte für uns, dass wir Hirten der Seelen sein mögen. Bitte für uns, dass wir ergebene Diener der Kirche sein mögen. Bitte für uns, dass wir Männer und Frauen des Gebets und des Fastens sein mögen. Bitte für uns, dass wir Männer und Frauen großer Nächstenliebe sein mögen. Bitte für uns, dass wir Männer und Frauen großen Glaubens sein mögen. Bitte für uns, dass wir Männer und Frauen großer Hoffnung sein mögen. Bitte für uns, dass wir Männer und Frauen großer Liebe sein mögen. Amen.",
+      "notes": "German translation of the prayer to St. Patrick"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "San Patrizio, glorioso e santo pastore, che hai lavorato per la salvezza delle anime nella terra d'Irlanda, ottieni per noi la grazia di amare Dio con tutto il nostro cuore e di amare il nostro prossimo come noi stessi. San Patrizio, tu eri un umile, pio e mansueto servo di Dio. Eri pastore di anime e devoto servo della Chiesa. Eri uomo di preghiera e digiuno, ed eri uomo di grande carità. Eri uomo di grande fede, ed eri uomo di grande speranza. Eri uomo di grande amore. Prega per noi, affinché siamo umili, pii e mansueti. Prega per noi, affinché siamo pastori di anime. Prega per noi, affinché siamo devoti servi della Chiesa. Prega per noi, affinché siamo uomini e donne di preghiera e digiuno. Prega per noi, affinché siamo uomini e donne di grande carità. Prega per noi, affinché siamo uomini e donne di grande fede. Prega per noi, affinché siamo uomini e donne di grande speranza. Prega per noi, affinché siamo uomini e donne di grande amore. Amen.",
+      "notes": "Italian translation of the prayer to St. Patrick"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "São Patrício, glorioso e santo pastor, que trabalhaste pela salvação das almas na terra da Irlanda, obtém para nós a graça de amar a Deus com todo o nosso coração e amar o nosso próximo como a nós mesmos. São Patrício, tu eras um humilde, piedoso e manso servo de Deus. Eras pastor de almas e devoto servo da Igreja. Eras homem de oração e jejum, e eras homem de grande caridade. Eras homem de grande fé, e eras homem de grande esperança. Eras homem de grande amor. Ora por nós, para que sejamos humildes, piedosos e mansos. Ora por nós, para que sejamos pastores de almas. Ora por nós, para que sejamos devotos servos da Igreja. Ora por nós, para que sejamos homens e mulheres de oração e jejum. Ora por nós, para que sejamos homens e mulheres de grande caridade. Ora por nós, para que sejamos homens e mulheres de grande fé. Ora por nós, para que sejamos homens e mulheres de grande esperança. Ora por nós, para que sejamos homens e mulheres de grande amor. Amém.",
+      "notes": "Portuguese translation of the prayer to St. Patrick"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Święty Patryku, chwalebny i święty pasterzu, który pracowałeś dla zbawienia dusz w ziemi Irlandii, wyjednaj nam łaskę, abyśmy kochali Boga całym sercem i kochali naszego bliźniego jak siebie samych. Święty Patryku, byłeś pokornym, pobożnym i łagodnym sługą Boga. Byłeś pasterzem dusz i oddanym sługą Kościoła. Byłeś człowiekiem modlitwy i postu, i byłeś człowiekiem wielkiej miłości bliźniego. Byłeś człowiekiem wielkiej wiary, i byłeś człowiekiem wielkiej nadziei. Byłeś człowiekiem wielkiej miłości. Módl się za nami, abyśmy byli pokorni, pobożni i łagodni. Módl się za nami, abyśmy byli pasterzami dusz. Módl się za nami, abyśmy byli oddanymi sługami Kościoła. Módl się za nami, abyśmy byli mężczyznami i kobietami modlitwy i postu. Módl się za nami, abyśmy byli mężczyznami i kobietami wielkiej miłości bliźniego. Módl się za nami, abyśmy byli mężczyznami i kobietami wielkiej wiary. Módl się za nami, abyśmy byli mężczyznami i kobietami wielkiej nadziei. Módl się za nami, abyśmy byli mężczyznami i kobietami wielkiej miłości. Amen.",
+      "notes": "Polish translation of the prayer to St. Patrick"
+    }
+  }
+}
