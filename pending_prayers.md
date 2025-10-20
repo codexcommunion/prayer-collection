@@ -40,6 +40,11 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 - [x] **Prayer to St. Anthony** - For finding lost things (labels: `["saints", "anthony", "devotional", "common"]`)
 - [x] **Prayer to St. Jude** - Patron of hopeless causes (labels: `["saints", "jude", "devotional"]`)
 
+### Low Priority
+- [ ] **Prayer to St. Rita** - Patron saint of impossible causes (labels: `["saints", "rita", "devotional", "common"]`)
+- [ ] **Prayer to St. Therese** - Prayer to the Little Flower (labels: `["saints", "therese", "devotional", "common"]`)
+- [ ] **Prayer to St. Patrick** - Lorica prayer for protection (labels: `["saints", "patrick", "protection", "devotional"]`)
+
 ## Penitential Prayers (`penitential`)
 
 ### High Priority
@@ -48,7 +53,7 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 - [x] **Act of Love** - Expression of love for God and neighbor (labels: `["penitential", "virtues", "essential"]`)
 
 ### Medium Priority
-- [ ] **Confiteor** - Liturgical prayer of confession (labels: `["penitential", "liturgical", "mass", "common"]`)
+- [x] **Confiteor** - Liturgical prayer of confession (labels: `["penitential", "liturgical", "mass", "common"]`)
 
 ## Daily Prayers (`daily`)
 
@@ -57,8 +62,8 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 - [x] **Evening Prayer** - Prayer of gratitude and examination (labels: `["daily", "evening", "devotional", "common"]`)
 
 ### Medium Priority
-- [ ] **Grace Before Meals** - Blessing before eating (labels: `["daily", "meals", "family", "common"]`)
-- [ ] **Grace After Meals** - Thanksgiving after eating (labels: `["daily", "meals", "family", "common"]`)
+- [x] **Grace Before Meals** - Blessing before eating (labels: `["daily", "meals", "family", "common"]`)
+- [x] **Grace After Meals** - Thanksgiving after eating (labels: `["daily", "meals", "family", "common"]`)
 
 ## Liturgical Prayers (`liturgical`)
 
@@ -67,8 +72,8 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 - [x] **Magnificat** - Canticle of Mary (Luke 1:46-55) (labels: `["liturgical", "marian", "biblical", "essential"]`)
 
 ### Medium Priority
-- [ ] **Canticle of Zechariah** - Benedictus (Luke 1:68-79) (labels: `["liturgical", "biblical", "morning", "common"]`)
-- [ ] **Canticle of Simeon** - Nunc Dimittis (Luke 2:29-32) (labels: `["liturgical", "biblical", "evening", "common"]`)
+- [x] **Canticle of Zechariah** - Benedictus (Luke 1:68-79) (labels: `["liturgical", "biblical", "morning", "common"]`)
+- [x] **Canticle of Simeon** - Nunc Dimittis (Luke 2:29-32) (labels: `["liturgical", "biblical", "evening", "common"]`)
 
 ## Devotional Prayers (`devotional`)
 
@@ -77,22 +82,22 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 - [x] **Chaplet of St. Michael** - Nine choirs of angels devotion (labels: `["devotional", "angels", "protection", "chaplet"]`)
 
 ### Medium Priority
-- [ ] **Fatima Prayer** - Prayer taught by Our Lady of Fatima (labels: `["devotional", "marian", "fatima", "rosary"]`)
-- [ ] **Prayer of St. Francis** - "Lord, make me an instrument of your peace" (labels: `["devotional", "peace", "franciscan"]`)
+- [x] **Fatima Prayer** - Prayer taught by Our Lady of Fatima (labels: `["devotional", "marian", "fatima", "rosary"]`)
+- [x] **Prayer of St. Francis** - "Lord, make me an instrument of your peace" (labels: `["devotional", "peace", "franciscan"]`)
 
 ## For the Dead (`for-the-dead`)
 
 ### Medium Priority
-- [ ] **Prayer for the Dead** - Intercession for souls in purgatory (labels: `["for-the-dead", "intercession", "common"]`)
-- [ ] **Eternal Rest** - Prayer for the repose of souls (labels: `["for-the-dead", "brief", "common"]`)
+- [x] **Prayer for the Dead** - Intercession for souls in purgatory (labels: `["for-the-dead", "intercession", "common"]`)
+- [x] **Eternal Rest** - Prayer for the repose of souls (labels: `["for-the-dead", "brief", "common"]`)
 
 ## Special Seasons (`seasonal`)
 
 ### Medium Priority
-- [ ] **Advent Antiphons** - O Come, O Come Emmanuel variations (labels: `["seasonal", "advent", "liturgical", "ancient"]`)
-- [ ] **Christmas Prayer** - Celebration of the Nativity (labels: `["seasonal", "christmas", "devotional"]`)
-- [ ] **Lenten Prayer** - Prayer for spiritual renewal (labels: `["seasonal", "lent", "penitential"]`)
-- [ ] **Easter Prayer** - Celebration of the Resurrection (labels: `["seasonal", "easter", "liturgical"]`)
+- [x] **Advent Antiphons** - O Come, O Come Emmanuel variations (labels: `["seasonal", "advent", "liturgical", "ancient"]`)
+- [x] **Christmas Prayer** - Celebration of the Nativity (labels: `["seasonal", "christmas", "devotional"]`)
+- [x] **Lenten Prayer** - Prayer for spiritual renewal (labels: `["seasonal", "lent", "penitential"]`)
+- [x] **Easter Prayer** - Celebration of the Resurrection (labels: `["seasonal", "easter", "liturgical"]`)
 
 ---
 
