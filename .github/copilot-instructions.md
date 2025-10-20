@@ -14,15 +14,10 @@ This is an NPM package providing structured Catholic prayers as JSON files with 
 - **Multilingual**: Each prayer supports 8 languages (la, en, es, fr, de, it, pt, pl) with required translations
 - **Metadata-driven**: Rich metadata includes origin dates, usage contexts, feast days, and devotions
 
-### Proposed File Organization
-```
-prayers/
-├── our-father.json          # labels: ["core", "essential", "christological"]
-├── hail-mary.json          # labels: ["core", "essential", "marian", "rosary"]
-├── angelus.json            # labels: ["marian", "daily", "devotional"]
-├── st-michael-prayer.json  # labels: ["saints", "protection", "common"]
-└── [all-prayers].json      # No subdirectories - flat structure
-```
+### Static Data Compilation
+- **Universal Compatibility**: Pre-compiled static data for Node.js + browser environments
+- **No Runtime File I/O**: All JSON files compiled into `lib/prayer-data.js` during build
+- **Bundler Friendly**: Works with Webpack, Vite, Rollup, Parcel without special configuration
 
 ## Development Workflows
 
@@ -32,6 +27,15 @@ prayers/
 3. **Required Fields**: All metadata fields are mandatory, especially `origin_date` (use ISO 8601 ranges like "0030/0033")
 4. **Language Coverage**: Include all 8 supported languages; partial translations trigger warnings
 
+### Build System Commands
+```bash
+npm run build      # Generates static data + validates JSONs, creates lib/build-report.json
+npm run validate   # Comprehensive validation with detailed error reporting
+npm test          # Runs API function tests
+npm run test:browser # Tests browser compatibility
+npm run prepublishOnly # Auto-runs build + validate before publishing
+```
+
 ### Git Workflow
 To maintain code quality and minimize risk:
 
@@ -40,19 +44,6 @@ To maintain code quality and minimize risk:
 3. **Validation**: Run `npm run validate` and `npm test` before each commit
 4. **Merge Strategy**: When work is complete, merge back to main with squash commits if the branch has many small commits
 5. **Push**: Push feature branches to origin for backup and collaboration
-
-This ensures that main always remains stable and work-in-progress doesn't interfere with production code.
-
-### Build System Commands
-```bash
-npm run build      # Validates JSONs, creates lib/build-report.json and lib/prayer-index.json
-npm run validate   # Comprehensive validation with detailed error reporting
-npm test          # Runs test suite against API functions
-```
-
-### Critical Build Artifacts
-- `lib/build-report.json`: Validation results, error/warning counts by category  
-- `lib/prayer-index.json`: Runtime index for API functions, tracks total prayers and categories
 
 ## Code Patterns
 
@@ -80,7 +71,7 @@ npm test          # Runs test suite against API functions
 - **Distribution**: Only `prayers/`, `lib/`, `index.*` files included via `package.json` files field
 - **Pre-publish**: `prepublishOnly` hook runs build + validation automatically
 
-### External Dependencies  
+### External Dependencies
 - **Zero Runtime Dependencies**: Pure Node.js fs/path modules only
 - **Build Dependencies**: Node.js >=12.0.0 required for scripts
 - **Validation Logic**: Custom validation in `scripts/validate.js`, not using external schema validators

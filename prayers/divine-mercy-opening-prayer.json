@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "id": "divine-mercy-opening-prayer",
+    "title": "Divine Mercy Opening Prayer",
+    "primary_category": "devotional",
+    "labels": [
+      "devotional",
+      "mercy",
+      "chaplet"
+    ],
+    "importance": "common",
+    "type": "prayer",
+    "description": "Optional opening prayer for the Divine Mercy Chaplet, invoking mercy through Christ's death",
+    "origin": "Divine Mercy revelations to St. Faustina",
+    "origin_date": "1931/1938",
+    "usage": "Optional prayer at the beginning of the Divine Mercy Chaplet",
+    "feast_days": [
+      "Divine Mercy Sunday"
+    ],
+    "devotions": [
+      "divine mercy",
+      "chaplet"
+    ],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "content": [
+        { "type": "text", "value": "Exspirasti, Iesu, sed vitae fons erupit animabus, et misericordiae oceanus aperuit toti mundo. O vitae fons, inscrutabilis Divina Misericordia, circumda totum mundum et effunde Te super nos."},
+        { "type": "text", "value": "O Sanguis et Aqua, quae erupistis ex Corde Iesu tamquam misericordiae fons nobis, in Te confido.", "count": 3}
+      ]
+    },
+    "en": {
+      "language": "English",
+      "content": [
+        { "type": "text", "value": "You expired, Jesus, but the source of life gushed forth for souls, and the ocean of mercy opened up for the whole world. O Fount of Life, unfathomable Divine Mercy, envelop the whole world and empty Yourself out upon us."},
+        { "type": "text", "value": "O Blood and Water, which gushed forth from the Heart of Jesus as a fountain of mercy for us, I trust in You.", "count": 3}
+      ]
+    },
+    "es": {
+      "language": "Spanish",
+      "content": [
+        { "type": "text", "value": "Expiraste, Jesús, pero la fuente de vida brotó para las almas, y el océano de misericordia se abrió para todo el mundo. Oh fuente de vida, insondable Divina Misericordia, envuelve todo el mundo y derrámate sobre nosotros."},
+        { "type": "text", "value": "Oh Sangre y Agua, que brotasteis del Corazón de Jesús como fuente de misericordia para nosotros, en Ti confío.", "count": 3}
+      ]
+    },
+    "fr": {
+      "language": "French",
+      "content": [
+        { "type": "text", "value": "Tu as expiré, Jésus, mais la source de vie a jailli pour les âmes, et l'océan de miséricorde s'est ouvert à tout le monde. Ô source de vie, insondable Divine Miséricorde, enveloppe le monde entier et répands-toi sur nous."},
+        { "type": "text", "value": "Ô Sang et Eau, qui avez jailli du Cœur de Jésus comme une fontaine de miséricorde pour nous, je me confie en Toi.", "count": 3}
+      ]
+    },
+    "de": {
+      "language": "German",
+      "content": [
+        { "type": "text", "value": "Du bist verschieden, Jesus, aber die Quelle des Lebens ist für die Seelen hervorgebrochen, und der Ozean der Barmherzigkeit hat sich der ganzen Welt geöffnet. O Quelle des Lebens, unergründliche göttliche Barmherzigkeit, umfange die ganze Welt und ergieße Dich über uns."},
+        { "type": "text", "value": "O Blut und Wasser, die Ihr aus dem Herzen Jesu als eine Quelle der Barmherzigkeit für uns hervorgebrochen seid, auf Dich vertraue ich.", "count": 3}
+      ]
+    },
+    "it": {
+      "language": "Italian",
+      "content": [
+        { "type": "text", "value": "Sei spirato, Gesù, ma la fonte della vita è sgorgata per le anime, e l'oceano della misericordia si è aperto a tutto il mondo. O fonte della vita, inscrutabile Divina Misericordia, circonda tutto il mondo e riversati su di noi."},
+        { "type": "text", "value": "O Sangue e Acqua, che siete sgorgati dal Cuore di Gesù come fonte di misericordia per noi, in Te confido.", "count": 3}
+      ]
+    },
+    "pt": {
+      "language": "Portuguese",
+      "content": [
+        { "type": "text", "value": "Expiraste, Jesus, mas a fonte da vida jorrou para as almas, e o oceano da misericórdia abriu-se para todo o mundo. Ó fonte da vida, insondável Divina Misericórdia, envolve todo o mundo e derrama-Te sobre nós."},
+        { "type": "text", "value": "Ó Sangue e Água, que jorrastes do Coração de Jesus como fonte de misericórdia para nós, em Ti confio.", "count": 3}
+      ]
+    },
+    "pl": {
+      "language": "Polish",
+      "content": [
+        { "type": "text", "value": "Wychyliłeś się, Jezu, ale źródło życia wytrysnęło dla dusz, a ocean miłosierdzia otworzył się całemu światu. O źródło życia, niezgłębiona Boska Miłosierdzie, ogarnij cały świat i wylej się na nas."},
+        { "type": "text", "value": "O Krwi i Wodo, która wytrysnęłaś z Serca Jezusa jako źródło miłosierdzia dla nas, Tobie ufam.", "count": 3}
+      ]
+    }
+  }
+}

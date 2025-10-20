@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "divine-mercy-closing-prayer",
+    "title": "Divine Mercy Closing Prayer",
+    "primary_category": "devotional",
+    "labels": [
+      "devotional",
+      "mercy",
+      "chaplet"
+    ],
+    "importance": "common",
+    "type": "prayer",
+    "description": "Closing prayer for the Divine Mercy Chaplet, invoking endless mercy",
+    "origin": "Divine Mercy revelations to St. Faustina",
+    "origin_date": "1931/1938",
+    "usage": "Prayer at the end of the Divine Mercy Chaplet",
+    "feast_days": [
+      "Divine Mercy Sunday"
+    ],
+    "devotions": [
+      "divine mercy",
+      "chaplet"
+    ],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Deus aeternus, in quo misericordia infinita et thesaurus compassionis inexhaustus, respice nos benigne et auge misericordiam tuam in nobis, ut in momentis difficilibus non desperemus nec deprimamur, sed magna fiducia submittamus nos voluntati tuae sanctae, quae Amor et Misericordia ipsa est."
+    },
+    "en": {
+      "language": "English",
+      "text": "Eternal God, in whom mercy is endless and the treasury of compassion inexhaustible, look kindly upon us and increase Your mercy in us, that in difficult moments we might not despair nor become despondent, but with great confidence submit ourselves to Your holy will, which is Love and Mercy itself."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Dios eterno, en quien la misericordia es infinita y el tesoro de la compasión inagotable, míranos con bondad y aumenta tu misericordia en nosotros, para que en los momentos difíciles no desesperemos ni nos desanimemos, sino que con gran confianza nos sometamos a tu santa voluntad, que es Amor y Misericórdia misma."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Dieu éternel, en qui la miséricorde est infinie et le trésor de la compassion inépuisable, regarde-nous avec bonté et augmente ta miséricorde en nous, afin que dans les moments difficiles nous ne désespérions pas ni ne nous découragions, mais que nous nous soumettions avec une grande confiance à ta sainte volonté, qui est Amour et Miséricorde elle-même."
+    },
+    "de": {
+      "language": "German",
+      "text": "Ewiger Gott, in dem die Barmherzigkeit unendlich ist und der Schatz des Erbarmens unerschöpflich, blicke gnädig auf uns und vermehre deine Barmherzigkeit in uns, damit wir in schwierigen Augenblicken nicht verzweifeln noch mutlos werden, sondern uns mit großem Vertrauen deinem heiligen Willen unterwerfen, der Liebe und Barmherzigkeit selbst ist."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Dio eterno, in cui la misericordia è infinita e il tesoro della compassione inesauribile, guardaci benignamente e aumenta la tua misericordia in noi, affinché nei momenti difficili non disperiamo né ci scoraggiamo, ma con grande fiducia ci sottomettiamo alla tua santa volontà, che è Amore e Misericordia stessa."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Deus eterno, em quem a misericórdia é infinita e o tesouro da compaixão inesgotável, olhai-nos com bondade e aumentai a vossa misericórdia em nós, para que nos momentos difíceis não desesperemos nem nos desanimemos, mas com grande confiança nos submetamos à vossa santa vontade, que é Amor e Misericórdia mesma."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Boże Przedwieczny, w którym miłosierdzie jest nieskończone, a skarbiec współczucia niewyczerpany, wejrzyj łaskawie na nas i pomnóż miłosierdzie swoje w nas, abyśmy w chwilach trudności nie rozpaczali ani nie upadali na duchu, lecz z wielką ufnością poddali się świętej woli Twojej, która jest Miłością i Miłosierdziem samym."
+    }
+  }
+}

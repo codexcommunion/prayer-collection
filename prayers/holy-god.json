@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "holy-god",
+    "title": "Holy God",
+    "primary_category": "devotional",
+    "labels": [
+      "devotional",
+      "mercy",
+      "chaplet"
+    ],
+    "importance": "common",
+    "type": "prayer",
+    "description": "Trinitarian invocation for mercy, from the Divine Mercy Chaplet",
+    "origin": "Divine Mercy revelations to St. Faustina",
+    "origin_date": "1931/1938",
+    "usage": "Recited three times at the end of the Divine Mercy Chaplet",
+    "feast_days": [
+      "Divine Mercy Sunday"
+    ],
+    "devotions": [
+      "divine mercy",
+      "chaplet"
+    ],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Sancte Deus, Sancte Fortis, Sancte Immortalis, miserere nobis."
+    },
+    "en": {
+      "language": "English",
+      "text": "Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Dios Santo, Dios fuerte, Dios inmortal, ten misericordia de nosotros y del mundo entero."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Dieu saint, Dieu fort, Dieu immortel, aie pitié de nous et du monde entier."
+    },
+    "de": {
+      "language": "German",
+      "text": "Heiliger Gott, heiliger Starker, heiliger Unsterblicher, erbarme dich unser und der ganzen Welt."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Dio santo, Dio forte, Dio immortale, abbi pietà di noi e del mondo intero."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Deus Santo, Deus Forte, Deus Imortal, tende piedade de nós e do mundo inteiro."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Boże Święty, Boże Mocny, Boże Nieśmiertelny, zmiłuj się nad nami i nad całym światem."
+    }
+  }
+}

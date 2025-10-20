@@ -111,16 +111,48 @@ function getAllPrayersByCategory() {
  * Get prayer text in a specific language
  * @param {string} prayerId - The prayer ID
  * @param {string} language - Language code (e.g., 'en', 'la', 'es')
+ * @param {boolean} skipOptional - Whether to skip optional content parts (default: false)
  * @returns {string|null} Prayer text or null if not found
  */
-function getPrayerText(prayerId, language = 'en') {
+function getPrayerText(prayerId, language = 'en', skipOptional = false) {
   const prayer = getPrayerById(prayerId);
   
   if (!prayer || !prayer.translations || !prayer.translations[language]) {
     return null;
   }
   
-  return prayer.translations[language].text;
+  const translation = prayer.translations[language];
+  
+  // If it has content array, assemble the text
+  if (translation.content) {
+    return translation.content.map(part => {
+      // Skip optional content parts if requested
+      if (skipOptional && part.optional) return '';
+      
+      const count = part.count || 1;
+      
+      if (part.type === 'text') {
+        const text = part.value || '';
+        return Array(count).fill(text).join('\n\n');
+      } else if (part.type === 'instructions') {
+        // Include instructions with formatting to distinguish them
+        const instruction = `[${part.value}]`;
+        return Array(count).fill(instruction).join('\n\n');
+      } else if (part.type === 'prayer-reference') {
+        const referencedPrayer = getPrayerById(part.value);
+        if (!referencedPrayer) return `[Prayer ${part.value} not found]`;
+        
+        const referencedText = getPrayerText(part.value, language, true); // Skip optional parts in references
+        if (!referencedText) return `[Prayer ${part.value} has no text in ${language}]`;
+        
+        return Array(count).fill(referencedText).join('\n\n');
+      }
+      return '';
+    }).filter(text => text !== '').join('\n\n');
+  }
+  
+  // Fallback to direct text
+  return translation.text || null;
 }
 
 /**
@@ -133,8 +165,12 @@ function searchPrayers(searchTerm, language = 'en') {
   const prayers = getAllPrayers();
   
   return prayers.filter(prayer => {
-    if (prayer.translations[language] && 
-        prayer.translations[language].text.toLowerCase().includes(searchTerm.toLowerCase())) {
+    const translation = prayer.translations[language];
+    if (!translation) return false;
+    
+    // Get the assembled text
+    const fullText = getPrayerText(prayer.metadata.id, language);
+    if (fullText && fullText.toLowerCase().includes(searchTerm.toLowerCase())) {
       return true;
     }
     

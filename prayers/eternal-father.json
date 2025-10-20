@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "id": "eternal-father",
+    "title": "Eternal Father",
+    "primary_category": "devotional",
+    "labels": [
+      "devotional",
+      "mercy",
+      "chaplet"
+    ],
+    "importance": "common",
+    "type": "prayer",
+    "description": "Prayer offering Christ's sacrifice for mercy, from the Divine Mercy Chaplet",
+    "origin": "Divine Mercy revelations to St. Faustina",
+    "origin_date": "1931/1938",
+    "usage": "Recited at the start of each decade in the Divine Mercy Chaplet",
+    "feast_days": [
+      "Divine Mercy Sunday"
+    ],
+    "devotions": [
+      "divine mercy",
+      "chaplet"
+    ],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Aeterne Pater, offero Tibi Corpus et Sanguinem, Animum et Divinitatem dilectissimi Filii Tui, Domini nostri Iesu Christi, in propitiationem pro peccatis nostris et totius mundi."
+    },
+    "en": {
+      "language": "English",
+      "text": "Eternal Father, I offer you the Body and Blood, Soul and Divinity of Your Dearly Beloved Son, Our Lord, Jesus Christ, in atonement for our sins and those of the whole world."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Padre Eterno, te ofrezco el Cuerpo y la Sangre, Alma y Divinidad de tu Hijo muy amado, nuestro Señor Jesucristo, en expiación de nuestros pecados y los del mundo entero."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Père éternel, je t'offre le Corps et le Sang, L'âme et la Divinité de ton Fils bien-aimé, notre Seigneur Jésus-Christ, en réparation de nos péchés et de ceux du monde entier."
+    },
+    "de": {
+      "language": "German",
+      "text": "Ewiger Vater, ich opfere dir den Leib und das Blut, die Seele und die Gottheit deines geliebten Sohnes, unsers Herrn Jesus Christus, zur Sühne für unsere Sünden und die der ganzen Welt."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Padre eterno, ti offro il Corpo e il Sangue, L'anima e la Divinità del tuo diletto Figlio, Signore nostro Gesù Cristo, in espiazione dei nostri peccati e di quelli del mondo intero."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Pai Eterno, ofereço-Te o Corpo e o Sangue, a Alma e a Divindade do Teu Filho muito amado, Senhor nosso Jesus Cristo, em expiação dos nossos pecados e dos do mundo inteiro."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Ojcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo umiłowanego Syna Twojego, Pana naszego Jezusa Chrystusa, na przebłaganie za grzechy nasze i całego świata."
+    }
+  }
+}

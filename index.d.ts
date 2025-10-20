@@ -38,8 +38,20 @@ export interface PrayerMetadata {
  */
 export interface PrayerTranslation {
   language: string;
-  text: string;
+  text?: string; // For simple prayers without references
+  content?: ContentPart[]; // For prayers that reference other prayers
   notes?: string;
+}
+
+/**
+ * Content part for prayer translations
+ */
+export interface ContentPart {
+  type: 'instructions' | 'text' | 'prayer-reference';
+  value: string; // For 'text'/'instructions': the text content; For 'prayer-reference': the prayer ID to reference
+  count?: number; // Number of times to repeat this content part (default: 1)
+  speaker?: 'versicle' | 'response' | 'both'; // Optional liturgical speaker role for dialogue prayers
+  optional?: boolean; // Whether this content part is optional (default: false)
 }
 
 /**

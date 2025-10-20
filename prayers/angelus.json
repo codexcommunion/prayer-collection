@@ -3,57 +3,299 @@
     "id": "angelus",
     "title": "The Angelus",
     "primary_category": "marian",
-    "labels": ["marian", "daily", "devotional"],
+    "labels": [
+      "marian",
+      "daily",
+      "devotional"
+    ],
     "importance": "common",
     "type": "devotional",
     "description": "A traditional Marian devotion commemorating the Annunciation, recited three times daily",
     "origin": "Developed from the practice of reciting Hail Marys at the sound of church bells",
     "origin_date": "1200/1300",
     "usage": "Recited at 6 AM, 12 PM, and 6 PM daily, traditionally at the sound of church bells",
-    "feast_days": ["annunciation", "all-marian-feasts"],
-    "devotions": ["daily-prayers", "marian-devotions"],
+    "feast_days": [
+      "annunciation",
+      "all-marian-feasts"
+    ],
+    "devotions": [
+      "daily-prayers",
+      "marian-devotions"
+    ],
     "created_date": "2025-07-14",
     "last_modified": "2025-10-20"
   },
   "translations": {
     "la": {
       "language": "Latin",
-      "text": "V. Angelus Domini nuntiavit Mariae.\nR. Et concepit de Spiritu Sancto.\n\nAve Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.\n\nV. Ecce ancilla Domini.\nR. Fiat mihi secundum verbum tuum.\n\nAve Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.\n\nV. Et Verbum caro factum est.\nR. Et habitavit in nobis.\n\nAve Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.\n\nV. Ora pro nobis, sancta Dei Genetrix.\nR. Ut digni efficiamur promissionibus Christi.\n\nOremus: Gratiam tuam, quaesumus, Domine, mentibus nostris infunde; ut qui, Angelo nuntiante, Christi Filii tui incarnationem cognovimus, per passionem eius et crucem ad resurrectionis gloriam perducamur. Per eundem Christum Dominum nostrum. Amen.",
+      "content": [
+        {
+          "type": "text",
+          "value": "V. Angelus Domini nuntiavit Mariae.\nR. Et concepit de Spiritu Sancto.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Ecce ancilla Domini.\nR. Fiat mihi secundum verbum tuum.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Et Verbum caro factum est.\nR. Et habitavit in nobis.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Ora pro nobis, sancta Dei Genetrix.\nR. Ut digni efficiamur promissionibus Christi.\n\nOremus: Gratiam tuam, quaesumus, Domine, mentibus nostris infunde; ut qui, Angelo nuntiante, Christi Filii tui incarnationem cognovimus, per passionem eius et crucem ad resurrectionis gloriam perducamur. Per eundem Christum Dominum nostrum. Amen."
+        }
+      ],
       "notes": "Traditional Latin version with versicles and responses"
     },
     "en": {
       "language": "English",
-      "text": "V. The Angel of the Lord declared unto Mary.\nR. And she conceived of the Holy Spirit.\n\nHail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.\n\nV. Behold the handmaid of the Lord.\nR. Be it done unto me according to thy word.\n\nHail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.\n\nV. And the Word was made flesh.\nR. And dwelt among us.\n\nHail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.\n\nV. Pray for us, O holy Mother of God.\nR. That we may be made worthy of the promises of Christ.\n\nLet us pray: Pour forth, we beseech Thee, O Lord, Thy grace into our hearts; that we, to whom the incarnation of Christ, Thy Son, was made known by the message of an angel, may by His passion and cross be brought to the glory of His resurrection. Through the same Christ our Lord. Amen.",
+      "content": [
+        {
+          "type": "text",
+          "value": "V. The Angel of the Lord declared unto Mary.\nR. And she conceived of the Holy Spirit.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Behold the handmaid of the Lord.\nR. Be it done unto me according to thy word.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. And the Word was made flesh.\nR. And dwelt among us.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Pray for us, O holy Mother of God.\nR. That we may be made worthy of the promises of Christ.\n\nLet us pray: Pour forth, we beseech Thee, O Lord, Thy grace into our hearts; that we, to whom the incarnation of Christ, Thy Son, was made known by the message of an angel, may by His passion and cross be brought to the glory of His resurrection. Through the same Christ our Lord. Amen."
+        }
+      ],
       "notes": "Traditional English Catholic version with versicles and responses"
     },
     "es": {
       "language": "Spanish",
-      "text": "V. El Ángel del Señor anunció a María.\nR. Y concibió por obra del Espíritu Santo.\n\nDios te salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.\n\nV. He aquí la esclava del Señor.\nR. Hágase en mí según tu palabra.\n\nDios te salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.\n\nV. Y el Verbo se hizo carne.\nR. Y habitó entre nosotros.\n\nDios te salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén.\n\nV. Ruega por nosotros, Santa Madre de Dios.\nR. Para que seamos dignos de las promesas de Cristo.\n\nOremos: Infunde, Señor, tu gracia en nuestros corazones, para que los que hemos conocido, por el anuncio del ángel, la encarnación de tu Hijo Jesucristo, por su pasión y cruz seamos llevados a la gloria de su resurrección. Por el mismo Cristo nuestro Señor. Amén.",
+      "content": [
+        {
+          "type": "text",
+          "value": "V. El Ángel del Señor anunció a María.\nR. Y concibió por obra del Espíritu Santo.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. He aquí la esclava del Señor.\nR. Hágase en mí según tu palabra.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Y el Verbo se hizo carne.\nR. Y habitó entre nosotros.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Ruega por nosotros, Santa Madre de Dios.\nR. Para que seamos dignos de las promesas de Cristo.\n\nOremos: Infunde, Señor, tu gracia en nuestros corazones, para que los que hemos conocido, por el anuncio del ángel, la encarnación de tu Hijo Jesucristo, por su pasión y cruz seamos llevados a la gloria de su resurrección. Por el mismo Cristo nuestro Señor. Amén."
+        }
+      ],
       "notes": "Versión católica española tradicional con versículos y respuestas"
     },
     "fr": {
       "language": "French",
-      "text": "V. L'Ange du Seigneur porta l'annonce à Marie.\nR. Et elle conçut du Saint-Esprit.\n\nJe vous salue, Marie, pleine de grâce, le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes, et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen.\n\nV. Voici la servante du Seigneur.\nR. Qu'il me soit fait selon votre parole.\n\nJe vous salue, Marie, pleine de grâce, le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes, et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen.\n\nV. Et le Verbe s'est fait chair.\nR. Et il a habité parmi nous.\n\nJe vous salue, Marie, pleine de grâce, le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes, et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen.\n\nV. Priez pour nous, sainte Mère de Dieu.\nR. Afin que nous soyons rendus dignes des promesses du Christ.\n\nPrions: Répandez, Seigneur, votre grâce dans nos cœurs, afin que nous qui avons connu par l'annonce de l'ange l'incarnation de votre Fils Jésus-Christ, nous soyons conduits par sa passion et sa croix à la gloire de sa résurrection. Par le même Jésus-Christ notre Seigneur. Amen.",
+      "content": [
+        {
+          "type": "text",
+          "value": "V. L'Ange du Seigneur porta l'annonce à Marie.\nR. Et elle conçut du Saint-Esprit.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Voici la servante du Seigneur.\nR. Qu'il me soit fait selon votre parole.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Et le Verbe s'est fait chair.\nR. Et il a habité parmi nous.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Priez pour nous, sainte Mère de Dieu.\nR. Afin que nous soyons rendus dignes des promesses du Christ.\n\nPrions: Répandez, Seigneur, votre grâce dans nos cœurs, afin que nous qui avons connu par l'annonce de l'ange l'incarnation de votre Fils Jésus-Christ, nous soyons conduits par sa passion et sa croix à la gloire de sa résurrection. Par le même Jésus-Christ notre Seigneur. Amen."
+        }
+      ],
       "notes": "Version française catholique traditionnelle avec versets et répons"
     },
     "de": {
       "language": "German",
-      "text": "V. Der Engel des Herrn brachte Maria die Botschaft.\nR. Und sie empfing vom Heiligen Geist.\n\nGegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus. Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.\n\nV. Siehe, ich bin die Magd des Herrn.\nR. Mir geschehe nach deinem Wort.\n\nGegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus. Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.\n\nV. Und das Wort ist Fleisch geworden.\nR. Und hat unter uns gewohnt.\n\nGegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus. Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen.\n\nV. Bitte für uns, heilige Gottesmutter.\nR. Auf dass wir würdig werden der Verheißungen Christi.\n\nLasset uns beten: Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein, damit wir, die wir durch die Botschaft des Engels die Menschwerdung deines Sohnes Jesus Christus erkannt haben, durch sein Leiden und Kreuz zur Herrlichkeit seiner Auferstehung geführt werden. Durch denselben Christus, unseren Herrn. Amen.",
+      "content": [
+        {
+          "type": "text",
+          "value": "V. Der Engel des Herrn brachte Maria die Botschaft.\nR. Und sie empfing vom Heiligen Geist.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Siehe, ich bin die Magd des Herrn.\nR. Mir geschehe nach deinem Wort.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Und das Wort ist Fleisch geworden.\nR. Und hat unter uns gewohnt.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Bitte für uns, heilige Gottesmutter.\nR. Auf dass wir würdig werden der Verheißungen Christi.\n\nLasset uns beten: Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein, damit wir, die wir durch die Botschaft des Engels die Menschwerdung deines Sohnes Jesus Christus erkannt haben, durch sein Leiden und Kreuz zur Herrlichkeit seiner Auferstehung geführt werden. Durch denselben Christus, unseren Herrn. Amen."
+        }
+      ],
       "notes": "Deutsche katholische liturgische Version mit Versen und Antworten"
     },
     "it": {
       "language": "Italian",
-      "text": "V. L'Angelo del Signore portò l'annuncio a Maria.\nR. Ed essa concepì per opera dello Spirito Santo.\n\nAve, o Maria, piena di grazia, il Signore è con te. Tu sei benedetta fra le donne e benedetto è il frutto del tuo seno, Gesù. Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.\n\nV. Ecco la serva del Signore.\nR. Avvenga per me secondo la tua parola.\n\nAve, o Maria, piena di grazia, il Signore è con te. Tu sei benedetta fra le donne e benedetto è il frutto del tuo seno, Gesù. Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.\n\nV. E il Verbo si fece carne.\nR. E venne ad abitare in mezzo a noi.\n\nAve, o Maria, piena di grazia, il Signore è con te. Tu sei benedetta fra le donne e benedetto è il frutto del tuo seno, Gesù. Santa Maria, Madre di Dio, prega per noi peccatori, adesso e nell'ora della nostra morte. Amen.\n\nV. Prega per noi, santa Madre di Dio.\nR. Perché siamo resi degni delle promesse di Cristo.\n\nPreghiamo: Infondi nel nostro spirito la tua grazia, o Signore; tu che nell'annuncio dell'Angelo ci hai rivelato l'incarnazione del tuo Figlio, per la sua passione e la sua croce guidaci alla gloria della risurrezione. Per lo stesso Cristo nostro Signore. Amen.",
+      "content": [
+        {
+          "type": "text",
+          "value": "V. L'Angelo del Signore portò l'annuncio a Maria.\nR. Ed essa concepì per opera dello Spirito Santo.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Ecco la serva del Signore.\nR. Avvenga per me secondo la tua parola.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. E il Verbo si fece carne.\nR. E venne ad abitare in mezzo a noi.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Prega per noi, santa Madre di Dio.\nR. Perché siamo resi degni delle promesse di Cristo.\n\nPreghiamo: Infondi nel nostro spirito la tua grazia, o Signore; tu che nell'annuncio dell'Angelo ci hai rivelato l'incarnazione del tuo Figlio, per la sua passione e la sua croce guidaci alla gloria della risurrezione. Per lo stesso Cristo nostro Signore. Amen."
+        }
+      ],
       "notes": "Versione italiana cattolica liturgica con versetti e risposte"
     },
     "pt": {
       "language": "Portuguese",
-      "text": "V. O Anjo do Senhor anunciou a Maria.\nR. E Ela concebeu do Espírito Santo.\n\nAve Maria, cheia de graça, o Senhor é convosco. Bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.\n\nV. Eis aqui a serva do Senhor.\nR. Faça-se em mim segundo a vossa palavra.\n\nAve Maria, cheia de graça, o Senhor é convosco. Bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.\n\nV. E o Verbo se fez carne.\nR. E habitou entre nós.\n\nAve Maria, cheia de graça, o Senhor é convosco. Bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.\n\nV. Rogai por nós, santa Mãe de Deus.\nR. Para que sejamos dignos das promessas de Cristo.\n\nOremos: Infundi, Senhor, a vossa graça em nossos corações, para que nós, que pela anunciação do Anjo conhecemos a encarnação de vosso Filho Jesus Cristo, por sua paixão e cruz sejamos conduzidos à glória da ressurreição. Pelo mesmo Cristo nosso Senhor. Amém.",
+      "content": [
+        {
+          "type": "text",
+          "value": "V. O Anjo do Senhor anunciou a Maria.\nR. E Ela concebeu do Espírito Santo.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Eis aqui a serva do Senhor.\nR. Faça-se em mim segundo a vossa palavra.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. E o Verbo se fez carne.\nR. E habitou entre nós.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Rogai por nós, santa Mãe de Deus.\nR. Para que sejamos dignos das promessas de Cristo.\n\nOremos: Infundi, Senhor, a vossa graça em nossos corações, para que nós, que pela anunciação do Anjo conhecemos a encarnação de vosso Filho Jesus Cristo, por sua paixão e cruz sejamos conduzidos à glória da ressurreição. Pelo mesmo Cristo nosso Senhor. Amém."
+        }
+      ],
       "notes": "Versão portuguesa católica litúrgica com versículos e respostas"
     },
     "pl": {
       "language": "Polish",
-      "text": "V. Anioł Pański zwiastował Pannie Maryi.\nR. I poczęła z Ducha Świętego.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą. Błogosławiona jesteś między niewiastami, i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej. Amen.\n\nV. Oto ja służebnica Pańska.\nR. Niech mi się stanie według słowa Twego.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą. Błogosławiona jesteś między niewiastami, i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej. Amen.\n\nV. A Słowo stało się ciałem.\nR. I zamieszkało między nami.\n\nZdrowaś Maryjo, łaski pełna, Pan z Tobą. Błogosławiona jesteś między niewiastami, i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej. Amen.\n\nV. Módl się za nami, święta Boża Rodzicielko.\nR. Abyśmy się stali godnymi obietnic Chrystusowych.\n\nMódlmy się: Wszechmogący Boże, wlej łaskę Twoją w serca nasze, abyśmy, którzy przez zwiastowanie Anioła poznaliśmy wcielenie Chrystusa, Syna Twojego, przez Jego mękę i krzyż zostali doprowadzeni do chwały zmartwychwstania. Przez tegoż Chrystusa, Pana naszego. Amen.",
+      "content": [
+        {
+          "type": "text",
+          "value": "V. Anioł Pański zwiastował Pannie Maryi.\nR. I poczęła z Ducha Świętego.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Oto ja służebnica Pańska.\nR. Niech mi się stanie według słowa twego.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. A Słowo stało się ciałem.\nR. I zamieszkało między nami.\n\n"
+        },
+        {
+          "type": "prayer-reference",
+          "value": "hail-mary"
+        },
+        {
+          "type": "text",
+          "value": "\n\nV. Módl się za nami, święta Boża Rodzicielko.\nR. Abyśmy się stali godnymi obietnic Chrystusowych.\n\nMódlmy się: Wszechmogący Boże, spraw, abyśmy napełnieni Twoją łaską, my, którzy za zwiastowaniem anielskim poznaliśmy wcielenie Chrystusa, Syna Twojego, przez mękę Jego i krzyż zostali doprowadzeni do chwały zmartwychwstania. Przez tegoż Chrystusa, Pana naszego. Amen."
+        }
+      ],
       "notes": "Polska katolicka wersja liturgiczna z wersetami i odpowiedziami"
     }
   }

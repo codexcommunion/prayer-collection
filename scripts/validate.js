@@ -16,9 +16,25 @@ const prayerFiles = fs.readdirSync(prayersDir)
 
 let isValid = true;
 let totalPrayers = 0;
+const prayerIds = new Set();
 
 console.log(`\n📂 Validating ${prayerFiles.length} prayers in flat structure`);
 
+// First pass: collect all prayer IDs
+prayerFiles.forEach(file => {
+  const filePath = path.join(prayersDir, file);
+  try {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const prayer = JSON.parse(content);
+    if (prayer.metadata && prayer.metadata.id) {
+      prayerIds.add(prayer.metadata.id);
+    }
+  } catch (error) {
+    // Skip invalid JSON for now, will catch in second pass
+  }
+});
+
+// Second pass: validate each prayer
 prayerFiles.forEach(file => {
   const filePath = path.join(prayersDir, file);
   try {
@@ -64,9 +80,59 @@ prayerFiles.forEach(file => {
     // Validate required languages
     const requiredLanguages = ['la', 'en'];
     requiredLanguages.forEach(lang => {
-      if (!prayer.translations[lang] || !prayer.translations[lang].text) {
+      if (!prayer.translations[lang]) {
         console.log(`  ❌ ${file}: Missing required translation: ${lang}`);
         isValid = false;
+        return;
+      }
+      
+      const translation = prayer.translations[lang];
+      
+      // Check if it has either text or content
+      if (!translation.text && !translation.content) {
+        console.log(`  ❌ ${file}: Translation ${lang} must have either 'text' or 'content'`);
+        isValid = false;
+        return;
+      }
+      
+      // If it has content, validate the structure
+      if (translation.content) {
+        if (!Array.isArray(translation.content)) {
+          console.log(`  ❌ ${file}: Translation ${lang} 'content' must be an array`);
+          isValid = false;
+          return;
+        }
+        
+        translation.content.forEach((part, index) => {
+          if (!part.type || (part.type !== 'instructions' && part.type !== 'text' && part.type !== 'prayer-reference')) {
+            console.log(`  ❌ ${file}: Translation ${lang} content[${index}] has invalid type: ${part.type}`);
+            isValid = false;
+          }
+          
+          // All types require 'value'
+          if (!part.value) {
+            console.log(`  ❌ ${file}: Translation ${lang} content[${index}] missing 'value'`);
+            isValid = false;
+          }
+          
+          // For prayer-reference, validate that the referenced prayer exists
+          if (part.type === 'prayer-reference' && part.value && !prayerIds.has(part.value)) {
+            console.log(`  ❌ ${file}: Translation ${lang} content[${index}] references unknown prayer ID: ${part.value}`);
+            isValid = false;
+          }
+          
+          // Validate count if present
+          if (part.count && (typeof part.count !== 'number' || part.count < 1)) {
+            console.log(`  ❌ ${file}: Translation ${lang} content[${index}] invalid count: ${part.count}`);
+            isValid = false;
+          }
+          
+          // Validate speaker attribute if present
+          if (part.speaker && (part.speaker !== 'versicle' && part.speaker !== 'response' && part.speaker !== 'both')) {
+            console.log(`  ❌ ${file}: Translation ${lang} content[${index}] invalid speaker: ${part.speaker} (must be 'versicle', 'response', or 'both')`);
+            isValid = false;
+          }
+        });
       }
     });
     

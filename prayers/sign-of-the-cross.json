@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "id": "sign-of-the-cross",
+    "title": "Sign of the Cross",
+    "primary_category": "liturgical",
+    "labels": [
+      "liturgical",
+      "core",
+      "essential",
+      "daily"
+    ],
+    "importance": "essential",
+    "type": "prayer",
+    "description": "The fundamental prayer gesture of Christians, invoking the Trinity",
+    "origin": "Early Christian tradition",
+    "origin_date": "~0030",
+    "usage": "Used at the beginning and end of prayers, Mass, and daily devotions",
+    "feast_days": [],
+    "devotions": [],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "In nomine Patris, et Filii, et Spiritus Sancti. Amen."
+    },
+    "en": {
+      "language": "English",
+      "text": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Au nom du Père, et du Fils, et du Saint-Esprit. Amen."
+    },
+    "de": {
+      "language": "German",
+      "text": "Im Namen des Vaters und des Sohnes und des Heiligen Geistes. Amen."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Nel nome del Padre, del Figlio e dello Spirito Santo. Amen."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Em nome do Pai, e do Filho, e do Espírito Santo. Amém."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "W imię Ojca i Syna i Ducha Świętego. Amen."
+    }
+  }
+}
