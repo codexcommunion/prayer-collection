@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "morning-offering",
+    "title": "Morning Offering",
+    "primary_category": "daily",
+    "labels": ["daily", "morning", "devotional", "common"],
+    "importance": "common",
+    "type": "prayer",
+    "description": "Morning prayer consecrating the day to God",
+    "origin": "Catholic tradition",
+    "origin_date": "~1800",
+    "usage": "Recited in the morning at the beginning of the day",
+    "feast_days": [],
+    "devotions": ["daily prayer", "morning prayer"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Deus omnipotens, Pater caelestis,\nper Iesum Christum Filium tuum,\noffero tibi omnes horas huius diei,\nomnia opera, dolores, sacrificia,\nin unione cum sacrificio Missae\nquod toto mundo offertur.\n\nAmen.",
+      "notes": "Traditional Latin morning offering"
+    },
+    "en": {
+      "language": "English",
+      "text": "O my God, in union with the Immaculate Heart of Mary,\nI offer Thee the Precious Blood of Jesus\nfrom all the altars throughout the world,\njoining with It the offering of my every thought,\nword and action of this day.\n\nO my Jesus, I desire today to gain every indulgence\nand merit I can, and I offer them,\ntogether with myself, to Mary Immaculate,\nthat she may best apply them to the interests\nof Thy most Sacred Heart.\n\nPrecious Blood of Jesus, save us!\nImmaculate Heart of Mary, pray for us!\nSacred Heart of Jesus, have mercy on us!\n\nAmen.",
+      "notes": "Common English morning offering prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Dios mío, en unión con el Inmaculado Corazón de María,\nte ofrezco la Preciosa Sangre de Jesús\nde todos los altares del mundo entero,\nunido a ella la ofrenda de todos mis pensamientos,\npalabras y acciones de este día.\n\nOh Jesús mío, deseo ganar hoy todas las indulgencias\ny méritos que pueda, y los ofrezco,\njunto conmigo, a María Inmaculada,\npara que ella los aplique mejor a los intereses\nde Tu Sacratísimo Corazón.\n\nPreciosa Sangre de Jesús, ¡sálvanos!\nInmaculado Corazón de María, ¡ruega por nosotros!\nSagrado Corazón de Jesús, ¡ten piedad de nosotros!\n\nAmén.",
+      "notes": "Versión española de la oración matutina"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô mon Dieu, en union avec le Cœur Immaculé de Marie,\nje T'offre le Précieux Sang de Jésus\nde tous les autels du monde entier,\ny joignant l'offrande de toutes mes pensées,\nparoles et actions de ce jour.\n\nÔ mon Jésus, je désire gagner aujourd'hui\ntoutes les indulgences et mérites que je peux,\net je les offre, avec moi-même, à Marie Immaculée,\npour qu'elle les applique le mieux aux intérêts\nde Ton Sacré Cœur très saint.\n\nPrécieux Sang de Jésus, sauve-nous !\nCœur Immaculé de Marie, prie pour nous !\nSacré Cœur de Jésus, aie pitié de nous !\n\nAmen.",
+      "notes": "Offrande du matin en français"
+    },
+    "de": {
+      "language": "German",
+      "text": "O mein Gott, in Vereinigung mit dem unbefleckten Herzen Mariä,\nopfere ich Dir das kostbare Blut Jesu\nvon allen Altären der ganzen Welt,\nverbunden damit die Opfergabe all meiner Gedanken,\nWorte und Handlungen dieses Tages.\n\nO mein Jesus, ich wünsche heute alle Ablässe\nund Verdienste zu erlangen, die ich kann,\nund opfere sie, zusammen mit mir selbst,\nMaria Unbefleckten,\ndamit sie sie am besten auf die Interessen\nDeines heiligsten Herzens anwende.\n\nKostbares Blut Jesu, rette uns!\nUnbeflecktes Herz Mariä, bitte für uns!\nHeiliges Herz Jesu, erbarme Dich unser!\n\nAmen.",
+      "notes": "Deutsche Morgengebet"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O mio Dio, in unione con il Cuore Immacolato di Maria,\nti offro il Prezioso Sangue di Gesù\nda tutti gli altari del mondo intero,\nunendo ad esso l'offerta di tutti i miei pensieri,\nparole ed azioni di questo giorno.\n\nO mio Gesù, desidero guadagnare oggi\ntutte le indulgenze e i meriti che posso,\ne li offro, insieme a me stesso, a Maria Immacolata,\nperché li applichi nel modo migliore agli interessi\ndel Tuo Sacratissimo Cuore.\n\nPrezioso Sangue di Gesù, salvaci!\nCuore Immacolato di Maria, prega per noi!\nSacro Cuore di Gesù, abbi pietà di noi!\n\nAmen.",
+      "notes": "Offerta del mattino in italiano"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó meu Deus, em união com o Coração Imaculado de Maria,\nofereço-Te o Precioso Sangue de Jesus\nde todos os altares do mundo inteiro,\njuntando a ele a oferta de todos os meus pensamentos,\npalavras e ações deste dia.\n\nÓ meu Jesus, desejo ganhar hoje\ntodas as indulgências e méritos que puder,\ne ofereço-os, junto comigo, a Maria Imaculada,\npara que ela os aplique da melhor maneira aos interesses\ndo Teu Sagrado Coração.\n\nPrecioso Sangre de Jesus, salva-nos!\nCoração Imaculado de Maria, reza por nós!\nSagrado Coração de Jesus, tem piedade de nós!\n\nAmém.",
+      "notes": "Oferta da manhã em português"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "O mój Boże, w jedności z Niepokalanym Sercem Maryi,\nofiaruję Ci Przenajdroższą Krew Jezusa\nze wszystkich ołtarzy całego świata,\nłącząc z nią ofiarę wszystkich moich myśli,\nsłów i czynów tego dnia.\n\nO mój Jezu, pragnę dziś zyskać\nwszystkie odpusty i zasługi, jakie mogę,\ni ofiaruję je, wraz z sobą samym, Maryi Niepokalanej,\naby Ona najlepiej je zastosowała dla interesów\nTwojego Najświętszego Serca.\n\nPrzenajdroższa Krwi Jezusa, wybaw nas!\nNiepokalane Serce Maryi, módl się za nami!\nNajświętsze Serce Jezusa, zmiłuj się nad nami!\n\nAmen.",
+      "notes": "Polska modlitwa poranna"
+    }
+  }
+}

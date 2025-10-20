@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "act-of-love",
+    "title": "Act of Love",
+    "primary_category": "penitential",
+    "labels": ["penitential", "virtues", "essential"],
+    "importance": "essential",
+    "type": "prayer",
+    "description": "A prayer expressing perfect love for God above all things and love for neighbor as oneself",
+    "origin": "Traditional Catholic act of love, part of the theological virtues",
+    "origin_date": "~1800",
+    "usage": "Recited to express and strengthen love for God and neighbor",
+    "feast_days": [],
+    "devotions": ["acts-of-faith-hope-love"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Domine Deus, amo te super omnia et proximum meum propter te, quia tu es summum, infinitum, et perfectissimum bonum, dignum qui super omnia diligaris. In hoc amore vivere et mori statuo. Amen.",
+      "notes": "Traditional Latin version of the Act of Love"
+    },
+    "en": {
+      "language": "English",
+      "text": "O my God, I love Thee above all things, with my whole heart and soul, because Thou art all-good and worthy of all love. I love my neighbor as myself for the love of Thee. I forgive all who have injured me, and ask pardon of all whom I have injured. Amen.",
+      "notes": "Common English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Dios mío, te amo sobre todas las cosas, con todo mi corazón y alma, porque eres todo bueno y digno de todo amor. Amo a mi prójimo como a mí mismo por amor a Ti. Perdono a todos los que me han ofendido, y pido perdón a todos los que he ofendido. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô mon Dieu, je vous aime par-dessus toutes choses, de tout mon cœur et de toute mon âme, parce que vous êtes tout bon et digne de tout amour. J'aime mon prochain comme moi-même pour l'amour de vous. Je pardonne à tous ceux qui m'ont offensé, et je demande pardon à tous ceux que j'ai offensés. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "O mein Gott, ich liebe dich über alles, mit meinem ganzen Herzen und meiner ganzen Seele, weil du allgütig bist und aller Liebe würdig. Ich liebe meinen Nächsten wie mich selbst um deiner Liebe willen. Ich vergebe allen, die mir Unrecht getan haben, und bitte alle um Vergebung, denen ich Unrecht getan habe. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O mio Dio, ti amo sopra ogni cosa, con tutto il mio cuore e con tutta l'anima mia, perché sei tutto buono e degno di ogni amore. Amo il mio prossimo come me stesso per amore di te. Perdono a tutti quelli che mi hanno offeso, e chiedo perdono a tutti quelli che ho offeso. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó meu Deus, amo-Vos sobre todas as coisas, com todo o meu coração e alma, porque sois todo bom e digno de todo o amor. Amo o meu próximo como a mim mesmo por amor de Vós. Perdoo a todos os que me ofenderam, e peço perdão a todos os que ofendi. Amen.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "O mój Boże, kocham Cię nade wszystko, całym sercem moim i duszą moją, bo jesteś wszechdobry i godzien wszelkiej miłości. Kocham bliźniego mego jak siebie samego dla miłości ku Tobie. Darowuję wszystkim, którzy mnie obrazili, i proszę o przebaczenie wszystkich, których obraziłem. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

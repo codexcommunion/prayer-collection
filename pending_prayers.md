@@ -5,47 +5,47 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 ## Marian Prayers (`marian`)
 
 ### High Priority
-- [ ] **Regina Caeli** - Easter season antiphon to Mary (labels: `["marian", "liturgical", "seasonal", "common"]`)
-- [ ] **Alma Redemptoris Mater** - Advent/Christmas season Marian antiphon (labels: `["marian", "liturgical", "seasonal", "common"]`)
-- [ ] **Ave Regina Caelorum** - Lenten season Marian antiphon (labels: `["marian", "liturgical", "seasonal", "common"]`)
-- [ ] **Sub Tuum Praesidium** - Ancient prayer seeking Mary's protection (labels: `["marian", "protection", "ancient", "common"]`)
+- [x] **Regina Caeli** - Easter season antiphon to Mary (labels: `["marian", "liturgical", "seasonal", "common"]`)
+- [x] **Alma Redemptoris Mater** - Advent/Christmas season Marian antiphon (labels: `["marian", "liturgical", "seasonal", "common"]`)
+- [x] **Ave Regina Caelorum** - Lenten season Marian antiphon (labels: `["marian", "liturgical", "seasonal", "common"]`)
+- [x] **Sub Tuum Praesidium** - Ancient prayer seeking Mary's protection (labels: `["marian", "protection", "ancient", "common"]`)
 
 ### Medium Priority
-- [ ] **Litany of Loreto** - Traditional litany of invocations to Mary (labels: `["marian", "litany", "devotional", "common"]`)
-- [ ] **Salve Regina** - Traditional Marian antiphon (labels: `["marian", "liturgical", "common"]`)
+- [x] **Litany of Loreto** - Traditional litany of invocations to Mary (labels: `["marian", "litany", "devotional", "common"]`)
+- [x] **Salve Regina** - Traditional Marian antiphon (labels: `["marian", "liturgical", "common"]`)
 
 ## Christological Prayers (`christological`)
 
 ### High Priority
-- [ ] **Anima Christi** - Prayer for spiritual communion with Christ (labels: `["christological", "eucharistic", "devotional", "common"]`)
-- [ ] **Jesus Prayer** - Eastern Christian prayer of the heart (labels: `["christological", "contemplative", "eastern", "common"]`)
+- [x] **Anima Christi** - Prayer for spiritual communion with Christ (labels: `["christological", "eucharistic", "devotional", "common"]`)
+- [x] **Jesus Prayer** - Eastern Christian prayer of the heart (labels: `["christological", "contemplative", "eastern", "common"]`)
 
 ### Medium Priority
-- [ ] **Prayer Before Crucifix** - Meditation before the cross of Christ (labels: `["christological", "devotional", "passion"]`)
-- [ ] **Litany of the Sacred Heart** - Devotional prayer to the Sacred Heart (labels: `["christological", "litany", "devotional"]`)
+- [x] **Prayer Before Crucifix** - Meditation before the cross of Christ (labels: `["christological", "devotional", "passion"]`)
+- [x] **Litany of the Sacred Heart** - Devotional prayer to the Sacred Heart (labels: `["christological", "litany", "devotional"]`)
 
 ## Holy Spirit Prayers (`holy-spirit`)
 
 ### High Priority
-- [ ] **Veni Creator Spiritus** - Ancient hymn invoking the Holy Spirit (labels: `["holy-spirit", "liturgical", "ancient", "essential"]`)
-- [ ] **Come Holy Spirit** - Prayer for the gifts of the Holy Spirit (labels: `["holy-spirit", "devotional", "common"]`)
+- [x] **Veni Creator Spiritus** - Ancient hymn invoking the Holy Spirit (labels: `["holy-spirit", "liturgical", "ancient", "essential"]`)
+- [x] **Come Holy Spirit** - Prayer for the gifts of the Holy Spirit (labels: `["holy-spirit", "devotional", "common"]`)
 
 ## Saints Prayers (`saints`)
 
 ### High Priority
-- [ ] **Prayer to St. Joseph** - Prayer to the patron of the universal Church (labels: `["saints", "joseph", "common"]`)
-- [ ] **Prayer to Guardian Angel** - Prayer for angelic protection and guidance (labels: `["saints", "angels", "protection", "common"]`)
+- [x] **Prayer to St. Joseph** - Prayer to the patron of the universal Church (labels: `["saints", "joseph", "common"]`)
+- [x] **Prayer to Guardian Angel** - Prayer for angelic protection and guidance (labels: `["saints", "angels", "protection", "common"]`)
 
 ### Medium Priority
-- [ ] **Prayer to St. Anthony** - For finding lost things (labels: `["saints", "anthony", "devotional", "common"]`)
-- [ ] **Prayer to St. Jude** - Patron of hopeless causes (labels: `["saints", "jude", "devotional"]`)
+- [x] **Prayer to St. Anthony** - For finding lost things (labels: `["saints", "anthony", "devotional", "common"]`)
+- [x] **Prayer to St. Jude** - Patron of hopeless causes (labels: `["saints", "jude", "devotional"]`)
 
 ## Penitential Prayers (`penitential`)
 
 ### High Priority
-- [ ] **Act of Faith** - Expression of belief in God and divine truth (labels: `["penitential", "virtues", "essential"]`)
-- [ ] **Act of Hope** - Expression of trust in God's promises (labels: `["penitential", "virtues", "essential"]`)
-- [ ] **Act of Love** - Expression of love for God and neighbor (labels: `["penitential", "virtues", "essential"]`)
+- [x] **Act of Faith** - Expression of belief in God and divine truth (labels: `["penitential", "virtues", "essential"]`)
+- [x] **Act of Hope** - Expression of trust in God's promises (labels: `["penitential", "virtues", "essential"]`)
+- [x] **Act of Love** - Expression of love for God and neighbor (labels: `["penitential", "virtues", "essential"]`)
 
 ### Medium Priority
 - [ ] **Confiteor** - Liturgical prayer of confession (labels: `["penitential", "liturgical", "mass", "common"]`)
@@ -53,8 +53,8 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 ## Daily Prayers (`daily`)
 
 ### High Priority
-- [ ] **Morning Offering** - Consecration of the day to God (labels: `["daily", "morning", "devotional", "common"]`)
-- [ ] **Evening Prayer** - Prayer of gratitude and examination (labels: `["daily", "evening", "devotional", "common"]`)
+- [x] **Morning Offering** - Consecration of the day to God (labels: `["daily", "morning", "devotional", "common"]`)
+- [x] **Evening Prayer** - Prayer of gratitude and examination (labels: `["daily", "evening", "devotional", "common"]`)
 
 ### Medium Priority
 - [ ] **Grace Before Meals** - Blessing before eating (labels: `["daily", "meals", "family", "common"]`)
@@ -63,8 +63,8 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 ## Liturgical Prayers (`liturgical`)
 
 ### High Priority
-- [ ] **Te Deum** - Ancient hymn of praise (labels: `["liturgical", "ancient", "praise", "common"]`)
-- [ ] **Magnificat** - Canticle of Mary (Luke 1:46-55) (labels: `["liturgical", "marian", "biblical", "essential"]`)
+- [x] **Te Deum** - Ancient hymn of praise (labels: `["liturgical", "ancient", "praise", "common"]`)
+- [x] **Magnificat** - Canticle of Mary (Luke 1:46-55) (labels: `["liturgical", "marian", "biblical", "essential"]`)
 
 ### Medium Priority
 - [ ] **Canticle of Zechariah** - Benedictus (Luke 1:68-79) (labels: `["liturgical", "biblical", "morning", "common"]`)
@@ -73,8 +73,8 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 ## Devotional Prayers (`devotional`)
 
 ### High Priority
-- [ ] **Divine Mercy Chaplet** - Prayer based on St. Faustina's revelations (labels: `["devotional", "mercy", "chaplet", "common"]`)
-- [ ] **Chaplet of St. Michael** - Nine choirs of angels devotion (labels: `["devotional", "angels", "protection", "chaplet"]`)
+- [x] **Divine Mercy Chaplet** - Prayer based on St. Faustina's revelations (labels: `["devotional", "mercy", "chaplet", "common"]`)
+- [x] **Chaplet of St. Michael** - Nine choirs of angels devotion (labels: `["devotional", "angels", "protection", "chaplet"]`)
 
 ### Medium Priority
 - [ ] **Fatima Prayer** - Prayer taught by Our Lady of Fatima (labels: `["devotional", "marian", "fatima", "rosary"]`)

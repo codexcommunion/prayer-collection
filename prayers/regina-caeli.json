@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "regina-caeli",
+    "title": "Regina Caeli",
+    "primary_category": "marian",
+    "labels": ["marian", "liturgical", "seasonal", "common"],
+    "importance": "common",
+    "type": "liturgical",
+    "description": "Easter season antiphon to Mary, celebrating the Resurrection",
+    "origin": "Traditional Easter season antiphon in the Roman Catholic liturgy",
+    "origin_date": "~0500",
+    "usage": "Recited during the Easter season, especially at Compline (Night Prayer)",
+    "feast_days": ["easter-season"],
+    "devotions": ["liturgical-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Regina caeli, laetare, alleluia: Quia quem meruisti portare, alleluia. Resurrexit, sicut dixit, alleluia. Ora pro nobis Deum, alleluia.",
+      "notes": "Traditional Latin version used in the Roman Catholic liturgy during Easter season"
+    },
+    "en": {
+      "language": "English",
+      "text": "Queen of heaven, rejoice, alleluia. For He whom you did merit to bear, alleluia. Has risen, as He said, alleluia. Pray for us to God, alleluia.",
+      "notes": "English translation commonly used in Catholic prayer during Easter season"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Reina del cielo, alégrate, aleluya: Porque el que mereciste llevar, aleluya. Ha resucitado como dijo, aleluya. Ruega por nosotros a Dios, aleluya.",
+      "notes": "Spanish Catholic liturgical version for Easter season"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Reine du ciel, réjouis-toi, alléluia : Car Celui que tu as mérité de porter, alléluia. Il est ressuscité comme il l'avait dit, alléluia. Prie pour nous auprès de Dieu, alléluia.",
+      "notes": "French Catholic liturgical version for Easter season"
+    },
+    "de": {
+      "language": "German",
+      "text": "Königin des Himmels, freue dich, Halleluja: Denn der, den du zu tragen würdig warst, Halleluja. Er ist auferstanden, wie er gesagt hat, Halleluja. Bitte für uns Gott, Halleluja.",
+      "notes": "German Catholic liturgical version for Easter season"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Regina del cielo, rallegrati, alleluia: Perché colui che hai meritato di portare, alleluia. È risorto come ha detto, alleluia. Prega per noi Dio, alleluia.",
+      "notes": "Italian Catholic liturgical version for Easter season"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Rainha do céu, alegra-te, aleluia: Porque Aquele que mereceste levar, aleluia. Ressuscitou como disse, aleluia. Ora por nós a Deus, aleluia.",
+      "notes": "Portuguese Catholic liturgical version for Easter season"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Królowo nieba, wesel się, alleluja: Bo Ten, któregoś nosić była godna, alleluja. Zmartwychwstał, jako rzekł, alleluja. Módl się za nami do Boga, alleluja.",
+      "notes": "Polish Catholic liturgical version for Easter season"
+    }
+  }
+}

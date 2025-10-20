@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "salve-regina",
+    "title": "Salve Regina",
+    "primary_category": "marian",
+    "labels": ["marian", "liturgical", "common"],
+    "importance": "common",
+    "type": "liturgical",
+    "description": "Traditional Marian antiphon, also known as Hail Holy Queen",
+    "origin": "Traditional Marian antiphon, possibly from the 11th century",
+    "origin_date": "~1100",
+    "usage": "Recited in Marian devotions, especially during Compline (Night Prayer)",
+    "feast_days": ["all-marian-feasts"],
+    "devotions": ["liturgical-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Salve, Regina, mater misericordiae: vita, dulcedo, et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, O pia, O dulcis Virgo Maria. Ora pro nobis, sancta Dei Genetrix. Ut digni efficiamur promissionibus Christi.",
+      "notes": "Traditional Latin version used in the Roman Catholic liturgy"
+    },
+    "en": {
+      "language": "English",
+      "text": "Hail, holy Queen, mother of mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. To thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us. And after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary. Pray for us, O holy Mother of God. That we may be made worthy of the promises of Christ.",
+      "notes": "English translation commonly used in Catholic prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Dios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra. Dios te salve. A ti llamamos los desterrados hijos de Eva. A ti suspiramos, gimiendo y llorando en este valle de lágrimas. Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos. Y después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre. ¡Oh clemente, oh piadosa, oh dulce Virgen María! Ruega por nosotros, santa Madre de Dios. Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo.",
+      "notes": "Spanish Catholic liturgical version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Salut, ô Reine, Mère de miséricorde, notre vie, notre douceur et notre espérance, salut. Vers toi nous crions, pauvres enfants d'Ève exilés. Vers toi nous soupirons, gémissant et pleurant dans cette vallée de larmes. Ô toi donc, notre avocate, tourne vers nous tes regards miséricordieux. Et après cet exil, montre-nous Jésus, le fruit béni de ton sein. Ô clémente, ô pieuse, ô douce Vierge Marie. Prie pour nous, sainte Mère de Dieu. Afin que nous soyons rendus dignes des promesses de Christ.",
+      "notes": "French Catholic liturgical version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Gegrüßet seist du, Königin, Mutter der Barmherzigkeit, unser Leben, unsere Wonne und unsere Hoffnung, gegrüßet seist du. Zu dir rufen wir verbannte Kinder Evas. Zu dir seufzen wir trauernd und weinend in diesem Tal der Tränen. Wohlan denn, unsere Fürsprecherin, wende deine barmherzigen Augen uns zu. Und nach diesem Elend zeige uns Jesus, die gebenedeite Frucht deines Leibes. O gütige, o fromme, o süße Jungfrau Maria. Bitte für uns, heilige Gottesgebärerin. Auf dass wir würdig werden der Verheißungen Christi.",
+      "notes": "German Catholic liturgical version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Salve, Regina, Madre di misericordia, vita, dolcezza e speranza nostra, salve. A te ricorriamo, noi esuli figli di Eva. A te sospiriamo, gementi e piangenti in questa valle di lacrime. Orsù dunque, avvocata nostra, rivolgi a noi quegli occhi tuoi misericordiosi. E dopo questo esilio, mostraci Gesù, il frutto benedetto del tuo seno. O clemente, o pia, o dolce Vergine Maria. Prega per noi, santa Madre di Dio. Perché siamo fatti degni delle promesse di Cristo.",
+      "notes": "Italian Catholic liturgical version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Salve, Rainha, Mãe de misericórdia, vida, doçura e esperança nossa, salve. A ti clamamos, os degredados filhos de Eva. A ti suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois, advogada nossa, volve para nós esses teus olhos misericordiosos. E depois deste desterro, mostra-nos Jesus, o fruto bendito do teu ventre. Ó clemente, ó piedosa, ó doce Virgem Maria. Rogai por nós, santa Mãe de Deus. Para que sejamos feitos dignos das promessas de Cristo.",
+      "notes": "Portuguese Catholic liturgical version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Witaj, Królowo, Matko miłosierdzia, życie, słodyczy i nadziejo nasza, witaj. Do Ciebie wołamy, wygnani synowie Ewy. Do Ciebie wzdychamy, jęcząc i płacząc na tej dolinie łez. Przetoż, Orędowniczko nasza, obróć ku nam oczy swoje miłosierne. A po tym wygnaniu, okaż nam Jezusa, błogosławiony owoc Twojego łona. O łaskawa, o pobożna, o słodka Panno Maryjo. Módl się za nami, święta Boża Rodzicielko. Abyśmy się stali godnymi obietnic Chrystusowych.",
+      "notes": "Polish Catholic liturgical version"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-to-st-joseph",
+    "title": "Prayer to St. Joseph",
+    "primary_category": "saints",
+    "labels": ["saints", "joseph", "common"],
+    "importance": "common",
+    "type": "prayer",
+    "description": "A prayer to St. Joseph, patron of the universal Church, families, and workers",
+    "origin": "Traditional Catholic prayer to St. Joseph, widely used in devotional practice",
+    "origin_date": "~1800",
+    "usage": "Recited for St. Joseph's intercession, especially for protection of families, workers, and the Church",
+    "feast_days": ["st-joseph"],
+    "devotions": ["st-joseph-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Ad te, beate Ioseph, in tribulatione nostra confugimus, atque, implorato Unigeniti tui Iesu auxilio, paterna tua intercessione confidimus.\n\nPer eumdem Christum Dominum nostrum. Amen.",
+      "notes": "Traditional Latin version of the Prayer to St. Joseph"
+    },
+    "en": {
+      "language": "English",
+      "text": "To thee, O blessed Joseph, do we fly in our tribulation, and having implored the help of thy holy Son, we confidently invoke thy patronage also.\n\nThrough the same Christ our Lord. Amen.",
+      "notes": "Common English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "A ti, oh bienaventurado José, acudimos en nuestra tribulación, y después de haber implorado el auxilio de tu Santísimo Hijo, con confianza invocamos también tu patrocinio.\n\nPor el mismo Cristo nuestro Señor. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "À toi, ô bienheureux Joseph, nous recourons dans notre tribulation, et après avoir imploré l'aide de ton Fils très saint, nous invoquons avec confiance aussi ton patronage.\n\nPar le même Christ notre Seigneur. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Zu dir, o seliger Josef, fliehen wir in unserer Bedrängnis, und nachdem wir die Hilfe deines heiligsten Sohnes erfleht haben, erflehen wir vertrauensvoll auch deinen Schutz.\n\nDurch denselben Christus unseren Herrn. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "A te, o beato Giuseppe, ricorriamo nella nostra tribolazione, e dopo aver implorato l'aiuto del tuo Santissimo Figlio, con fiducia invochiamo anche il tuo patrocinio.\n\nPer lo stesso Cristo nostro Signore. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "A ti, ó bem-aventurado José, recorremos na nossa tribulação, e depois de termos implorado o auxílio de teu Santíssimo Filho, com confiança invocamos também o teu patrocínio.\n\nPelo mesmo Cristo nosso Senhor. Amen.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Do Ciebie, o błogosławiony Józefie, uciekamy się w naszej udręce, a po wezwaniu pomocy Twojego Najświętszego Syna, z ufnością wzywamy również Twojej opieki.\n\nPrzez tegoż Chrystusa Pana naszego. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

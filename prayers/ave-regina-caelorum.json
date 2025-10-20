@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "ave-regina-caelorum",
+    "title": "Ave Regina Caelorum",
+    "primary_category": "marian",
+    "labels": ["marian", "liturgical", "seasonal", "common"],
+    "importance": "common",
+    "type": "liturgical",
+    "description": "Lenten season Marian antiphon, invoking Mary's intercession",
+    "origin": "Traditional Lenten season antiphon in the Roman Catholic liturgy",
+    "origin_date": "~1200",
+    "usage": "Recited during Lent, especially at Compline (Night Prayer)",
+    "feast_days": ["lent"],
+    "devotions": ["liturgical-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Ave, Regina caelorum, Ave, Domina angelorum: Salve, radix, salve, porta, ex qua mundo lux est orta. Gaude, Virgo gloriosa, super omnes speciosa. Vale, o valde decora, et pro nobis Christum exora.",
+      "notes": "Traditional Latin version used in the Roman Catholic liturgy during Lent"
+    },
+    "en": {
+      "language": "English",
+      "text": "Hail, Queen of heaven, hail, Lady of angels. Hail, root of Jesse, hail, gate through which the light rose over the world. Rejoice, glorious Virgin, beautiful beyond all others. Farewell, most beautiful one, and pray to Christ for us.",
+      "notes": "English translation commonly used in Catholic prayer during Lent"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Ave, Reina de los cielos, ave, Señora de los ángeles. Salve, raíz, salve, puerta, por la que al mundo vino la luz. Alégrate, Virgen gloriosa, la más hermosa de todas. Adiós, la más bella, y ruega a Cristo por nosotros.",
+      "notes": "Spanish Catholic liturgical version for Lent"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Salut, Reine des cieux, salut, Dame des anges. Salut, racine, salut, porte par laquelle la lumière est venue au monde. Réjouis-toi, Vierge glorieuse, la plus belle de toutes. Adieu, la plus belle, et prie le Christ pour nous.",
+      "notes": "French Catholic liturgical version for Lent"
+    },
+    "de": {
+      "language": "German",
+      "text": "Gegrüßet seist du, Königin des Himmels, gegrüßet seist du, Herrin der Engel. Gegrüßet seist du, Wurzel, gegrüßet seist du, Pforte, durch die dem Welt das Licht aufgegangen. Freue dich, glorreiche Jungfrau, die Schönste unter allen. Lebe wohl, du Allerschönste, und bitte Christus für uns.",
+      "notes": "German Catholic liturgical version for Lent"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Ave, Regina dei cieli, ave, Signora degli angeli. Salve, radice, salve, porta, da cui al mondo venne la luce. Godi, Vergine gloriosa, bellissima fra tutte. Addio, bellissima, e prega Cristo per noi.",
+      "notes": "Italian Catholic liturgical version for Lent"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ave, Rainha dos céus, ave, Senhora dos anjos. Salve, raiz, salve, porta, por onde veio ao mundo a luz. Alegra-te, Virgem gloriosa, a mais formosa de todas. Adeus, a mais formosa, e roga a Cristo por nós.",
+      "notes": "Portuguese Catholic liturgical version for Lent"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Witaj, Królowo niebios, witaj, Pani aniołów. Witaj, korzeniu, witaj, bramko, przez którą światu światłość weszła. Raduj się, Panno chwalebna, najpiękniejsza nad wszystkie. Żegnaj, najpiękniejsza, i módl się za nami do Chrystusa.",
+      "notes": "Polish Catholic liturgical version for Lent"
+    }
+  }
+}

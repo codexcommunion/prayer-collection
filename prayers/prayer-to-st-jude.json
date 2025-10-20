@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-to-st-jude",
+    "title": "Prayer to St. Jude",
+    "primary_category": "saints",
+    "labels": ["saints", "jude", "devotional"],
+    "importance": "common",
+    "type": "prayer",
+    "description": "A prayer to St. Jude Thaddeus, patron saint of hopeless causes and desperate situations",
+    "origin": "Traditional Catholic prayer to St. Jude, widely used in times of difficulty",
+    "origin_date": "~1800",
+    "usage": "Recited for help in difficult, desperate, or seemingly impossible situations",
+    "feast_days": ["st-jude"],
+    "devotions": ["st-jude-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Sancte Iuda, apostole Domini nostri Iesu Christi, qui per tuam fidem et caritatem in operibus bonis excelluisti, et per tuam humilitatem ad altiora vocatus es, te humiliter deprecamur: ut, intercedendo pro nobis apud Deum, misericordiam nobis impetres in omnibus necessitatibus nostris.\n\nSancte Iuda, qui desperatorum spes es, ad te confugimus in tribulationibus nostris; audi preces nostras, et exaudi nos in die necessitatis.\n\nGloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen.\n\nSancte Iuda, ora pro nobis.",
+      "notes": "Traditional Latin version of the Prayer to St. Jude"
+    },
+    "en": {
+      "language": "English",
+      "text": "St. Jude, apostle of our Lord Jesus Christ, who by your faith and charity excelled in good works, and by your humility were called to higher things, we humbly beseech you to intercede for us with God, that you may obtain mercy for us in all our necessities.\n\nSt. Jude, who are the hope of the desperate, we flee to you in our tribulations; hear our prayers, and heed us in the day of necessity.\n\nGlory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.\n\nSt. Jude, pray for us.",
+      "notes": "Common English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "San Judas, apóstol de nuestro Señor Jesucristo, que por tu fe y caridad sobresaliste en las buenas obras, y por tu humildad fuiste llamado a cosas más altas, te rogamos humildemente que intercedas por nosotros ante Dios, para que obtengas misericordia para nosotros en todas nuestras necesidades.\n\nSan Judas, esperanza de los desesperados, a ti acudimos en nuestras tribulaciones; oye nuestras oraciones, y atiéndenos en el día de la necesidad.\n\nGloria al Padre, al Hijo y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.\n\nSan Judas, ruega por nosotros.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Saint Jude, apôtre de notre Seigneur Jésus-Christ, qui par votre foi et votre charité avez excellé dans les bonnes œuvres, et par votre humilité avez été appelé à de plus hautes choses, nous vous supplions humblement d'intercéder pour nous auprès de Dieu, afin que vous obteniez miséricorde pour nous dans tous nos besoins.\n\nSaint Jude, qui êtes l'espoir des désespérés, nous nous réfugions auprès de vous dans nos tribulations ; écoutez nos prières, et exaucez-nous au jour du besoin.\n\nGloire au Père, au Fils et au Saint-Esprit. Comme il était au commencement, maintenant et toujours, et dans les siècles des siècles. Amen.\n\nSaint Jude, priez pour nous.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Heiliger Judas, Apostel unseres Herrn Jesus Christus, der du durch deinen Glauben und deine Liebe in guten Werken hervorragtest, und durch deine Demut zu höheren Dingen berufen wurdest, wir bitten dich demütig, für uns bei Gott einzutreten, damit du uns Erbarmen erlangest in allen unseren Nöten.\n\nHeiliger Judas, der du die Hoffnung der Verzweifelten bist, zu dir fliehen wir in unseren Drangsalen; höre unsere Gebete, und erhöre uns am Tage der Not.\n\nEhre sei dem Vater und dem Sohn und dem Heiligen Geist. Wie es war im Anfang, jetzt und immerdar und in alle Ewigkeit. Amen.\n\nHeiliger Judas, bitte für uns.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "San Giuda, apostolo del nostro Signore Gesù Cristo, che per la tua fede e carità eccellesti nelle buone opere, e per la tua umiltà fosti chiamato a cose più alte, ti preghiamo umilmente di intercedere per noi presso Dio, affinché ottenga misericordia per noi in tutti i nostri bisogni.\n\nSan Giuda, che sei la speranza degli disperati, a te ricorriamo nelle nostre tribolazioni; ascolta le nostre preghiere, ed esaudiscici nel giorno del bisogno.\n\nGloria al Padre e al Figlio e allo Spirito Santo. Come era nel principio, ora e sempre e nei secoli dei secoli. Amen.\n\nSan Giuda, prega per noi.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "São Judas, apóstolo de nosso Senhor Jesus Cristo, que pela tua fé e caridade sobressaieste nas boas obras, e pela tua humildade foste chamado a coisas mais altas, rogamos-te humildemente que intercedas por nós junto de Deus, para que obtenhas misericórdia para nós em todas as nossas necessidades.\n\nSão Judas, que és a esperança dos desesperados, a ti recorremos nas nossas tribulações; ouve as nossas orações, e atende-nos no dia da necessidade.\n\nGlória ao Pai, ao Filho e ao Espírito Santo. Como era no princípio, agora e sempre, pelos séculos dos séculos. Amen.\n\nSão Judas, rogai por nós.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Święty Judaszu, apostoł Pana naszego Jezusa Chrystusa, który przez swoją wiarę i miłość wyróżniałeś się dobrymi uczynkami, a przez swoją pokorę zostałeś powołany do wyższych rzeczy, pokornie Cię błagamy, abyś wstawiał się za nami u Boga, iżbyś uzyskał dla nas miłosierdzie we wszystkich naszych potrzebach.\n\nŚwięty Judaszu, nadziejo rozpaczających, do Ciebie uciekamy się w naszych utrapieniach; wysłuchaj naszych modlitw, i wysłuchaj nas w dniu potrzeby.\n\nChwała Ojcu i Synowi i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.\n\nŚwięty Judaszu, módl się za nami.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

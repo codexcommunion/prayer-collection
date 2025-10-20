@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "alma-redemptoris-mater",
+    "title": "Alma Redemptoris Mater",
+    "primary_category": "marian",
+    "labels": ["marian", "liturgical", "seasonal", "common"],
+    "importance": "common",
+    "type": "liturgical",
+    "description": "Advent/Christmas season Marian antiphon, invoking Mary's protection",
+    "origin": "Traditional Advent/Christmas season antiphon in the Roman Catholic liturgy, attributed to Hermann of Reichenau",
+    "origin_date": "~1100",
+    "usage": "Recited during Advent and Christmas season, especially at Compline (Night Prayer)",
+    "feast_days": ["advent", "christmas-season"],
+    "devotions": ["liturgical-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Alma Redemptoris Mater, quae pervia caeli porta manes, et stella maris, succurre cadenti, surgere qui curat, populo: tu quae genuisti, natura mirante, tuum sanctum Genitorem, Virgo prius ac posterius, Gabrielis ab ore sumens illud Ave, peccatorum miserere.",
+      "notes": "Traditional Latin version used in the Roman Catholic liturgy during Advent and Christmas season"
+    },
+    "en": {
+      "language": "English",
+      "text": "Loving mother of the Redeemer, gate of heaven, star of the sea, assist your people who have fallen yet strive to rise again. To the wonderment of nature you bore your Creator, yet remained a virgin after as before. You who received Gabriel's joyful greeting, have pity on us poor sinners.",
+      "notes": "English translation commonly used in Catholic prayer during Advent and Christmas season"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Madre amorosa del Redentor, puerta del cielo siempre abierta, estrella del mar, socorre al pueblo caído que trata de levantarse. Tú que, admirando a la naturaleza, engendraste a tu santo Creador, virgen antes y después, recibiendo el Ave de la boca de Gabriel, ten piedad de nosotros pecadores.",
+      "notes": "Spanish Catholic liturgical version for Advent and Christmas season"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Mère aimante du Rédempteur, porte du ciel toujours ouverte, étoile de la mer, secours le peuple qui tombe et qui cherche à se relever. Toi qui, à l'étonnement de la nature, as enfanté ton saint Créateur, vierge avant et après, recevant l'Ave de la bouche de Gabriel, aie pitié de nous pécheurs.",
+      "notes": "French Catholic liturgical version for Advent and Christmas season"
+    },
+    "de": {
+      "language": "German",
+      "text": "Liebevolle Mutter des Erlösers, du offene Pforte des Himmels, du Stern des Meeres, hilf deinem Volke, das gefallen ist und sich wieder erheben will. Du, die du zur Verwunderung der Natur deinen heiligen Schöpfer geboren hast, Jungfrau vor und nach der Geburt, die du Gabriels Ave aus seinem Munde empfingst, erbarme dich unserer Sünder.",
+      "notes": "German Catholic liturgical version for Advent and Christmas season"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Madre amorosa del Redentore, porta del cielo sempre aperta, stella del mare, soccorri il tuo popolo che è caduto e cerca di rialzarsi. Tu che, con stupore della natura, hai generato il tuo santo Creatore, vergine prima e dopo, ricevendo l'Ave dalla bocca di Gabriele, abbi pietà di noi peccatori.",
+      "notes": "Italian Catholic liturgical version for Advent and Christmas season"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Mãe amorosa do Redentor, porta do céu sempre aberta, estrela do mar, socorre o teu povo que caiu e procura levantar-se. Tu que, com admiração da natureza, geraste o teu santo Criador, virgem antes e depois, recebendo o Ave da boca de Gabriel, tem piedade de nós pecadores.",
+      "notes": "Portuguese Catholic liturgical version for Advent and Christmas season"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Miłosierna Matko Odkupiciela, zawsze otwarta bramo nieba, gwiazdko morza, wspomóż lud swój upadły, który usiłuje powstać. Ty, która ku zdumieniu natury zrodziłaś swego świętego Stworzyciela, Dziewico przed i po porodzie, przyjmując Ave z ust Gabriela, zmiłuj się nad nami grzesznymi.",
+      "notes": "Polish Catholic liturgical version for Advent and Christmas season"
+    }
+  }
+}

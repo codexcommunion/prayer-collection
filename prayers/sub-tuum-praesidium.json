@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "sub-tuum-praesidium",
+    "title": "Sub Tuum Praesidium",
+    "primary_category": "marian",
+    "labels": ["marian", "protection", "ancient", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Ancient prayer seeking Mary's protection, one of the oldest known Marian prayers",
+    "origin": "Ancient Christian prayer, dating to the 3rd century, found in Egyptian papyri",
+    "origin_date": "~0300",
+    "usage": "Traditional prayer for seeking Mary's protection and intercession in times of need",
+    "feast_days": ["all-marian-feasts"],
+    "devotions": ["marian-devotions", "protection-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Sub tuum praesidium confugimus, Sancta Dei Genetrix. Nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta.",
+      "notes": "Traditional Latin version of this ancient Marian prayer"
+    },
+    "en": {
+      "language": "English",
+      "text": "We fly to thy patronage, O holy Mother of God; despise not our petitions in our necessities, but deliver us always from all dangers, O glorious and blessed Virgin.",
+      "notes": "English translation commonly used in Catholic prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Bajo tu protección nos acogemos, Santa Madre de Dios; no deseches las oraciones que te dirigimos en nuestras necesidades, antes bien, líbranos de todo peligro, oh Virgen gloriosa y bendita.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Sous l'abri de ta miséricorde, nous nous réfugions, Sainte Mère de Dieu. Ne méprise pas nos prières au milieu de nos difficultés, mais délivre-nous de tous les dangers, ô Vierge glorieuse et bénie.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Unter deinen Schutz und Schirm fliehen wir, o heilige Gottesgebärerin. Verachte unsere Bitten nicht in unseren Nöten, sondern erlöse uns von allen Gefahren, o du glorreiche und gebenedeite Jungfrau.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Sotto la tua protezione cerchiamo rifugio, Santa Madre di Dio. Non disprezzare le suppliche che ti rivolgiamo nelle nostre necessità, ma liberaci da ogni pericolo, o Vergine gloriosa e benedetta.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Sob a tua proteção nos refugiamos, Santa Mãe de Deus. Não desprezes as nossas súplicas nas nossas necessidades, mas livra-nos de todos os perigos, ó Virgem gloriosa e bendita.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Pod Twoją obronę uciekamy się, Święta Boża Rodzicielko. Nie gardź prośbami naszymi w potrzebach naszych, ale od wszelakich niebezpieczeństw racz nas zawsze wybawiać, Panno chwalebna i błogosławiona.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

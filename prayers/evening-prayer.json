@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "evening-prayer",
+    "title": "Evening Prayer",
+    "primary_category": "daily",
+    "labels": ["daily", "evening", "devotional", "common"],
+    "importance": "common",
+    "type": "prayer",
+    "description": "Evening prayer of gratitude and examination of conscience",
+    "origin": "Catholic tradition",
+    "origin_date": "~1800",
+    "usage": "Recited in the evening before sleep",
+    "feast_days": [],
+    "devotions": ["daily prayer", "evening prayer", "examination of conscience"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Domine Deus, gratias tibi ago pro omnibus beneficiis\nquae mihi hodie contulisti.\nCustodi me hac nocte et ab omni periculo libera me.\n\nExamine conscientiae meae me adiuva,\nut cras melior fiam.\nIn manus tuas, Domine, commendo spiritum meum.\n\nAmen.",
+      "notes": "Traditional Latin evening prayer"
+    },
+    "en": {
+      "language": "English",
+      "text": "O my God, I thank Thee for all the graces Thou hast given me today.\nKeep me safe through this night and deliver me from all danger.\n\nHelp me to examine my conscience,\nthat I may become better tomorrow.\nInto Thy hands, O Lord, I commend my spirit.\n\nAmen.",
+      "notes": "Common English evening prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Dios mío, te doy gracias por todas las gracias\nque me has concedido hoy.\nGuárdame esta noche y líbrame de todo peligro.\n\nAyúdame a examinar mi conciencia,\npara que mañana sea mejor.\nEn tus manos, Señor, encomiendo mi espíritu.\n\nAmén.",
+      "notes": "Oración vespertina en español"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô mon Dieu, je Te remercie pour toutes les grâces\nque Tu m'as accordées aujourd'hui.\nGarde-moi cette nuit et délivre-moi de tout danger.\n\nAide-moi à examiner ma conscience,\npour que je devienne meilleur demain.\nEntre Tes mains, Seigneur, je remets mon esprit.\n\nAmen.",
+      "notes": "Prière du soir en français"
+    },
+    "de": {
+      "language": "German",
+      "text": "O mein Gott, ich danke Dir für alle Gnaden,\ndie Du mir heute geschenkt hast.\nBewahre mich diese Nacht und erlöse mich von aller Gefahr.\n\nHilf mir, mein Gewissen zu prüfen,\ndamit ich morgen besser werde.\nIn Deine Hände, Herr, empfehle ich meinen Geist.\n\nAmen.",
+      "notes": "Deutsche Abendgebet"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O mio Dio, Ti ringrazio per tutte le grazie\nche mi hai concesso oggi.\nCustodiscimi questa notte e liberami da ogni pericolo.\n\nAiutami ad esaminare la mia coscienza,\nperché domani io diventi migliore.\nNelle Tue mani, Signore, raccomando il mio spirito.\n\nAmen.",
+      "notes": "Preghiera della sera in italiano"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó meu Deus, eu Te dou graças por todas as graças\nque me concedeste hoje.\nGuarda-me esta noite e livra-me de todo o perigo.\n\nAjuda-me a examinar a minha consciência,\npara que amanhã eu seja melhor.\nNas Tuas mãos, Senhor, encomendo o meu espírito.\n\nAmém.",
+      "notes": "Oração da noite em português"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "O mój Boże, dziękuję Ci za wszystkie łaski,\nktóre mi dziś udzieliłeś.\nStrzeż mnie tej nocy i wybaw mnie od wszelkiego niebezpieczeństwa.\n\nPomóż mi zbadać moje sumienie,\nżebym jutro stał się lepszy.\nW ręce Twoje, Panie, powierzam ducha mego.\n\nAmen.",
+      "notes": "Polska modlitwa wieczorna"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "anima-christi",
+    "title": "Anima Christi",
+    "primary_category": "christological",
+    "labels": ["christological", "eucharistic", "devotional", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Prayer for spiritual communion with Christ",
+    "origin": "Traditional prayer, attributed to St. Ignatius Loyola",
+    "origin_date": "~1500",
+    "usage": "Recited after receiving Holy Communion or for spiritual communion",
+    "feast_days": ["corpus-christi"],
+    "devotions": ["eucharistic-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Anima Christi, sanctifica me. Corpus Christi, salva me. Sanguis Christi, inebria me. Aqua lateris Christi, lava me. Passio Christi, conforta me. O bone Iesu, exaudi me. Intra tua vulnera absconde me. Ne permittas me separari a te. Ab hoste maligno defende me. In hora mortis meae voca me. Et iube me venire ad te, ut cum Sanctis tuis laudem te in saecula saeculorum. Amen.",
+      "notes": "Traditional Latin version of this devotional prayer"
+    },
+    "en": {
+      "language": "English",
+      "text": "Soul of Christ, sanctify me. Body of Christ, save me. Blood of Christ, inebriate me. Water from the side of Christ, wash me. Passion of Christ, strengthen me. O good Jesus, hear me. Within Thy wounds hide me. Permit me not to be separated from Thee. From the wicked foe defend me. In the hour of my death call me. And bid me come to Thee, that with Thy Saints I may praise Thee forever and ever. Amen.",
+      "notes": "English translation commonly used in Catholic prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Alma de Cristo, santifícame. Cuerpo de Cristo, sálvame. Sangre de Cristo, embriágame. Agua del costado de Cristo, lávame. Pasión de Cristo, confórtame. ¡Oh buen Jesús, óyeme! Dentro de tus llagas escóndeme. No permitas que me separe de ti. Del enemigo maligno defiéndeme. En la hora de mi muerte llámame. Y mándame ir a ti, para que con tus santos te alabe por los siglos de los siglos. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Âme du Christ, sanctifie-moi. Corps du Christ, sauve-moi. Sang du Christ, enivre-moi. Eau du côté du Christ, lave-moi. Passion du Christ, fortifie-moi. Ô bon Jésus, exauce-moi. Dans tes plaies cache-moi. Ne permets pas que je sois séparé de toi. De l'ennemi malin défends-moi. À l'heure de ma mort appelle-moi. Et ordonne-moi de venir à toi, afin qu'avec tes Saints je te loue dans les siècles des siècles. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Seele Christi, heilige mich. Leib Christi, rette mich. Blut Christi, berausche mich. Wasser aus der Seite Christi, wasche mich. Leiden Christi, stärke mich. O guter Jesus, erhöre mich. In deinen Wunden verbirg mich. Lass mich nicht von dir getrennt werden. Vor dem bösen Feind beschütze mich. In der Stunde meines Todes rufe mich. Und heiße mich zu dir kommen, damit ich mit deinen Heiligen dich lobe in Ewigkeit. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Anima di Cristo, santificami. Corpo di Cristo, salvami. Sangue di Cristo, inebriami. Acqua del costato di Cristo, lavami. Passione di Cristo, confortami. O buon Gesù, esaudiscimi. Nelle tue piaghe nascondimi. Non permettere ch'io sia separato da te. Dal nemico maligno difendimi. Nell'ora della mia morte chiamami. E comandami di venire a te, perché con i tuoi Santi ti lodi nei secoli dei secoli. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Alma de Cristo, santifica-me. Corpo de Cristo, salva-me. Sangue de Cristo, inebria-me. Água do lado de Cristo, lava-me. Paixão de Cristo, conforta-me. Ó bom Jesus, ouve-me. Dentro das tuas chagas esconde-me. Não permitas que me separe de ti. Do inimigo maligno defende-me. Na hora da minha morte chama-me. E manda-me ir ter contigo, para que com os teus Santos te louve pelos séculos dos séculos. Amen.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Duszo Chrystusa, uświęć mnie. Ciało Chrystusa, zbaw mnie. Krwi Chrystusa, upój mnie. Wodo z boku Chrystusa, obmyj mnie. Męko Chrystusa, umocnij mnie. O dobry Jezu, wysłuchaj mnie. W ranach swoich ukryj mnie. Nie dopuść, abym się od Ciebie oddalił. Od złego nieprzyjaciela broń mnie. W godzinę śmierci mojej wezwij mnie. I każ mi przyjść do siebie, abym z Świętymi Twymi chwalił Cię na wieki wieków. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

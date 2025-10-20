@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "act-of-faith",
+    "title": "Act of Faith",
+    "primary_category": "penitential",
+    "labels": ["penitential", "virtues", "essential"],
+    "importance": "essential",
+    "type": "prayer",
+    "description": "A prayer expressing firm belief in God, the Holy Trinity, and the teachings of the Catholic Church",
+    "origin": "Traditional Catholic act of faith, part of the theological virtues",
+    "origin_date": "~1800",
+    "usage": "Recited to affirm and strengthen faith in God and divine revelation",
+    "feast_days": [],
+    "devotions": ["acts-of-faith-hope-love"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Domine Deus, firma fide credo et confiteor omnia et singula quae sancta Ecclesia Catholica proponit, quia tu, Deus, ea revelasti, qui es aeterna veritas et sapientia, quae nec fallere nec falli potest. In hoc fide firmiter permanebo, usque ad animae meae exitum, et promitto perpetuam obedientiam Summo Pontifici, Vicario Christi in terris, et legitimis eius successoribus. Amen.",
+      "notes": "Traditional Latin version of the Act of Faith"
+    },
+    "en": {
+      "language": "English",
+      "text": "O my God, I firmly believe that Thou art one God in three Divine Persons, Father, Son, and Holy Ghost; I believe that Thy Divine Son became man, and died for our sins, and that He will come to judge the living and the dead. I believe these and all the truths which the Holy Catholic Church teaches, because Thou hast revealed them, who canst neither deceive nor be deceived. Amen.",
+      "notes": "Common English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Dios mío, creo firmemente que eres un solo Dios en tres personas divinas, Padre, Hijo y Espíritu Santo; creo que tu Hijo divino se hizo hombre y murió por nuestros pecados, y que vendrá a juzgar a los vivos y a los muertos. Creo estas y todas las verdades que enseña la Santa Iglesia Católica, porque Tú las has revelado, que no puedes engañar ni ser engañado. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô mon Dieu, je crois fermement que vous êtes un seul Dieu en trois personnes divines, Père, Fils et Saint-Esprit ; je crois que votre Fils divin s'est fait homme et est mort pour nos péchés, et qu'il viendra juger les vivants et les morts. Je crois ces vérités et toutes celles que la Sainte Église Catholique enseigne, parce que vous les avez révélées, vous qui ne pouvez ni tromper ni être trompé. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "O mein Gott, ich glaube fest, dass du ein Gott bist in drei göttlichen Personen, Vater, Sohn und Heiliger Geist; ich glaube, dass dein göttlicher Sohn Mensch geworden ist und für unsere Sünden gestorben ist, und dass er kommen wird, die Lebenden und die Toten zu richten. Ich glaube diese und alle Wahrheiten, die die heilige katholische Kirche lehrt, weil du sie geoffenbart hast, der du weder täuschen noch getäuscht werden kannst. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O mio Dio, credo fermamente che sei un solo Dio in tre Persone divine, Padre, Figlio e Spirito Santo; credo che il tuo Figlio divino si è fatto uomo ed è morto per i nostri peccati, e che verrà a giudicare i vivi e i morti. Credo queste e tutte le verità che insegna la Santa Chiesa Cattolica, perché Tu le hai rivelate, che non puoi ingannare né essere ingannato. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó meu Deus, creio firmemente que sois um só Deus em três Pessoas divinas, Pai, Filho e Espírito Santo; creio que o vosso Filho divino se fez homem e morreu pelos nossos pecados, e que virá a julgar os vivos e os mortos. Creio estas e todas as verdades que ensina a Santa Igreja Católica, porque Vós as revelastes, que não podeis enganar nem ser enganado. Amen.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "O mój Boże, wierzę mocno, że jesteś jednym Bogiem w trzech Osobach Boskich, Ojcem, Synem i Duchem Świętym; wierzę, że Twój Syn Boski stał się człowiekiem i umarł za nasze grzechy, i że przyjdzie sądzić żywych i umarłych. Wierzę tym i wszystkim prawdą, które naucza święta Kościół Katolicki, ponieważ Ty je objawiłeś, który nie możesz oszukać ani być oszukany. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

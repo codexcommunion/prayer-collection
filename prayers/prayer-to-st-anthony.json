@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-to-st-anthony",
+    "title": "Prayer to St. Anthony",
+    "primary_category": "saints",
+    "labels": ["saints", "anthony", "devotional", "common"],
+    "importance": "common",
+    "type": "prayer",
+    "description": "A prayer to St. Anthony of Padua for help in finding lost things",
+    "origin": "Traditional Catholic prayer to St. Anthony, widely used for finding lost items",
+    "origin_date": "~1800",
+    "usage": "Recited when seeking help to find lost or missing items, or for other needs",
+    "feast_days": ["st-anthony"],
+    "devotions": ["st-anthony-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Sancte Antoni, perfectae obedientiae exemplum, qui pro amore Christi paupertatem et humilitatem elegisti, te humiliter rogamus: intercede pro nobis apud Deum, ut, sicut tu in vita tua terrenas divitias contempsisti, ita nos in corde nostro mundum et eius vanitates abiciamus, et sola caelestia bona quaeramus.\n\nSancte Antoni, taumaturgorum princeps, qui per merita tua innumeras gratias a Deo obtinuisti, te supplices deprecamur: adiuva nos in necessitatibus nostris, praesertim in rebus amissis recuperandis.\n\nGloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen.\n\nSancte Antoni, ora pro nobis.",
+      "notes": "Traditional Latin version of the Prayer to St. Anthony"
+    },
+    "en": {
+      "language": "English",
+      "text": "St. Anthony, perfect model of obedience, who for the love of Christ chose poverty and humility, we humbly beseech thee to intercede for us with God, that as thou didst despise earthly riches in thy lifetime, so we may cast away from our hearts the world and its vanities, and seek only the goods of heaven.\n\nSt. Anthony, prince of wonder-workers, who by thy merits hast obtained countless favors from God, we earnestly entreat thee: help us in our necessities, especially in recovering things lost.\n\nGlory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.\n\nSt. Anthony, pray for us.",
+      "notes": "Common English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "San Antonio, perfecto modelo de obediencia, que por amor de Cristo elegiste la pobreza y la humildad, te rogamos humildemente: intercede por nosotros ante Dios, para que, así como tú despreciaste las riquezas terrenas en tu vida, así nosotros arrojemos de nuestro corazón el mundo y sus vanidades, y busquemos solo los bienes del cielo.\n\nSan Antonio, príncipe de los taumaturgos, que por tus méritos has obtenido innumerables gracias de Dios, te suplicamos encarecidamente: ayúdanos en nuestras necesidades, especialmente en recuperar las cosas perdidas.\n\nGloria al Padre, al Hijo y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.\n\nSan Antonio, ruega por nosotros.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Saint Antoine, modèle parfait d'obéissance, qui pour l'amour du Christ as choisi la pauvreté et l'humilité, nous te supplions humblement d'intercéder pour nous auprès de Dieu, afin que, comme tu as méprisé les richesses terrestres dans ta vie, nous rejetions aussi de notre cœur le monde et ses vanités, et ne cherchions que les biens du ciel.\n\nSaint Antoine, prince des thaumaturges, qui par tes mérites as obtenu d'innombrables faveurs de Dieu, nous te prions instamment : aide-nous dans nos nécessités, surtout pour retrouver les choses perdues.\n\nGloire au Père, au Fils et au Saint-Esprit. Comme il était au commencement, maintenant et toujours, et dans les siècles des siècles. Amen.\n\nSaint Antoine, priez pour nous.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Heiliger Antonius, vollkommenes Vorbild des Gehorsams, der du aus Liebe zu Christus Armut und Demut erwählt hast, wir bitten dich demütig: tritt für uns bei Gott ein, damit wir, wie du in deinem Leben die irdischen Reichtümer verachtet hast, so auch aus unserem Herzen die Welt und ihre Eitelkeiten verbannen und allein die himmlischen Güter suchen.\n\nHeiliger Antonius, Fürst der Wundertäter, der du durch deine Verdienste unzählige Gnaden von Gott erlangt hast, wir flehen dich inständig an: hilf uns in unseren Nöten, besonders beim Wiederfinden verlorener Dinge.\n\nEhre sei dem Vater und dem Sohn und dem Heiligen Geist. Wie es war im Anfang, jetzt und immerdar und in alle Ewigkeit. Amen.\n\nHeiliger Antonius, bitte für uns.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Sant'Antonio, perfetto modello di obbedienza, che per amore di Cristo scegliesti la povertà e l'umiltà, ti preghiamo umilmente: intercedi per noi presso Dio, affinché, come tu disprezzasti le ricchezze terrene nella tua vita, così noi gettiamo dal nostro cuore il mondo e le sue vanità, e cerchiamo solo i beni del cielo.\n\nSant'Antonio, principe dei taumaturghi, che per i tuoi meriti hai ottenuto innumerevoli grazie da Dio, ti supplichiamo insistentemente: aiutaci nelle nostre necessità, specialmente nel recuperare le cose perdute.\n\nGloria al Padre e al Figlio e allo Spirito Santo. Come era nel principio, ora e sempre e nei secoli dei secoli. Amen.\n\nSant'Antonio, prega per noi.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "São António, perfeito modelo de obediência, que por amor de Cristo escolheste a pobreza e a humildade, rogamos-te humildemente: intercede por nós junto de Deus, para que, assim como tu desprezaste as riquezas terrenas na tua vida, assim nós lancemos do nosso coração o mundo e as suas vaidades, e busquemos só os bens do céu.\n\nSão António, príncipe dos taumaturgos, que pelos teus méritos obtiveste inumeráveis graças de Deus, suplicamos-te encarecidamente: ajuda-nos nas nossas necessidades, especialmente no recuperar as coisas perdidas.\n\nGlória ao Pai, ao Filho e ao Espírito Santo. Como era no princípio, agora e sempre, pelos séculos dos séculos. Amen.\n\nSão António, rogai por nós.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Święty Antoni, doskonały wzorze posłuszeństwa, który dla miłości Chrystusa wybrałeś ubóstwo i pokorę, pokornie Cię prosimy: wstawiaj się za nami u Boga, abyśmy, jak ty w życiu swoim gardziłeś bogactwami ziemskimi, tak my wyrzucili z serca naszego świat i jego marności, i szukali tylko dóbr niebieskich.\n\nŚwięty Antoni, książę cudotwórców, który przez swoje zasługi uzyskałeś niezliczone łaski od Boga, usilnie Cię błagamy: pomóż nam w naszych potrzebach, zwłaszcza w odzyskiwaniu rzeczy zagubionych.\n\nChwała Ojcu i Synowi i Duchowi Świętemu. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.\n\nŚwięty Antoni, módl się za nami.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

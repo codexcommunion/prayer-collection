@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-to-guardian-angel",
+    "title": "Prayer to Guardian Angel",
+    "primary_category": "saints",
+    "labels": ["saints", "angels", "protection", "common"],
+    "importance": "common",
+    "type": "prayer",
+    "description": "A prayer to one's guardian angel for protection and guidance",
+    "origin": "Traditional Catholic prayer to guardian angels, widely used in devotional practice",
+    "origin_date": "~1800",
+    "usage": "Recited daily for protection, guidance, and intercession from one's guardian angel",
+    "feast_days": ["guardian-angels"],
+    "devotions": ["angel-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Angele Dei, qui custos es mei, me tibi commissum pietate superna, hodie illumina, custodi, rege et guberna. Amen.",
+      "notes": "Traditional Latin version of the Prayer to Guardian Angel"
+    },
+    "en": {
+      "language": "English",
+      "text": "Angel of God, my guardian dear, to whom God's love commits me here, ever this day be at my side, to light and guard, to rule and guide. Amen.",
+      "notes": "Common English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Ángel de Dios, que eres mi custodio, puesto por la divina piedad para mi guarda, ilúmíname, custódiame, guárdame y gobiérname hoy. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ange de Dieu, qui êtes mon gardien, éclairé par la divine providence pour me garder, illuminez-moi, gardez-moi, dirigez-moi et gouvernez-moi aujourd'hui. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Engel Gottes, der du mein Hüter bist, dir anvertraut durch göttliche Huld, erleuchte mich heute, bewahre mich, lenke und regiere mich. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Angelo di Dio, che sei il mio custode, illuminami, custodiscimi, guidami e governami oggi. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Anjo de Deus, que sois meu guardião, posto pela divina piedade para minha guarda, iluminai-me, guardai-me, dirigi-me e governai-me hoje. Amen.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Aniele Boży, stróżu mój, tobie mnie zlecił Bóg przez swą dobroć, oświecaj mnie dziś, strzeż mnie, prowadź i rządź mną. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

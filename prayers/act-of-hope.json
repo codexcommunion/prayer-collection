@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "act-of-hope",
+    "title": "Act of Hope",
+    "primary_category": "penitential",
+    "labels": ["penitential", "virtues", "essential"],
+    "importance": "essential",
+    "type": "prayer",
+    "description": "A prayer expressing trust in God's infinite mercy and the hope of eternal salvation",
+    "origin": "Traditional Catholic act of hope, part of the theological virtues",
+    "origin_date": "~1800",
+    "usage": "Recited to strengthen hope in God's promises and eternal life",
+    "feast_days": [],
+    "devotions": ["acts-of-faith-hope-love"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Domine Deus, spero per gratiam tuam remissionem omnium peccatorum, et post hanc vitam aeternam felicitatem me esse consecuturum: quia tu promisisti, qui es infinite potens, fidelis, benignus, et misericors. In hac spe vivere et mori statuo. Amen.",
+      "notes": "Traditional Latin version of the Act of Hope"
+    },
+    "en": {
+      "language": "English",
+      "text": "O my God, relying on Thy infinite goodness and promises, I hope to obtain pardon of my sins, the help of Thy grace, and life everlasting, through the merits of Jesus Christ, my Lord and Redeemer. Amen.",
+      "notes": "Common English translation"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh Dios mío, confiando en tu infinita bondad y promesas, espero obtener el perdón de mis pecados, el auxilio de tu gracia y la vida eterna, por los méritos de Jesucristo, mi Señor y Redentor. Amén.",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô mon Dieu, me confiant en votre infinie bonté et en vos promesses, j'espère obtenir le pardon de mes péchés, le secours de votre grâce et la vie éternelle, par les mérites de Jésus-Christ, mon Seigneur et Rédempteur. Amen.",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "O mein Gott, im Vertrauen auf deine unendliche Güte und deine Verheißungen, hoffe ich, Vergebung meiner Sünden, die Hilfe deiner Gnade und das ewige Leben zu erlangen durch die Verdienste Jesu Christi, meines Herrn und Erlösers. Amen.",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O mio Dio, confidando nella tua infinita bontà e nelle tue promesse, spero di ottenere il perdono dei miei peccati, l'aiuto della tua grazia e la vita eterna, per i meriti di Gesù Cristo, mio Signore e Redentore. Amen.",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó meu Deus, confiando na tua infinita bondade e promessas, espero obter o perdão dos meus pecados, o auxílio da tua graça e a vida eterna, pelos méritos de Jesus Cristo, meu Senhor e Redentor. Amen.",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "O mój Boże, ufając Twojej nieskończonej dobroci i obietnicom, mam nadzieję uzyskać przebaczenie moich grzechów, pomoc Twojej łaski i życie wieczne, przez zasługi Jezusa Chrystusa, mojego Pana i Odkupiciela. Amen.",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

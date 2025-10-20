@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-before-crucifix",
+    "title": "Prayer Before Crucifix",
+    "primary_category": "christological",
+    "labels": ["christological", "devotional", "passion"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Meditation before the cross of Christ, focusing on His Passion and wounds",
+    "origin": "Traditional Catholic prayer for meditating on Christ's suffering",
+    "origin_date": "~1500",
+    "usage": "Recited when praying before a crucifix, especially during Lent and Passiontide",
+    "feast_days": ["good-friday", "lent"],
+    "devotions": ["passion-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Ecce, o bone et dulcissime Iesu, ante conspectum tuum genibus me provolvo, ac maximo animi ardore te oro atque obtestor, ut meum in cor vividos fidei, spei et caritatis sensus, cum vero peccatorum meorum dolore confidere velis, atque firma emendandi propositum, dum magno animi affectu et dolore tua quinque vulnera mecum ipse considero, ac mente contemplor, illud prae oculis habens, quod iam olim de teipso prophetavit David: Foderunt manus meas et pedes meos; dinumeraverunt omnia ossa mea.",
+      "notes": "Traditional Latin version of the prayer before a crucifix"
+    },
+    "en": {
+      "language": "English",
+      "text": "Behold, O good and most sweet Jesus, I cast myself upon my knees in Thy sight, and with the most fervent desire of my soul I pray and beseech Thee that Thou wouldst impress upon my heart lively sentiments of faith, hope and charity, with true repentance for my sins, and a firm purpose of amendment, while with deep affection and grief of soul I consider within myself and mentally contemplate Thy five most precious wounds, having before my eyes that which the prophet David long ago spoke in Thine own person concerning Thee, my Jesus: 'They have pierced My hands and My feet; they have numbered all My bones.'",
+      "notes": "English translation commonly used in Catholic prayer before a crucifix"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "He aquí, oh buen y dulcísimo Jesús, que me postro de rodillas ante tu presencia, y con el más ferviente deseo de mi alma te ruego y te suplico que imprimas en mi corazón vivos sentimientos de fe, esperanza y caridad, con verdadero dolor de mis pecados y firme propósito de enmienda, mientras con profundo afecto y dolor de alma considero dentro de mí mismo y contemplo mentalmente tus cinco preciosísimas llagas, teniendo ante mis ojos lo que ya hace tiempo profetizó David acerca de ti mismo, mi Jesús: 'Han taladrado mis manos y mis pies; han contado todos mis huesos.'",
+      "notes": "Spanish Catholic version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Voici, ô bon et très doux Jésus, que je me prosterne à genoux devant ta face, et avec le plus ardent désir de mon âme je te prie et te supplie d'imprimer dans mon cœur des sentiments vifs de foi, d'espérance et de charité, avec un vrai repentir de mes péchés et une ferme résolution d'amendement, tandis qu'avec une profonde affection et une douleur d'âme je considère en moi-même et contemple mentalement tes cinq très précieuses plaies, ayant devant les yeux ce que le prophète David a prédit jadis de toi-même à ton sujet, mon Jésus : 'Ils ont percé mes mains et mes pieds ; ils ont compté tous mes os.'",
+      "notes": "French Catholic version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Siehe, o guter und süßester Jesus, ich werfe mich auf die Knie vor deinem Angesicht und bitte und flehe dich mit dem innigsten Verlangen meiner Seele an, dass du in mein Herz lebendige Gefühle des Glaubens, der Hoffnung und der Liebe einprägen mögest, mit wahrer Reue über meine Sünden und festem Vorsatz der Besserung, während ich mit tiefer Zuneigung und Seelenschmerz in mir selbst betrachte und geistig deine fünf kostbarsten Wunden erwäge, vor Augen habend, was der Prophet David vor langer Zeit von dir selbst über dich geweissagt hat, mein Jesus: 'Sie haben meine Hände und Füße durchbohrt; sie haben alle meine Knochen gezählt.'",
+      "notes": "German Catholic version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Ecco, o buono e dolcissimo Gesù, mi getto in ginocchio al tuo cospetto e con il più fervente desiderio dell'anima mia ti prego e ti supplico di imprimere nel mio cuore vivi sentimenti di fede, speranza e carità, con vero dolore dei miei peccati e fermo proposito di emendamento, mentre con profondo affetto e dolore d'anima considero dentro di me e mentalmente contemplo le tue cinque preziosissime piaghe, avendo davanti agli occhi ciò che già anticamente profetò Davide di te stesso riguardo a te, mio Gesù: 'Hanno forato le mie mani e i miei piedi; hanno contato tutte le mie ossa.'",
+      "notes": "Italian Catholic version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Eis aqui, ó bom e dulcíssimo Jesus, que me prostro de joelhos diante do teu rosto, e com o mais fervoroso desejo da minha alma te rogo e te suplico que imprimas no meu coração vivos sentimentos de fé, esperança e caridade, com verdadeiro arrependimento dos meus pecados e firme propósito de emenda, enquanto com profundo afeto e dor de alma considero dentro de mim mesmo e mentalmente contemplo as tuas cinco preciosíssimas chagas, tendo diante dos olhos o que já há muito tempo profetizou Davi acerca de ti mesmo a teu respeito, meu Jesus: 'Traspassaram-me as mãos e os pés; contaram todos os meus ossos.'",
+      "notes": "Portuguese Catholic version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Oto, dobry i najsłodszy Jezu, padam na kolana przed Twoim obliczem i z najgorętszym pragnieniem duszy mojej błagam Cię i proszę, abyś w moim sercu odcisnął żywe uczucia wiary, nadziei i miłości, z prawdziwym bólem za moje grzechy i mocnym postanowieniem poprawy, podczas gdy z głębokim uczuciem i bólem duszy rozważam w sobie i umysłowo kontempluję Twoje pięć najcenniejszych ran, mając przed oczami to, co już dawno prorokował Dawid o Tobie samym względem Ciebie, mój Jezu: 'Przebodli moje ręce i nogi; policzyli wszystkie moje kości.'",
+      "notes": "Polish Catholic version"
+    }
+  }
+}

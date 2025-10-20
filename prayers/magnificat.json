@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "magnificat",
+    "title": "Magnificat",
+    "primary_category": "liturgical",
+    "labels": ["liturgical", "marian", "biblical", "essential"],
+    "importance": "essential",
+    "type": "prayer",
+    "description": "The canticle of Mary from the Gospel of Luke, sung during Vespers",
+    "origin": "Gospel of Luke 1:46-55, Mary's response to Elizabeth",
+    "origin_date": "~0085",
+    "usage": "Sung or recited during Vespers (Evening Prayer) in the Liturgy of the Hours",
+    "feast_days": [],
+    "devotions": ["liturgical prayer", "marian devotion", "vespers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Magnificat anima mea Dominum,\net exsultavit spiritus meus in Deo salutari meo,\nquia respexit humilitatem ancillae suae.\nEcce enim ex hoc beatam me dicent omnes generationes,\nquia fecit mihi magna qui potens est,\net sanctum nomen eius,\net misericordia eius a progenie in progenies\ntimentibus eum.\nFecit potentiam in brachio suo,\ndispersit superbos mente cordis sui;\ndeposuit potentes de sede\net exaltavit humiles;\nesurientes implevit bonis\net divites dimisit inanes.\nSuscepit Israel puerum suum,\nrecordatus misericordiae suae,\nsicut locutus est ad patres nostros,\nAbraham et semini eius in saecula.\n\nAmen.",
+      "notes": "Latin Magnificat from the Vulgate"
+    },
+    "en": {
+      "language": "English",
+      "text": "My soul doth magnify the Lord,\nand my spirit hath rejoiced in God my Saviour.\nFor he hath regarded the lowliness of his handmaiden.\nFor behold, from henceforth all generations shall call me blessed.\nFor he that is mighty hath magnified me,\nand holy is his Name.\nAnd his mercy is on them that fear him\nfrom generation unto generation.\nHe hath showed strength with his arm;\nhe hath scattered the proud in the imagination of their hearts.\nHe hath put down the mighty from their seat,\nand hath exalted the humble and meek.\nHe hath filled the hungry with good things,\nand the rich he hath sent empty away.\nHe remembering his mercy hath holpen his servant Israel,\nas he promised to our forefathers,\nAbraham and his seed for ever.\n\nAmen.",
+      "notes": "Traditional English translation of the Magnificat"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Proclama mi alma la grandeza del Señor,\nse regocija mi espíritu en Dios mi Salvador,\nporque ha mirado la humildad de su esclava.\nDesde ahora me felicitarán todas las generaciones,\nporque el Poderoso ha hecho obras grandes por mí:\nsu nombre es santo,\ny su misericordia llega a sus fieles\nde generación en generación.\nHa desplegado la fuerza de su brazo,\nha dispersado a los soberbios de corazón.\nHa derribado a los potentados de sus tronos\ny ha elevado a los humildes.\nA los hambrientos los ha colmado de bienes\ny a los ricos los ha despedido vacíos.\nHa auxiliado a Israel, su siervo,\nacordándose de la misericordia,\ncomo lo había prometido a nuestros padres,\na Abraham y a su descendencia por siempre.\n\nAmén.",
+      "notes": "Magnificat en español"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Mon âme exalte le Seigneur,\net mon esprit tressaille de joie en Dieu mon Sauveur,\nparce qu'il a jeté les yeux sur l'humilité de sa servante.\nVoici, désormais toutes les générations me diront bienheureuse,\ncar le Tout-Puissant a fait pour moi de grandes choses.\nSaint est son nom,\net sa miséricorde s'étend d'âge en âge\nsur ceux qui le craignent.\nIl a déployé la force de son bras;\nil a dispersé les hommes au cœur superbe.\nIl a renversé les puissants de leurs trônes\net élevé les humbles.\nIl a rassasié de biens les affamés\net renvoyé les riches les mains vides.\nIl a secouru Israël, son serviteur,\nse souvenant de sa miséricorde,\nselon ce qu'il avait dit à nos pères,\nen faveur d'Abraham et de sa postérité à jamais.\n\nAmen.",
+      "notes": "Magnificat en français"
+    },
+    "de": {
+      "language": "German",
+      "text": "Meine Seele erhebt den Herrn,\nund mein Geist freut sich Gottes, meines Heilandes;\nden er hat die Niedrigkeit seiner Magd angesehen.\nSiehe, von nun an werden mich selig preisen alle Kindeskinder;\nden der Mächtige hat große Dinge an mir getan,\nund heilig ist sein Name.\nUnd seine Barmherzigkeit währet immer für und für\nbei denen, die ihn fürchten.\nEr übet Gewalt mit seinem Arm\nund zerstreuet, die hoffärtig sind in ihres Herzens Sinn.\nEr stößt die Gewaltigen vom Stuhl\nund erhebt die Elenden.\nDie Hungrigen füllet er mit Gütern\nund läßt die Reichen leer.\nEr denket der Barmherzigkeit\nund hilft seinem Diener Israel auf,\nwie er geredet hat zu unsern Vätern,\nAbraham und seinem Samen ewiglich.\n\nAmen.",
+      "notes": "Magnificat auf Deutsch"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "L'anima mia magnifica il Signore,\ne il mio spirito esulta in Dio mio Salvatore,\nperché ha guardato l'umiltà della sua serva.\nEcco, d'ora innanzi tutte le generazioni mi chiameranno beata,\nperché grandi cose ha fatto in me l'Onnipotente,\ne santo è il suo nome;\ne la sua misericordia si estende di generazione in generazione\na quelli che lo temono.\nHa spiegato la potenza del suo braccio,\nha disperso i superbi nei pensieri del loro cuore;\nha rovesciato i potenti dai troni,\nha innalzato gli umili;\nha ricolmato di beni gli affamati,\nha rimandato a mani vuote i ricchi.\nHa soccorso Israele suo servo,\nricordandosi della misericordia,\ncome aveva detto ai nostri padri,\nad Abramo e alla sua discendenza per sempre.\n\nAmen.",
+      "notes": "Magnificat in italiano"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "A minha alma glorifica ao Senhor,\ne o meu espírito se regozija em Deus meu Salvador,\nporque olhou para a humildade da sua serva.\nPois eis que desde agora todas as gerações me chamarão bem-aventurada,\nporque o Poderoso me fez grandes coisas.\nSanto é o seu nome,\ne a sua misericórdia se estende de geração em geração\nsobre aqueles que o temem.\nManifestou o poder do seu braço,\ndispersou os soberbos no pensamento do seu coração;\ndepôs os poderosos dos seus tronos\ne exaltou os humildes;\naos famintos encheu de bens\ne aos ricos despediu vazios.\nAcolheu a Israel, seu servo,\nlembrando-se da sua misericórdia,\ncomo tinha falado a nossos pais,\na Abraão e à sua descendência para sempre.\n\nAmém.",
+      "notes": "Magnificat em português"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Wielbi dusza moja Pana,\ni weseli się duch mój w Bogu, Zbawicielu moim,\nże wejrzał na uniżenie służebnicy swojej.\nOto bowiem odtąd błogosławić mnie będą wszystkie pokolenia,\nże wielkie rzeczy uczynił mi Wszechmocny,\na święte imię Jego,\ni miłosierdzie Jego z pokolenia na pokolenie\nnad tymi, którzy się Go boją.\nOkazał moc ramienia swego,\nrozproszył pyszniących się zamysłem serca swego;\nstrącił władców z tronów,\na wywyższył pokornych;\ngłodnych nasycił dobrami,\na bogatych odprawił z próżnymi rękami.\nUjął się za sługą swoim, Izraelem,\nupamiętując miłosierdzie swoje,\njak mówił do ojców naszych,\nAbrahamowi i potomstwu jego na wieki.\n\nAmen.",
+      "notes": "Magnificat w języku polskim"
+    }
+  }
+}

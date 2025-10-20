@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "come-holy-spirit",
+    "title": "Come Holy Spirit",
+    "primary_category": "holy-spirit",
+    "labels": ["holy-spirit", "devotional", "common"],
+    "importance": "common",
+    "type": "prayer",
+    "description": "A prayer invoking the Holy Spirit to fill us with His gifts and graces",
+    "origin": "Traditional Catholic prayer, commonly used in devotional practice",
+    "origin_date": "~1800",
+    "usage": "Recited to invoke the Holy Spirit's presence and gifts, especially during prayer and meditation",
+    "feast_days": ["pentecost"],
+    "devotions": ["holy-spirit-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Veni, Sancte Spiritus, reple tuorum corda fidelium et tui amoris in eis ignem accende.\n\nVeni, Sancte Spiritus.",
+      "notes": "Traditional Latin version"
+    },
+    "en": {
+      "language": "English",
+      "text": "Come, Holy Spirit, fill the hearts of Thy faithful and enkindle in them the fire of Thy love.\n\nCome, Holy Spirit.",
+      "notes": "Common English translation used in Catholic prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor.\n\nVen, Espíritu Santo.",
+      "notes": "Spanish Catholic liturgical version"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Viens, Esprit Saint, remplis les cœurs de tes fidèles et allume en eux le feu de ton amour.\n\nViens, Esprit Saint.",
+      "notes": "French Catholic liturgical version"
+    },
+    "de": {
+      "language": "German",
+      "text": "Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen und entzünde in ihnen das Feuer deiner Liebe.\n\nKomm, Heiliger Geist.",
+      "notes": "German Catholic liturgical version"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Vieni, Spirito Santo, riempi i cuori dei tuoi fedeli e accendi in essi il fuoco del tuo amore.\n\nVieni, Spirito Santo.",
+      "notes": "Italian Catholic liturgical version"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Vem, Espírito Santo, enche os corações dos teus fiéis e acende neles o fogo do teu amor.\n\nVem, Espírito Santo.",
+      "notes": "Portuguese Catholic liturgical version"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Przybądź, Duchu Święty, napełnij serca wiernych swoich i zapal w nich ogień swojej miłości.\n\nPrzybądź, Duchu Święty.",
+      "notes": "Polish Catholic liturgical version"
+    }
+  }
+}

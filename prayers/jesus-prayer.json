@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "jesus-prayer",
+    "title": "Jesus Prayer",
+    "primary_category": "christological",
+    "labels": ["christological", "contemplative", "eastern", "common"],
+    "importance": "common",
+    "type": "contemplative",
+    "description": "Eastern Christian prayer of the heart, repeated for inner stillness and repentance",
+    "origin": "Ancient Eastern Christian tradition, popularized by the Desert Fathers and Hesychast monks",
+    "origin_date": "~0300",
+    "usage": "Repeated continuously as a mantra for contemplative prayer and spiritual discipline",
+    "feast_days": ["all-days"],
+    "devotions": ["hesychasm", "contemplative-prayer"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Domine Iesu Christe, Fili Dei, miserere mei peccatoris.",
+      "notes": "Latin version of the Jesus Prayer used in Eastern Catholic traditions"
+    },
+    "en": {
+      "language": "English",
+      "text": "Lord Jesus Christ, Son of God, have mercy on me, a sinner.",
+      "notes": "Standard English translation of the Jesus Prayer"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Señor Jesucristo, Hijo de Dios, ten piedad de mí, pecador.",
+      "notes": "Spanish translation of the Jesus Prayer"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Seigneur Jésus-Christ, Fils de Dieu, aie pitié de moi, pécheur.",
+      "notes": "French translation of the Jesus Prayer"
+    },
+    "de": {
+      "language": "German",
+      "text": "Herr Jesus Christus, Sohn Gottes, erbarme dich meiner, eines Sünders.",
+      "notes": "German translation of the Jesus Prayer"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Signore Gesù Cristo, Figlio di Dio, abbi pietà di me peccatore.",
+      "notes": "Italian translation of the Jesus Prayer"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Senhor Jesus Cristo, Filho de Deus, tende piedade de mim, pecador.",
+      "notes": "Portuguese translation of the Jesus Prayer"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Panie Jezu Chryste, Synu Boży, zmiłuj się nade mną grzesznikiem.",
+      "notes": "Polish translation of the Jesus Prayer"
+    }
+  }
+}
