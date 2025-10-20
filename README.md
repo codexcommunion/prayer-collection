@@ -8,7 +8,7 @@ This project provides a standardized collection of the most important prayers fr
 
 ## Current Collection
 
-**50 prayers currently available:**
+**56 prayers currently available:**
 
 ```
 prayers/
@@ -73,12 +73,17 @@ Prayers are organized using a flexible **multi-label classification system** tha
 
 ### **Primary Categories**
 Each prayer has one primary theological focus:
-- **`christological`** - Prayers focused on Jesus Christ (Our Father)
-- **`marian`** - Prayers to the Virgin Mary (Hail Mary, Angelus, Memorare, Hail Holy Queen) 
-- **`liturgical`** - Formal liturgical prayers (Glory Be)
-- **`saints`** - Prayers for saint intercession (St. Michael Prayer)
-- **`penitential`** - Prayers of repentance (Act of Contrition)
+- **`penitential`** - Prayers of repentance and confession (Act of Contrition, Confiteor)
+- **`seasonal`** - Prayers for specific liturgical seasons (Advent Antiphons, Christmas Prayer)
+- **`marian`** - Prayers to the Virgin Mary (Hail Mary, Angelus, Memorare, Hail Holy Queen)
+- **`christological`** - Prayers focused on Jesus Christ (Our Father, Jesus Prayer)
 - **`creeds`** - Statements of faith (Apostles' Creed)
+- **`liturgical`** - Formal liturgical prayers (Glory Be, Te Deum)
+- **`devotional`** - Private devotional prayers (Divine Mercy Chaplet)
+- **`holy-spirit`** - Prayers to the Holy Spirit (Come Holy Spirit, Veni Creator Spiritus)
+- **`for-the-dead`** - Prayers for the deceased (Eternal Rest, Prayer for the Dead)
+- **`daily`** - Prayers for daily recitation (Morning Offering, Evening Prayer)
+- **`saints`** - Prayers for saint intercession (St. Michael Prayer, Litany of Loreto)
 
 ### **Labels** 
 Prayers can have multiple labels for flexible classification:
@@ -90,6 +95,30 @@ Prayers can have multiple labels for flexible classification:
 - **`rosary`** - Prayers used in the Rosary
 - **`mass`** - Prayers used in the Mass
 - **`protection`** - Prayers for spiritual protection
+- **`marian`** - Related to Mary
+- **`christological`** - Related to Christ
+- **`saints`** - Related to saints
+- **`penitential`** - Related to repentance
+- **`liturgical`** - Formal liturgical use
+- **`creeds`** - Statements of faith
+- **`holy-spirit`** - Related to the Holy Spirit
+- **`for-the-dead`** - Prayers for the deceased
+- **`evening`** - Evening prayers
+- **`morning`** - Morning prayers
+- **`mercy`** - Mercy-focused prayers
+- **`chaplet`** - Chaplet prayers
+- **`angels`** - Angel-related prayers
+- **`seasonal`** - Seasonal prayers (Advent, Christmas, Lent, Easter)
+- **`meals`** - Prayers before/after meals
+- **`family`** - Family prayers
+- **`contemplative`** - Contemplative prayers
+- **`eastern`** - Eastern Catholic traditions
+- **`litany`** - Litany prayers
+- **`petition`** - Petition prayers
+- **`intercession`** - Intercessory prayers
+- **`peace`** - Peace prayers
+- **`franciscan`** - Franciscan spirituality
+- **`praise`** - Prayers of praise
 
 ### **Importance Levels**
 - **`essential`** - Core prayers of fundamental importance
@@ -116,7 +145,7 @@ Each prayer JSON file follows this standardized structure:
     "title": "Prayer Title",
     "primary_category": "main-theological-focus",
     "labels": ["classification", "labels", "array"],
-    "importance": "liturgical-importance-level",
+    "importance": "essential",
     "type": "prayer-type",
     "description": "Brief description of the prayer",
     "origin": "Historical origin or source",
@@ -187,18 +216,18 @@ Each prayer JSON file follows this standardized structure:
 
 - **id**: Unique identifier for the prayer (kebab-case)
 - **title**: The common name of the prayer
-- **primary_category**: Main theological focus ("marian", "christological", "saints", "liturgical", "penitential", "creeds")
-- **labels**: Array of classification labels (["core", "essential", "daily", "rosary", etc.])
-- **importance**: Liturgical significance ("essential", "common", "devotional")
-- **type**: Specific prayer type (e.g., "devotional", "liturgical", "scriptural")
+- **primary_category**: Main theological focus (see Primary Categories above)
+- **labels**: Array of classification labels (cannot be empty, must include primary_category)
+- **importance**: Liturgical significance ("essential", "common")
+- **type**: Specific prayer type (e.g., "scriptural", "devotional", "liturgical", "prayer")
 - **description**: Brief explanation of the prayer's purpose
 - **origin**: Historical background or source
 - **origin_date**: Earliest known date or century of origin in ISO 8601 format. Use ranges for uncertain dates (e.g., "0030/0033", "1050/1150") or approximate dates with "~" prefix (e.g., "~0200", "~1200")
 - **usage**: Context in which the prayer is typically used
 - **feast_days**: Associated liturgical celebrations
 - **devotions**: Related devotional practices (e.g., "rosary", "divine-mercy")
-- **created_date**: Date the JSON file was created
-- **last_modified**: Date the JSON file was last updated
+- **created_date**: Date the JSON file was created (ISO 8601 format)
+- **last_modified**: Date the JSON file was last updated (ISO 8601 format)
 
 ## Translation Fields
 
@@ -231,6 +260,7 @@ Each content part has these properties:
   - `"versicle"`: The call/lead part (traditionally said by the leader/celebrant)
   - `"response"`: The reply part (traditionally said by the congregation/people)
   - `"both"`: Text said by everyone together
+- **optional** (optional): Whether this content part is optional (default: false)
 - **optional** (optional): Whether this content part is optional (default: false)
 
 ### Speaker Roles in Liturgical Dialogue
@@ -296,7 +326,7 @@ const prayerCollection = require('@codexcommunion/prayer-collection');
 
 // Get all prayers (flat array)
 const allPrayers = prayerCollection.getAllPrayers();
-console.log(allPrayers.length); // 9
+console.log(allPrayers.length); // 56
 
 // Get all primary categories
 const categories = prayerCollection.getPrimaryCategories();
@@ -308,7 +338,7 @@ console.log(labels); // ['core', 'essential', 'marian', 'daily', 'rosary', ...]
 
 // Get prayers by primary category
 const marianPrayers = prayerCollection.getPrayersByPrimaryCategory('marian');
-console.log(marianPrayers.length); // 4
+console.log(marianPrayers.length); // 10
 
 // Get prayers by label (flexible multi-classification)
 const corePrayers = prayerCollection.getPrayersByLabel('core');
@@ -523,12 +553,12 @@ interface PrayerMetadata {
 
 #### `PrimaryCategory`
 ```typescript
-type PrimaryCategory = 'christological' | 'marian' | 'liturgical' | 'saints' | 'penitential' | 'creeds';
+type PrimaryCategory = 'marian' | 'christological' | 'saints' | 'penitential' | 'liturgical' | 'devotional' | 'creeds' | 'holy-spirit' | 'for-the-dead' | 'daily' | 'seasonal';
 ```
 
 #### `Label`
 ```typescript
-type Label = 'core' | 'essential' | 'common' | 'devotional' | 'daily' | 'rosary' | 'marian' | 'christological' | 'saints' | 'penitential' | 'liturgical' | 'creeds' | 'protection' | 'mass' | 'confession';
+type Label = 'core' | 'essential' | 'common' | 'devotional' | 'daily' | 'rosary' | 'marian' | 'christological' | 'saints' | 'penitential' | 'liturgical' | 'creeds' | 'holy-spirit' | 'for-the-dead' | 'protection' | 'mass' | 'evening' | 'morning' | 'mercy' | 'chaplet' | 'angels' | 'seasonal' | 'advent' | 'christmas' | 'easter' | 'lent' | 'meals' | 'family' | 'contemplative' | 'eastern' | 'litany' | 'petition' | 'passion' | 'intercession' | 'peace' | 'franciscan' | 'anthony' | 'joseph' | 'jude' | 'patrick' | 'rita' | 'therese' | 'praise' | 'biblical' | 'eucharistic' | 'ancient' | 'virtues' | 'confession' | 'brief' | 'fatima';
 ```
 
 #### `ImportanceLevel`
@@ -540,8 +570,20 @@ type ImportanceLevel = 'essential' | 'common' | 'devotional';
 ```typescript
 interface PrayerTranslation {
   language: string;
-  text: string;
+  text?: string; // For simple prayers without references
+  content?: ContentPart[]; // For prayers that reference other prayers
   notes?: string;
+}
+```
+
+#### `ContentPart`
+```typescript
+interface ContentPart {
+  type: 'instructions' | 'text' | 'prayer-reference';
+  value: string; // For 'text'/'instructions': the text content; For 'prayer-reference': the prayer ID to reference
+  count?: number; // Number of times to repeat this content part (default: 1)
+  speaker?: 'versicle' | 'response' | 'both'; // Optional liturgical speaker role for dialogue prayers
+  optional?: boolean; // Whether this content part is optional (default: false)
 }
 ```
 
