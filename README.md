@@ -342,7 +342,7 @@ console.log(marianPrayers.length); // 10
 
 // Get prayers by label (flexible multi-classification)
 const corePrayers = prayerCollection.getPrayersByLabel('core');
-console.log(corePrayers.length); // 2 (Our Father, Hail Mary)
+console.log(corePrayers.length); // 4 (Our Father, Hail Mary, Glory Be, Sign of the Cross)
 
 const dailyPrayers = prayerCollection.getPrayersByLabel('daily');
 console.log(dailyPrayers.length); // 9
