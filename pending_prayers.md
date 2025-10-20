@@ -99,6 +99,11 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 - [x] **Lenten Prayer** - Prayer for spiritual renewal (labels: `["seasonal", "lent", "penitential"]`)
 - [x] **Easter Prayer** - Celebration of the Resurrection (labels: `["seasonal", "easter", "liturgical"]`)
 
+## Spiritual Warfare Prayers (`spiritual-warfare`)
+
+### High Priority
+- [ ] **Armor of God Prayer** - Based on Ephesians 6:10-18, prayer for spiritual protection (labels: `["spiritual-warfare", "biblical", "protection", "essential"]`)
+
 ---
 
 ## Contributing New Prayers
