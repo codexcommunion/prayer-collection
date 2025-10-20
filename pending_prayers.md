@@ -41,9 +41,9 @@ This document lists prayers planned for future releases of the @codexcommunion/p
 - [x] **Prayer to St. Jude** - Patron of hopeless causes (labels: `["saints", "jude", "devotional"]`)
 
 ### Low Priority
-- [ ] **Prayer to St. Rita** - Patron saint of impossible causes (labels: `["saints", "rita", "devotional", "common"]`)
-- [ ] **Prayer to St. Therese** - Prayer to the Little Flower (labels: `["saints", "therese", "devotional", "common"]`)
-- [ ] **Prayer to St. Patrick** - Lorica prayer for protection (labels: `["saints", "patrick", "protection", "devotional"]`)
+- [x] **Prayer to St. Rita** - Patron saint of impossible causes (labels: `["saints", "rita", "devotional", "common"]`)
+- [x] **Prayer to St. Therese** - Prayer to the Little Flower (labels: `["saints", "therese", "devotional", "common"]`)
+- [x] **Prayer to St. Patrick** - Lorica prayer for protection (labels: `["saints", "patrick", "protection", "devotional"]`)
 
 ## Penitential Prayers (`penitential`)
 
