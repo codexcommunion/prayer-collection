@@ -46,7 +46,7 @@ jobs:
           const total = Object.values(all).reduce((sum, prayers) => sum + prayers.length, 0);
           console.log('Total prayers:', total);
           console.log('Categories:', Object.keys(all).length);
-          if (total < 9) {
+          if (total < 50) {
             console.error('❌ Prayer count regression detected!');
             process.exit(1);
           }

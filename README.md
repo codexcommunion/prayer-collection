@@ -64,7 +64,7 @@ prayers/
 └── veni-creator-spiritus.json ✅
 ```
 
-**📋 Complete Current List:** [lib/prayer-index.json](lib/prayer-index.json)  
+**📋 Complete Current List:** [lib/prayer-index.json](lib/prayer-index.json) (generated after running `npm run build`)  
 **🔮 Planned Additions:** [pending_prayers.md](pending_prayers.md)
 
 ## Prayer Organization
@@ -330,7 +330,7 @@ console.log(allPrayers.length); // 56
 
 // Get all primary categories
 const categories = prayerCollection.getPrimaryCategories();
-console.log(categories); // ['marian', 'christological', 'liturgical', 'saints', 'penitential', 'creeds']
+console.log(categories); // ['penitential', 'seasonal', 'marian', 'christological', 'creeds', 'liturgical', 'devotional', 'holy-spirit', 'for-the-dead', 'daily', 'saints']
 
 // Get all available labels
 const labels = prayerCollection.getLabels();
@@ -342,14 +342,14 @@ console.log(marianPrayers.length); // 10
 
 // Get prayers by label (flexible multi-classification)
 const corePrayers = prayerCollection.getPrayersByLabel('core');
-console.log(corePrayers.length); // 3 (Our Father, Hail Mary, Glory Be)
+console.log(corePrayers.length); // 2 (Our Father, Hail Mary)
 
 const dailyPrayers = prayerCollection.getPrayersByLabel('daily');
-console.log(dailyPrayers.length); // Prayers suitable for daily recitation
+console.log(dailyPrayers.length); // 9
 
 // Get prayers by importance level
 const essentialPrayers = prayerCollection.getPrayersByImportance('essential');
-console.log(essentialPrayers.length); // Most important prayers
+console.log(essentialPrayers.length); // 10
 
 // Get a specific prayer
 const ourFather = prayerCollection.getPrayerById('our-father');
