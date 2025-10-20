@@ -1,136 +1,68 @@
 # Prayer Collection
 
-A comprehensive collection of traditional Roman Catholic prayers in multiple languages, organized as structured JSON files.
+A comprehensive collection of traditional Roman Catholic prayers in multiple languages, organized as structured JSON files with flexible label-based classification.
 
 ## Project Overview
 
-This project provides a standardized collection of the most important prayers from the Roman Catholic tradition. Each prayer is stored as a separate JSON file with metadata and multilingual translations to support internationalization (i18n) efforts.
+This project provides a standardized collection of the most important prayers from the Roman Catholic tradition. Each prayer is stored as a separate JSON file with rich metadata and multilingual translations to support internationalization (i18n) efforts.
 
-## Directory Structure
+## Current Collection
+
+**9 prayers currently available:**
 
 ```
-prayer-collection/
-├── README.md
-└── prayers/
-    ├── core/
-    │   ├── our-father.json
-    │   ├── hail-mary.json
-    │   ├── glory-be.json
-    │   └── sign-of-the-cross.json (TODO)
-    ├── creeds/
-    │   ├── apostles-creed.json
-    │   └── nicene-creed.json (TODO)
-    ├── marian/
-    │   ├── angelus.json
-    │   ├── memorare.json
-    │   ├── hail-holy-queen.json
-    │   ├── regina-caeli.json (TODO)
-    │   ├── alma-redemptoris-mater.json (TODO)
-    │   ├── ave-regina-caelorum.json (TODO)
-    │   ├── sub-tuum-praesidium.json (TODO)
-    │   └── litany-of-loreto.json (TODO)
-    ├── christological/
-    │   ├── anima-christi.json (TODO)
-    │   ├── prayer-before-crucifix.json (TODO)
-    │   ├── jesus-prayer.json (TODO)
-    │   └── litany-of-the-sacred-heart.json (TODO)
-    ├── holy-spirit/
-    │   ├── veni-creator-spiritus.json (TODO)
-    │   └── come-holy-spirit.json (TODO)
-    ├── saints/
-    │   ├── st-michael-prayer.json
-    │   ├── prayer-to-st-joseph.json (TODO)
-    │   └── prayer-to-guardian-angel.json (TODO)
-    ├── penitential/
-    │   ├── act-of-contrition.json
-    │   ├── act-of-faith.json (TODO)
-    │   ├── act-of-hope.json (TODO)
-    │   └── act-of-love.json (TODO)
-    ├── daily/
-    │   ├── morning-offering.json (TODO)
-    │   └── evening-prayer.json (TODO)
-    ├── liturgical/
-    │   ├── te-deum.json (TODO)
-    │   ├── magnificat.json (TODO)
-    │   ├── canticle-of-zechariah.json (TODO)
-    │   └── canticle-of-simeon.json (TODO)
-    ├── devotional/
-    │   └── divine-mercy-chaplet.json (TODO)
-    └── for-the-dead/
-        ├── prayer-for-the-dead.json (TODO)
-        └── eternal-rest.json (TODO)
+prayers/
+├── act-of-contrition.json ✅
+├── angelus.json ✅
+├── apostles-creed.json ✅
+├── glory-be.json ✅
+├── hail-holy-queen.json ✅
+├── hail-mary.json ✅
+├── memorare.json ✅
+├── our-father.json ✅
+└── st-michael-prayer.json ✅
 ```
 
-## Prayer Categories
+**📋 Complete Current List:** [lib/prayer-index.json](lib/prayer-index.json)  
+**🔮 Planned Additions:** [pending_prayers.md](pending_prayers.md)
 
-### **Core Prayers (`core/`)**
-The most fundamental prayers every Catholic should know:
-- **Our Father** - The Lord's Prayer taught by Jesus Christ ✅
-- **Hail Mary** - Central Marian prayer combining biblical and traditional elements ✅
-- **Glory Be** - Trinitarian doxology of praise ✅
-- **Sign of the Cross** - Fundamental Christian prayer and blessing
+## Prayer Organization
 
-### **Creeds (`creeds/`)**
-Statements of Christian faith:
-- **Apostles' Creed** - Statement of Christian faith ✅
-- **Nicene Creed** - More detailed statement of faith from the Councils of Nicaea and Constantinople
+Prayers are organized using a flexible **multi-label classification system** that allows prayers to belong to multiple categories simultaneously.
 
-### **Marian Prayers (`marian/`)**
-Prayers dedicated to the Blessed Virgin Mary:
-- **Angelus** - Marian devotion with versicles and responses ✅
-- **Memorare** - Prayer of confident petition to Mary ✅
-- **Hail Holy Queen** - Marian antiphon (Salve Regina) ✅
-- **Regina Caeli** - Easter season antiphon to Mary
-- **Alma Redemptoris Mater** - Advent/Christmas season Marian antiphon
-- **Ave Regina Caelorum** - Lenten season Marian antiphon
-- **Sub Tuum Praesidium** - Ancient prayer seeking Mary's protection
-- **Litany of Loreto** - Traditional litany of invocations to Mary
+### **Primary Categories**
+Each prayer has one primary theological focus:
+- **`christological`** - Prayers focused on Jesus Christ (Our Father)
+- **`marian`** - Prayers to the Virgin Mary (Hail Mary, Angelus, Memorare, Hail Holy Queen) 
+- **`liturgical`** - Formal liturgical prayers (Glory Be)
+- **`saints`** - Prayers for saint intercession (St. Michael Prayer)
+- **`penitential`** - Prayers of repentance (Act of Contrition)
+- **`creeds`** - Statements of faith (Apostles' Creed)
 
-### **Christological Prayers (`christological/`)**
-Prayers focused on Jesus Christ:
-- **Anima Christi** - Prayer for spiritual communion with Christ
-- **Prayer Before Crucifix** - Meditation before the cross of Christ
-- **Jesus Prayer** - Eastern Christian prayer of the heart
-- **Litany of the Sacred Heart** - Devotional prayer to the Sacred Heart of Jesus
+### **Labels** 
+Prayers can have multiple labels for flexible classification:
+- **`core`** - Essential prayers every Catholic should know
+- **`essential`** - Prayers of highest liturgical importance  
+- **`common`** - Widely known prayers
+- **`devotional`** - Private devotional prayers
+- **`daily`** - Prayers for daily recitation
+- **`rosary`** - Prayers used in the Rosary
+- **`mass`** - Prayers used in the Mass
+- **`protection`** - Prayers for spiritual protection
 
-### **Holy Spirit Prayers (`holy-spirit/`)**
-Prayers to the Third Person of the Trinity:
-- **Veni Creator Spiritus** - Ancient hymn invoking the Holy Spirit
-- **Come Holy Spirit** - Prayer for the gifts of the Holy Spirit
+### **Importance Levels**
+- **`essential`** - Core prayers of fundamental importance
+- **`common`** - Standard prayers in regular use
+- **`devotional`** - Optional prayers for personal devotion
 
-### **Prayers to Saints (`saints/`)**
-Intercession through the communion of saints:
-- **St. Michael Prayer** - Protection prayer against evil ✅
-- **Prayer to St. Joseph** - Prayer to the patron of the universal Church
-- **Prayer to Guardian Angel** - Prayer for angelic protection and guidance
+### **Classification Examples**
+- **Our Father**: `christological` + `["core", "essential", "christological", "daily", "rosary", "mass"]`
+- **Hail Mary**: `marian` + `["core", "essential", "marian", "rosary", "daily"]`
+- **St. Michael Prayer**: `saints` + `["saints", "protection", "common"]`
 
-### **Penitential Prayers (`penitential/`)**
-Prayers expressing sorrow for sin and acts of virtue:
-- **Act of Contrition** - Penitential prayer expressing sorrow for sin ✅
-- **Act of Faith** - Expression of belief in God and divine truth
-- **Act of Hope** - Expression of trust in God's promises
-- **Act of Love** - Expression of love for God and neighbor
-
-### **Daily Prayers (`daily/`)**
-Prayers for sanctifying the day:
-- **Morning Offering** - Consecration of the day to God
-- **Evening Prayer** - Prayer of gratitude and examination at day's end
-
-### **Liturgical Prayers (`liturgical/`)**
-Prayers from the Church's official worship:
-- **Te Deum** - Ancient hymn of praise
-- **Magnificat** - Canticle of Mary (Luke 1:46-55)
-- **Canticle of Zechariah** - Benedictus (Luke 1:68-79)
-- **Canticle of Simeon** - Nunc Dimittis (Luke 2:29-32)
-
-### **Devotional Prayers (`devotional/`)**
-Prayers from approved private devotions:
-- **Divine Mercy Chaplet** - Prayer based on the revelations to St. Faustina
-
-### **Prayers for the Dead (`for-the-dead/`)**
-Intercession for souls in purgatory:
-- **Prayer for the Dead** - Intercession for souls in purgatory
-- **Eternal Rest** - Prayer for the repose of souls
+> **📋 Complete Prayer List**: See [lib/prayer-index.json](lib/prayer-index.json) for all available prayers and their classifications.
+> 
+> **🔮 Future Prayers**: See [pending_prayers.md](pending_prayers.md) for prayers planned for future releases.
 
 ## Prayer JSON Structure
 
@@ -141,7 +73,9 @@ Each prayer JSON file follows this standardized structure:
   "metadata": {
     "id": "unique-prayer-identifier",
     "title": "Prayer Title",
-    "category": "prayer-category",
+    "primary_category": "main-theological-focus",
+    "labels": ["classification", "labels", "array"],
+    "importance": "liturgical-importance-level",
     "type": "prayer-type",
     "description": "Brief description of the prayer",
     "origin": "Historical origin or source",
@@ -201,7 +135,9 @@ Each prayer JSON file follows this standardized structure:
 
 - **id**: Unique identifier for the prayer (kebab-case)
 - **title**: The common name of the prayer
-- **category**: Type of prayer (e.g., "marian", "christological", "petition", "praise")
+- **primary_category**: Main theological focus ("marian", "christological", "saints", "liturgical", "penitential", "creeds")
+- **labels**: Array of classification labels (["core", "essential", "daily", "rosary", etc.])
+- **importance**: Liturgical significance ("essential", "common", "devotional")
 - **type**: Specific prayer type (e.g., "devotional", "liturgical", "scriptural")
 - **description**: Brief explanation of the prayer's purpose
 - **origin**: Historical background or source
@@ -240,44 +176,73 @@ Install the prayer collection as an NPM package:
 npm install @codexcommunion/prayer-collection
 ```
 
+### Browser Compatibility
+
+This library is **fully compatible with browsers** and modern bundlers (Webpack, Vite, Rollup, etc.). The library uses static data imports instead of filesystem operations, making it work seamlessly in both Node.js and browser environments.
+
 ### Direct Download
 
 You can also download the JSON files directly from this repository and use them in your project.
 
 ## Usage
 
+> **📋 Prayer Reference**: See [lib/prayer-index.json](lib/prayer-index.json) for current prayer IDs and available categories/labels.
+
 ### Node.js / JavaScript
 
 ```javascript
 const prayerCollection = require('@codexcommunion/prayer-collection');
 
-// Get all available categories
-const categories = prayerCollection.getCategories();
-console.log(categories); // ['core', 'creeds', 'marian', 'saints', ...]
+// Get all prayers (flat array)
+const allPrayers = prayerCollection.getAllPrayers();
+console.log(allPrayers.length); // 9
 
-// Get all prayers in a category
-const corePrayers = prayerCollection.getPrayersByCategory('core');
-console.log(corePrayers.length); // 3
+// Get all primary categories
+const categories = prayerCollection.getPrimaryCategories();
+console.log(categories); // ['marian', 'christological', 'liturgical', 'saints', 'penitential', 'creeds']
+
+// Get all available labels
+const labels = prayerCollection.getLabels();
+console.log(labels); // ['core', 'essential', 'marian', 'daily', 'rosary', ...]
+
+// Get prayers by primary category
+const marianPrayers = prayerCollection.getPrayersByPrimaryCategory('marian');
+console.log(marianPrayers.length); // 4
+
+// Get prayers by label (flexible multi-classification)
+const corePrayers = prayerCollection.getPrayersByLabel('core');
+console.log(corePrayers.length); // 3 (Our Father, Hail Mary, Glory Be)
+
+const dailyPrayers = prayerCollection.getPrayersByLabel('daily');
+console.log(dailyPrayers.length); // Prayers suitable for daily recitation
+
+// Get prayers by importance level
+const essentialPrayers = prayerCollection.getPrayersByImportance('essential');
+console.log(essentialPrayers.length); // Most important prayers
 
 // Get a specific prayer
 const ourFather = prayerCollection.getPrayerById('our-father');
-console.log(ourFather.metadata.title); // "Our Father"
+console.log(ourFather.metadata.primary_category); // "christological"
+console.log(ourFather.metadata.labels); // ["core", "essential", "christological", "daily", "rosary", "mass"]
 
 // Get prayer text in a specific language
 const prayerText = prayerCollection.getPrayerText('our-father', 'en');
 console.log(prayerText); // "Our Father, who art in heaven..."
 
-// Search prayers
+// Search prayers (now searches title, description, and text)
 const results = prayerCollection.searchPrayers('Mary');
 console.log(results.length); // Returns prayers containing "Mary"
 
-// Get all prayers
-const allPrayers = prayerCollection.getAllPrayers();
-console.log(Object.keys(allPrayers)); // All categories
+// Get all prayers organized by category (if needed)
+const prayersByCategory = prayerCollection.getAllPrayersByCategory();
+console.log(Object.keys(prayersByCategory)); // All primary categories
 
 // Get supported languages
 const languages = prayerCollection.getSupportedLanguages();
 console.log(languages); // ['la', 'en', 'es', 'fr', 'de', 'it', 'pt', 'pl']
+
+// Legacy functions (deprecated but still work)
+const legacyCategories = prayerCollection.getCategories(); // Same as getPrimaryCategories
 ```
 
 ### TypeScript
@@ -301,14 +266,15 @@ const results = searchPrayers('holy', 'en');
 
 ```jsx
 import React, { useState, useEffect } from 'react';
-import { getPrayersByCategory, getPrayerText } from '@codexcommunion/prayer-collection';
+import { getPrayersByLabel, getPrayerText } from '@codexcommunion/prayer-collection';
 
 function PrayerApp() {
   const [prayers, setPrayers] = useState([]);
   const [selectedLanguage, setSelectedLanguage] = useState('en');
 
   useEffect(() => {
-    const corePrayers = getPrayersByCategory('core');
+    // This works seamlessly in browser environments
+    const corePrayers = getPrayersByLabel('core');
     setPrayers(corePrayers);
   }, []);
 
@@ -330,7 +296,11 @@ function PrayerApp() {
     </div>
   );
 }
+
+export default PrayerApp;
 ```
+
+> **🌐 Browser Note**: This library uses static data imports, making it fully compatible with React, Create React App, Next.js, and other modern bundlers without requiring special configuration.
 
 ### Vue.js Example
 
@@ -352,9 +322,10 @@ function PrayerApp() {
 </template>
 
 <script>
-import { getPrayersByCategory, getPrayerText } from '@codexcommunion/prayer-collection';
+import { getPrayersByPrimaryCategory, getPrayerText } from '@codexcommunion/prayer-collection';
 
 export default {
+  name: 'PrayerApp',
   data() {
     return {
       prayers: [],
@@ -362,7 +333,8 @@ export default {
     };
   },
   mounted() {
-    this.prayers = getPrayersByCategory('marian');
+    // Works perfectly in browser environments with Vue CLI, Vite, etc.
+    this.prayers = getPrayersByPrimaryCategory('marian');
   },
   methods: {
     getPrayerText
@@ -371,30 +343,52 @@ export default {
 </script>
 ```
 
+> **🌐 Browser Note**: This library is fully compatible with Vue.js, Vue CLI, Vite, and Nuxt.js without requiring special bundler configuration.
+
 ## API Reference
 
 ### Functions
 
-#### `getCategories(): string[]`
-Returns an array of all available prayer categories.
+#### `getAllPrayers(): Prayer[]`
+Returns all prayers as a flat array.
 
-#### `getPrayersByCategory(category: string): Prayer[]`
-Returns all prayers in the specified category.
+#### `getPrimaryCategories(): string[]`
+Returns an array of all primary category names.
+
+#### `getLabels(): string[]`
+Returns an array of all available labels.
+
+#### `getPrayersByPrimaryCategory(category: PrimaryCategory): Prayer[]`
+Returns all prayers with the specified primary category.
+
+#### `getPrayersByLabel(label: Label): Prayer[]`
+Returns all prayers that have the specified label.
+
+#### `getPrayersByImportance(importance: ImportanceLevel): Prayer[]`
+Returns all prayers with the specified importance level.
 
 #### `getPrayerById(prayerId: string): Prayer | null`
 Returns a specific prayer by its ID, or null if not found.
 
-#### `getAllPrayers(): { [category: string]: Prayer[] }`
-Returns all prayers organized by category.
+#### `getAllPrayersByCategory(): { [category: string]: Prayer[] }`
+Returns all prayers organized by primary category.
 
 #### `getPrayerText(prayerId: string, language?: string): string | null`
 Returns the prayer text in the specified language (default: 'en').
 
 #### `searchPrayers(searchTerm: string, language?: string): Prayer[]`
-Searches for prayers containing the specified term.
+Searches for prayers containing the specified term in text, title, or description.
 
 #### `getSupportedLanguages(): string[]`
 Returns an array of supported language codes.
+
+### Legacy Functions (Deprecated)
+
+#### `getCategories(): string[]`
+Returns primary categories. Use `getPrimaryCategories()` instead.
+
+#### `getPrayersByCategory(category: string): Prayer[]`
+Returns prayers by primary category. Use `getPrayersByPrimaryCategory()` instead.
 
 ### Types (TypeScript)
 
@@ -411,7 +405,9 @@ interface Prayer {
 interface PrayerMetadata {
   id: string;
   title: string;
-  category: string;
+  primary_category: PrimaryCategory;
+  labels: Label[];
+  importance: ImportanceLevel;
   type: string;
   description: string;
   origin: string;
@@ -424,6 +420,21 @@ interface PrayerMetadata {
 }
 ```
 
+#### `PrimaryCategory`
+```typescript
+type PrimaryCategory = 'christological' | 'marian' | 'liturgical' | 'saints' | 'penitential' | 'creeds';
+```
+
+#### `Label`
+```typescript
+type Label = 'core' | 'essential' | 'common' | 'devotional' | 'daily' | 'rosary' | 'marian' | 'christological' | 'saints' | 'penitential' | 'liturgical' | 'creeds' | 'protection' | 'mass' | 'confession';
+```
+
+#### `ImportanceLevel`
+```typescript
+type ImportanceLevel = 'essential' | 'common' | 'devotional';
+```
+
 #### `PrayerTranslation`
 ```typescript
 interface PrayerTranslation {
@@ -432,6 +443,30 @@ interface PrayerTranslation {
   notes?: string;
 }
 ```
+
+## Implementation Details
+
+### Universal Compatibility Architecture
+
+This library uses a **static data import approach** to ensure compatibility across all JavaScript environments:
+
+- **Build Process**: During `npm run build`, all JSON files are pre-imported and compiled into a static JavaScript module (`lib/prayer-data.js`)
+- **No Runtime File I/O**: The library doesn't use `fs.readFileSync()` or other Node.js filesystem operations at runtime
+- **Bundler Friendly**: Works seamlessly with Webpack, Vite, Rollup, Parcel, and other modern bundlers
+- **Tree Shaking**: Modern bundlers can optimize and tree-shake the static data as needed
+
+### Build Pipeline
+
+1. **`scripts/generate-static-data.js`**: Converts JSON files to JavaScript module
+2. **`scripts/build.js`**: Validates prayer structure and generates metadata
+3. **`scripts/validate.js`**: Comprehensive validation with error reporting
+4. **`index.js`**: Main API that imports from static data module
+
+### Performance Benefits
+
+- **Faster Loading**: No dynamic file reads, everything is pre-bundled
+- **Better Caching**: Static imports can be cached more effectively by bundlers
+- **Smaller Bundle Size**: Only used prayers get included in final bundles (with tree shaking)
 
 ## Publishing
 

@@ -2,7 +2,9 @@
   "metadata": {
     "id": "hail-mary",
     "title": "Hail Mary",
-    "category": "marian",
+    "primary_category": "marian",
+    "labels": ["core", "essential", "marian", "rosary", "daily"],
+    "importance": "essential",
     "type": "devotional",
     "description": "A traditional Catholic prayer to the Virgin Mary, combining the angel Gabriel's greeting and Elizabeth's blessing",
     "origin": "Based on Luke 1:28 (Angel Gabriel's greeting) and Luke 1:42 (Elizabeth's blessing), with traditional Catholic addition",
@@ -11,7 +13,7 @@
     "feast_days": ["annunciation", "visitation", "all-marian-feasts"],
     "devotions": ["rosary", "angelus", "marian-devotions"],
     "created_date": "2025-07-14",
-    "last_modified": "2025-07-14"
+    "last_modified": "2025-10-20"
   },
   "translations": {
     "la": {

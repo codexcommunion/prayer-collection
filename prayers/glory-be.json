@@ -2,7 +2,9 @@
   "metadata": {
     "id": "glory-be",
     "title": "Glory Be",
-    "category": "praise",
+    "primary_category": "liturgical",
+    "labels": ["core", "essential", "liturgical", "rosary", "daily"],
+    "importance": "essential",
     "type": "doxology",
     "description": "A short hymn of praise to the Trinity, also known as the Gloria Patri or Lesser Doxology",
     "origin": "Ancient Christian doxology, developed in early centuries of the Church",
@@ -11,7 +13,7 @@
     "feast_days": ["trinity-sunday", "all-liturgical-celebrations"],
     "devotions": ["rosary", "divine-office", "daily-prayers"],
     "created_date": "2025-07-14",
-    "last_modified": "2025-07-14"
+    "last_modified": "2025-10-20"
   },
   "translations": {
     "la": {

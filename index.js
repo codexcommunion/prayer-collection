@@ -1,5 +1,14 @@
-const fs = require('fs');
-const path = require('path');
+// Import static prayer data for universal compatibility (Node.js + browser)
+const {
+  ALL_PRAYERS,
+  PRIMARY_CATEGORIES,
+  ALL_LABELS,
+  SUPPORTED_LANGUAGES,
+  PRAYERS_BY_CATEGORY,
+  PRAYERS_BY_LABEL,
+  PRAYERS_BY_IMPORTANCE,
+  PRAYERS
+} = require('./lib/prayer-data');
 
 /**
  * Prayer Collection - A comprehensive collection of traditional Roman Catholic prayers
@@ -7,36 +16,73 @@ const path = require('path');
  */
 
 /**
- * Get all available prayer categories
- * @returns {string[]} Array of category names
+ * Get all prayers from static data
+ * @returns {Object[]} Array of all prayer objects
  */
-function getCategories() {
-  const prayersDir = path.join(__dirname, 'prayers');
-  return fs.readdirSync(prayersDir, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
+function getAllPrayers() {
+  return [...ALL_PRAYERS]; // Return a copy to prevent mutations
 }
 
 /**
- * Get all prayers in a specific category
- * @param {string} category - The category name (e.g., 'core', 'marian', 'saints')
+ * Get all available primary categories
+ * @returns {string[]} Array of primary category names
+ */
+function getPrimaryCategories() {
+  return [...PRIMARY_CATEGORIES]; // Return a copy to prevent mutations
+}
+
+/**
+ * Get all available labels
+ * @returns {string[]} Array of label names
+ */
+function getLabels() {
+  return [...ALL_LABELS]; // Return a copy to prevent mutations
+}
+
+/**
+ * Get all available prayer categories (legacy function)
+ * @returns {string[]} Array of category names
+ * @deprecated Use getPrimaryCategories instead
+ */
+function getCategories() {
+  return getPrimaryCategories();
+}
+
+/**
+ * Get prayers by primary category
+ * @param {string} category - The primary category name (e.g., 'marian', 'christological', 'saints')
  * @returns {Object[]} Array of prayer objects
  */
+function getPrayersByPrimaryCategory(category) {
+  return PRAYERS_BY_CATEGORY[category] ? [...PRAYERS_BY_CATEGORY[category]] : [];
+}
+
+/**
+ * Get prayers by label (can include prayers from multiple primary categories)
+ * @param {string} label - The label to filter by (e.g., 'core', 'essential', 'daily')
+ * @returns {Object[]} Array of prayer objects
+ */
+function getPrayersByLabel(label) {
+  return PRAYERS_BY_LABEL[label] ? [...PRAYERS_BY_LABEL[label]] : [];
+}
+
+/**
+ * Get prayers by importance level
+ * @param {string} importance - The importance level ('essential', 'common', 'devotional')
+ * @returns {Object[]} Array of prayer objects
+ */
+function getPrayersByImportance(importance) {
+  return PRAYERS_BY_IMPORTANCE[importance] ? [...PRAYERS_BY_IMPORTANCE[importance]] : [];
+}
+
+/**
+ * Get all prayers in a specific category (legacy function - searches primary_category)
+ * @param {string} category - The category name
+ * @returns {Object[]} Array of prayer objects
+ * @deprecated Use getPrayersByPrimaryCategory instead
+ */
 function getPrayersByCategory(category) {
-  const categoryDir = path.join(__dirname, 'prayers', category);
-  
-  if (!fs.existsSync(categoryDir)) {
-    throw new Error(`Category '${category}' not found. Available categories: ${getCategories().join(', ')}`);
-  }
-  
-  const prayerFiles = fs.readdirSync(categoryDir)
-    .filter(file => file.endsWith('.json'));
-  
-  return prayerFiles.map(file => {
-    const filePath = path.join(categoryDir, file);
-    const content = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(content);
-  });
+  return getPrayersByPrimaryCategory(category);
 }
 
 /**
@@ -45,33 +91,19 @@ function getPrayersByCategory(category) {
  * @returns {Object|null} Prayer object or null if not found
  */
 function getPrayerById(prayerId) {
-  const categories = getCategories();
-  
-  for (const category of categories) {
-    const categoryDir = path.join(__dirname, 'prayers', category);
-    const prayerFile = path.join(categoryDir, `${prayerId}.json`);
-    
-    if (fs.existsSync(prayerFile)) {
-      const content = fs.readFileSync(prayerFile, 'utf8');
-      return JSON.parse(content);
-    }
-  }
-  
-  return null;
+  return PRAYERS[prayerId] ? { ...PRAYERS[prayerId] } : null; // Return a copy to prevent mutations
 }
 
 /**
- * Get all prayers from all categories
- * @returns {Object} Object with categories as keys and arrays of prayers as values
+ * Get all prayers organized by primary category
+ * @returns {Object} Object with primary categories as keys and arrays of prayers as values
  */
-function getAllPrayers() {
-  const categories = getCategories();
+function getAllPrayersByCategory() {
+  // Return a deep copy to prevent mutations
   const result = {};
-  
-  categories.forEach(category => {
-    result[category] = getPrayersByCategory(category);
+  Object.keys(PRAYERS_BY_CATEGORY).forEach(category => {
+    result[category] = [...PRAYERS_BY_CATEGORY[category]];
   });
-  
   return result;
 }
 
@@ -98,22 +130,19 @@ function getPrayerText(prayerId, language = 'en') {
  * @returns {Object[]} Array of matching prayers
  */
 function searchPrayers(searchTerm, language = 'en') {
-  const allPrayers = getAllPrayers();
-  const results = [];
+  const prayers = getAllPrayers();
   
-  Object.keys(allPrayers).forEach(category => {
-    allPrayers[category].forEach(prayer => {
-      if (prayer.translations[language] && 
-          prayer.translations[language].text.toLowerCase().includes(searchTerm.toLowerCase())) {
-        results.push({
-          ...prayer,
-          category: category
-        });
-      }
-    });
+  return prayers.filter(prayer => {
+    if (prayer.translations[language] && 
+        prayer.translations[language].text.toLowerCase().includes(searchTerm.toLowerCase())) {
+      return true;
+    }
+    
+    // Also search in prayer title and description
+    const metadata = prayer.metadata;
+    return metadata.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+           metadata.description.toLowerCase().includes(searchTerm.toLowerCase());
   });
-  
-  return results;
 }
 
 /**
@@ -121,15 +150,26 @@ function searchPrayers(searchTerm, language = 'en') {
  * @returns {string[]} Array of supported language codes
  */
 function getSupportedLanguages() {
-  return ['la', 'en', 'es', 'fr', 'de', 'it', 'pt', 'pl'];
+  return [...SUPPORTED_LANGUAGES]; // Return a copy to prevent mutations
 }
 
 module.exports = {
-  getCategories,
-  getPrayersByCategory,
-  getPrayerById,
+  // New flat structure functions
   getAllPrayers,
+  getPrimaryCategories,
+  getLabels,
+  getPrayersByPrimaryCategory,
+  getPrayersByLabel,
+  getPrayersByImportance,
+  getAllPrayersByCategory,
+  
+  // Core functions
+  getPrayerById,
   getPrayerText,
   searchPrayers,
-  getSupportedLanguages
+  getSupportedLanguages,
+  
+  // Legacy functions (deprecated)
+  getCategories,
+  getPrayersByCategory
 };

@@ -2,7 +2,9 @@
   "metadata": {
     "id": "st-michael-prayer",
     "title": "Prayer to St. Michael the Archangel",
-    "category": "petition",
+    "primary_category": "saints",
+    "labels": ["saints", "protection", "common"],
+    "importance": "common",
     "type": "devotional",
     "description": "A prayer for protection against evil, invoking the intercession of St. Michael the Archangel",
     "origin": "Composed by Pope Leo XIII after a vision, originally part of the Leonine Prayers",

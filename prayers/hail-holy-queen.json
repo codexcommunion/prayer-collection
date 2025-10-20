@@ -2,7 +2,9 @@
   "metadata": {
     "id": "hail-holy-queen",
     "title": "Hail Holy Queen (Salve Regina)",
-    "category": "marian",
+    "primary_category": "marian",
+    "labels": ["marian", "devotional", "rosary"],
+    "importance": "common",
     "type": "liturgical",
     "description": "A Marian antiphon expressing devotion to Mary as Queen of Heaven and Mother of Mercy",
     "origin": "Traditionally attributed to Hermann of Reichenau, used in Compline during certain liturgical seasons",

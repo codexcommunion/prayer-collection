@@ -1,10 +1,27 @@
 /**
+ * Primary theological categories for prayers
+ */
+export type PrimaryCategory = 'marian' | 'christological' | 'saints' | 'penitential' | 'liturgical' | 'devotional' | 'creeds' | 'holy-spirit' | 'for-the-dead';
+
+/**
+ * Classification labels for prayers (can have multiple)
+ */
+export type Label = 'core' | 'essential' | 'common' | 'devotional' | 'daily' | 'rosary' | 'marian' | 'christological' | 'saints' | 'penitential' | 'liturgical' | 'creeds' | 'holy-spirit' | 'for-the-dead' | 'protection' | 'mass' | 'evening' | 'morning';
+
+/**
+ * Liturgical importance levels
+ */
+export type ImportanceLevel = 'essential' | 'common' | 'devotional';
+
+/**
  * Prayer metadata interface
  */
 export interface PrayerMetadata {
   id: string;
   title: string;
-  category: string;
+  primary_category: PrimaryCategory;
+  labels: Label[];
+  importance: ImportanceLevel;
   type: string;
   description: string;
   origin: string;
@@ -35,12 +52,7 @@ export interface Prayer {
   };
 }
 
-/**
- * Prayer with category interface (used in search results)
- */
-export interface PrayerWithCategory extends Prayer {
-  category: string;
-}
+
 
 /**
  * Language codes supported by the prayer collection
@@ -48,18 +60,37 @@ export interface PrayerWithCategory extends Prayer {
 export type LanguageCode = 'la' | 'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'pl';
 
 /**
- * Prayer categories
+ * Get all available primary categories
  */
-export type PrayerCategory = 'core' | 'creeds' | 'marian' | 'christological' | 'holy-spirit' | 'saints' | 'penitential' | 'daily' | 'liturgical' | 'devotional' | 'for-the-dead';
+export function getPrimaryCategories(): PrimaryCategory[];
 
 /**
- * Get all available prayer categories
+ * Get all available labels
  */
-export function getCategories(): string[];
+export function getLabels(): Label[];
 
 /**
- * Get all prayers in a specific category
+ * Get prayers by primary category
+ * @param category - The primary category name
+ */
+export function getPrayersByPrimaryCategory(category: PrimaryCategory): Prayer[];
+
+/**
+ * Get prayers by label (can include prayers from multiple primary categories)
+ * @param label - The label to filter by
+ */
+export function getPrayersByLabel(label: Label): Prayer[];
+
+/**
+ * Get prayers by importance level
+ * @param importance - The importance level
+ */
+export function getPrayersByImportance(importance: ImportanceLevel): Prayer[];
+
+/**
+ * Get all prayers in a specific category (legacy function - searches primary_category)
  * @param category - The category name
+ * @deprecated Use getPrayersByPrimaryCategory instead
  */
 export function getPrayersByCategory(category: string): Prayer[];
 
@@ -70,9 +101,14 @@ export function getPrayersByCategory(category: string): Prayer[];
 export function getPrayerById(prayerId: string): Prayer | null;
 
 /**
- * Get all prayers from all categories
+ * Get all prayers as a flat array
  */
-export function getAllPrayers(): { [category: string]: Prayer[] };
+export function getAllPrayers(): Prayer[];
+
+/**
+ * Get all prayers organized by primary category
+ */
+export function getAllPrayersByCategory(): { [category in PrimaryCategory]: Prayer[] };
 
 /**
  * Get prayer text in a specific language
@@ -86,7 +122,7 @@ export function getPrayerText(prayerId: string, language?: LanguageCode): string
  * @param searchTerm - Term to search for
  * @param language - Language to search in (default: 'en')
  */
-export function searchPrayers(searchTerm: string, language?: LanguageCode): PrayerWithCategory[];
+export function searchPrayers(searchTerm: string, language?: LanguageCode): Prayer[];
 
 /**
  * Get supported languages

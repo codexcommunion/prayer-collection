@@ -2,7 +2,9 @@
   "metadata": {
     "id": "apostles-creed",
     "title": "Apostles' Creed",
-    "category": "credal",
+        "primary_category": "creeds",
+    "labels": ["creeds", "essential", "mass"],
+    "importance": "essential",
     "type": "liturgical",
     "description": "A statement of Christian faith summarizing the core beliefs of Christianity, organized around the three persons of the Trinity",
     "origin": "Early Christian communities, developed gradually from apostolic times through the 8th century",

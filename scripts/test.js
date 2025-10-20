@@ -23,20 +23,61 @@ function test(description, testFn) {
   }
 }
 
-// Test getCategories
-test('getCategories returns array of categories', () => {
-  const categories = prayerCollection.getCategories();
-  if (!Array.isArray(categories)) throw new Error('Expected array');
-  if (categories.length === 0) throw new Error('Expected non-empty array');
-  if (!categories.includes('core')) throw new Error('Expected core category');
-});
-
-// Test getPrayersByCategory
-test('getPrayersByCategory returns prayers for valid category', () => {
-  const prayers = prayerCollection.getPrayersByCategory('core');
+// Test getAllPrayers (new flat structure)
+test('getAllPrayers returns array of all prayers', () => {
+  const prayers = prayerCollection.getAllPrayers();
   if (!Array.isArray(prayers)) throw new Error('Expected array');
   if (prayers.length === 0) throw new Error('Expected non-empty array');
   if (!prayers[0].metadata) throw new Error('Expected metadata in prayer');
+});
+
+// Test getPrimaryCategories
+test('getPrimaryCategories returns array of primary categories', () => {
+  const categories = prayerCollection.getPrimaryCategories();
+  if (!Array.isArray(categories)) throw new Error('Expected array');
+  if (categories.length === 0) throw new Error('Expected non-empty array');
+  if (!categories.includes('marian')) throw new Error('Expected marian category');
+});
+
+// Test getLabels
+test('getLabels returns array of labels', () => {
+  const labels = prayerCollection.getLabels();
+  if (!Array.isArray(labels)) throw new Error('Expected array');
+  if (labels.length === 0) throw new Error('Expected non-empty array');
+  if (!labels.includes('core')) throw new Error('Expected core label');
+  if (!labels.includes('essential')) throw new Error('Expected essential label');
+});
+
+// Test getPrayersByPrimaryCategory
+test('getPrayersByPrimaryCategory returns prayers for valid category', () => {
+  const prayers = prayerCollection.getPrayersByPrimaryCategory('marian');
+  if (!Array.isArray(prayers)) throw new Error('Expected array');
+  if (prayers.length === 0) throw new Error('Expected non-empty array');
+  if (!prayers[0].metadata) throw new Error('Expected metadata in prayer');
+  if (prayers[0].metadata.primary_category !== 'marian') throw new Error('Expected marian category');
+});
+
+// Test getPrayersByLabel
+test('getPrayersByLabel returns prayers for valid label', () => {
+  const prayers = prayerCollection.getPrayersByLabel('core');
+  if (!Array.isArray(prayers)) throw new Error('Expected array');
+  if (prayers.length === 0) throw new Error('Expected non-empty array');
+  if (!prayers[0].metadata.labels.includes('core')) throw new Error('Expected core label in results');
+});
+
+// Test getPrayersByImportance
+test('getPrayersByImportance returns prayers for valid importance level', () => {
+  const prayers = prayerCollection.getPrayersByImportance('essential');
+  if (!Array.isArray(prayers)) throw new Error('Expected array');
+  if (prayers.length === 0) throw new Error('Expected non-empty array');
+  if (prayers[0].metadata.importance !== 'essential') throw new Error('Expected essential importance');
+});
+
+// Test legacy getCategories (deprecated)
+test('getCategories (legacy) still works for backward compatibility', () => {
+  const categories = prayerCollection.getCategories();
+  if (!Array.isArray(categories)) throw new Error('Expected array');
+  if (categories.length === 0) throw new Error('Expected non-empty array');
 });
 
 // Test getPrayerById
@@ -53,12 +94,13 @@ test('getPrayerById returns null for invalid ID', () => {
   if (prayer !== null) throw new Error('Expected null for invalid ID');
 });
 
-// Test getAllPrayers
-test('getAllPrayers returns all prayers organized by category', () => {
-  const allPrayers = prayerCollection.getAllPrayers();
+// Test getAllPrayersByCategory
+test('getAllPrayersByCategory returns all prayers organized by category', () => {
+  const allPrayers = prayerCollection.getAllPrayersByCategory();
   if (typeof allPrayers !== 'object') throw new Error('Expected object');
-  if (!allPrayers.core) throw new Error('Expected core category');
-  if (!Array.isArray(allPrayers.core)) throw new Error('Expected array for core category');
+  const categories = Object.keys(allPrayers);
+  if (categories.length === 0) throw new Error('Expected categories');
+  if (!Array.isArray(allPrayers[categories[0]])) throw new Error('Expected array for each category');
 });
 
 // Test getPrayerText
@@ -89,13 +131,14 @@ test('getSupportedLanguages returns array of language codes', () => {
   if (!languages.includes('la')) throw new Error('Expected Latin language code');
 });
 
-// Test error handling
-test('getPrayersByCategory throws error for invalid category', () => {
-  try {
-    prayerCollection.getPrayersByCategory('invalid-category');
-    throw new Error('Expected error to be thrown');
-  } catch (error) {
-    if (!error.message.includes('not found')) throw new Error('Expected "not found" error message');
+// Test new metadata structure
+test('prayers have new metadata structure', () => {
+  const prayer = prayerCollection.getPrayerById('our-father');
+  if (!prayer.metadata.primary_category) throw new Error('Expected primary_category');
+  if (!Array.isArray(prayer.metadata.labels)) throw new Error('Expected labels array');
+  if (!prayer.metadata.importance) throw new Error('Expected importance');
+  if (!prayer.metadata.labels.includes(prayer.metadata.primary_category)) {
+    throw new Error('Expected primary_category to be in labels array');
   }
 });
 

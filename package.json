@@ -1,6 +1,6 @@
 {
   "name": "@codexcommunion/prayer-collection",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A comprehensive collection of traditional Roman Catholic prayers in multiple languages, organized as structured JSON files.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -13,9 +13,12 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "node scripts/build.js",
+    "generate-static": "node scripts/generate-static-data.js",
+    "build": "npm run generate-static && node scripts/build.js",
     "validate": "node scripts/validate.js",
     "test": "node scripts/test.js",
+    "test:browser": "node scripts/test-browser-compatibility.js",
+    "test:all": "npm test && npm run test:browser",
     "prepublishOnly": "npm run build && npm run validate"
   },
   "keywords": [

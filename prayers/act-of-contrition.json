@@ -2,7 +2,9 @@
   "metadata": {
     "id": "act-of-contrition",
     "title": "Act of Contrition",
-    "category": "petition",
+        "primary_category": "penitential",
+    "labels": ["penitential", "confession", "common"],
+    "importance": "common",
     "type": "penitential",
     "description": "A prayer expressing sorrow for sins committed and firm purpose of amendment, commonly recited during confession",
     "origin": "Traditional Catholic prayer developed for the sacrament of penance",

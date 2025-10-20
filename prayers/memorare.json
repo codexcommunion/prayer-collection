@@ -2,7 +2,9 @@
   "metadata": {
     "id": "memorare",
     "title": "Memorare",
-    "category": "marian",
+    "primary_category": "marian",
+    "labels": ["marian", "devotional", "petition"],
+    "importance": "common",
     "type": "devotional",
     "description": "A traditional prayer to the Virgin Mary asking for her intercession, expressing confidence in her maternal care",
     "origin": "Attributed to St. Bernard of Clairvaux, popularized by St. Claude de la Colombière",

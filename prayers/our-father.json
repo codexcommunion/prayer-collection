@@ -2,7 +2,9 @@
   "metadata": {
     "id": "our-father",
     "title": "Our Father",
-    "category": "christological",
+    "primary_category": "christological",
+    "labels": ["core", "essential", "christological", "daily", "rosary", "mass"],
+    "importance": "essential",
     "type": "scriptural",
     "description": "The prayer taught by Jesus Christ to his disciples, also known as the Lord's Prayer",
     "origin": "Gospel of Matthew 6:9-13 and Luke 11:2-4, taught by Jesus Christ",
@@ -11,7 +13,7 @@
     "feast_days": ["all-liturgical-celebrations"],
     "devotions": ["rosary", "daily-prayers", "mass"],
     "created_date": "2025-07-14",
-    "last_modified": "2025-07-14"
+    "last_modified": "2025-10-20"
   },
   "translations": {
     "la": {
