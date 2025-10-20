@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "prayer-to-st-therese",
+    "title": "Prayer to St. Therese",
+    "primary_category": "saints",
+    "labels": ["saints", "therese", "devotional", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "Prayer to St. Therese of Lisieux, the Little Flower",
+    "origin": "Traditional prayer to St. Therese of Lisieux",
+    "origin_date": "~1897",
+    "usage": "Prayed for intercession, confidence in God's love, and following the Little Way",
+    "feast_days": ["st-therese"],
+    "devotions": ["saints-devotions"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "O parva Teresia Infantiae Iesu, quaeso, elige mihi rosam ex hortis caelestibus et mitte eam mihi ut nuntium amoris. O parva Flos Iesu, roga Deum hodie ut concedat favores quos nunc cum fiducia in manibus tuis pono. (Meminisse petitionis tuae). Sancta Teresia, adiuva me ut semper credam sicut tu credidisti in magnum amorem Dei erga me, ut possim imitari 'Parvam Viam' tuam quotidie. Amen.",
+      "notes": "Latin version of the prayer to St. Therese"
+    },
+    "en": {
+      "language": "English",
+      "text": "O Little Therese of the Child Jesus, please pick for me a rose from the heavenly gardens and send it to me as a message of love. O Little Flower of Jesus, ask God today to grant the favors I now place with confidence in your hands. (Mention your request). St. Therese, help me to always believe as you did, in God's great love for me, so that I might imitate your 'Little Way' each day. Amen.",
+      "notes": "Traditional prayer to St. Therese of Lisieux"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Oh pequeña Teresa del Niño Jesús, por favor elige para mí una rosa de los jardines celestiales y envíamela como mensaje de amor. Oh pequeña Flor de Jesús, pide a Dios hoy que conceda los favores que ahora pongo con confianza en tus manos. (Menciona tu petición). Santa Teresa, ayúdame a creer siempre como tú creíste en el gran amor de Dios por mí, para que pueda imitar tu 'Pequeño Camino' cada día. Amén.",
+      "notes": "Spanish translation of the prayer to St. Therese"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô petite Thérèse de l'Enfant Jésus, choisis pour moi une rose des jardins célestes et envoie-la-moi comme message d'amour. Ô petite Fleur de Jésus, demande à Dieu aujourd'hui d'accorder les faveurs que je place maintenant avec confiance dans tes mains. (Mentionne ta demande). Sainte Thérèse, aide-moi à toujours croire comme toi au grand amour de Dieu pour moi, afin que je puisse imiter ta 'Petite Voie' chaque jour. Amen.",
+      "notes": "French translation of the prayer to St. Therese"
+    },
+    "de": {
+      "language": "German",
+      "text": "O kleine Therese des Kindes Jesus, bitte wähle für mich eine Rose aus den himmlischen Gärten und sende sie mir als Botschaft der Liebe. O kleine Blume Jesu, bitte Gott heute, die Gunst zu gewähren, die ich jetzt mit Vertrauen in deine Hände lege. (Erwähne deine Bitte). Heilige Therese, hilf mir, immer so zu glauben wie du, an die große Liebe Gottes zu mir, damit ich deinen 'Kleinen Weg' jeden Tag nachahmen kann. Amen.",
+      "notes": "German translation of the prayer to St. Therese"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O piccola Teresa del Bambino Gesù, per favore scegli per me una rosa dai giardini celesti e mandamela come messaggio d'amore. O piccolo Fiore di Gesù, chiedi a Dio oggi di concedere i favori che ora pongo con fiducia nelle tue mani. (Menziona la tua richiesta). Santa Teresa, aiutami a credere sempre come tu credesti nel grande amore di Dio per me, affinché io possa imitare la tua 'Piccola Via' ogni giorno. Amen.",
+      "notes": "Italian translation of the prayer to St. Therese"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó pequena Teresa da Criança Jesus, por favor escolhe para mim uma rosa dos jardins celestiais e envia-ma como mensagem de amor. Ó pequeno Flor de Jesus, pede a Deus hoje que conceda os favores que agora coloco com confiança nas tuas mãos. (Menciona o teu pedido). Santa Teresa, ajuda-me a acreditar sempre como tu acreditaste no grande amor de Deus por mim, para que eu possa imitar o teu 'Pequeno Caminho' cada dia. Amém.",
+      "notes": "Portuguese translation of the prayer to St. Therese"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "O mała Tereso Dzieciątka Jezus, proszę, wybierz dla mnie różę z niebiańskich ogrodów i przyślij mi ją jako wiadomość miłości. O mały Kwiatku Jezusa, proś Boga dzisiaj, aby udzielił łask, które teraz z ufnością składam w twoje ręce. (Wspomnij swoją prośbę). Święta Tereso, pomóż mi zawsze wierzyć tak jak ty wierzyłaś w wielką miłość Boga do mnie, abym mogła naśladować twoją 'Małą Drogę' każdego dnia. Amen.",
+      "notes": "Polish translation of the prayer to St. Therese"
+    }
+  }
+}
