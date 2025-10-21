@@ -1,6 +1,6 @@
 {
   "name": "@codexcommunion/prayer-collection",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A comprehensive collection of traditional Roman Catholic prayers in multiple languages, organized as structured JSON files.",
   "main": "index.js",
   "types": "index.d.ts",
