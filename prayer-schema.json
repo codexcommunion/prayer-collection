@@ -1,0 +1,311 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/codexcommunion/prayer-collection/schema/v1",
+  "title": "Catholic Prayer",
+  "description": "Schema for Catholic prayer JSON files in the prayer-collection package",
+  "type": "object",
+  "required": ["metadata", "translations"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "Prayer metadata including classification and historical information",
+      "required": [
+        "id",
+        "title",
+        "primary_category",
+        "labels",
+        "importance",
+        "type",
+        "description",
+        "origin",
+        "origin_date",
+        "usage",
+        "feast_days",
+        "devotions",
+        "created_date",
+        "last_modified"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the prayer (kebab-case, must match filename)",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "examples": ["our-father", "hail-mary", "prayer-to-st-michael"]
+        },
+        "title": {
+          "type": "string",
+          "description": "The common name of the prayer",
+          "minLength": 1,
+          "examples": ["Our Father", "Hail Mary", "Prayer to St. Michael"]
+        },
+        "primary_category": {
+          "type": "string",
+          "description": "Main theological focus of the prayer",
+          "enum": [
+            "marian",
+            "christological",
+            "saints",
+            "penitential",
+            "liturgical",
+            "devotional",
+            "creeds",
+            "holy-spirit",
+            "for-the-dead",
+            "daily",
+            "seasonal"
+          ]
+        },
+        "labels": {
+          "type": "array",
+          "description": "Classification labels for flexible categorization (must include primary_category). Labels are free-form and can be customized per prayer.",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "examples": [
+              "core",
+              "essential",
+              "common",
+              "devotional",
+              "daily",
+              "rosary",
+              "marian",
+              "christological",
+              "saints",
+              "penitential",
+              "liturgical",
+              "creeds",
+              "holy-spirit",
+              "for-the-dead",
+              "protection",
+              "mass",
+              "evening",
+              "morning",
+              "mercy",
+              "chaplet",
+              "angels",
+              "seasonal",
+              "advent",
+              "christmas",
+              "easter",
+              "lent",
+              "meals",
+              "family",
+              "contemplative",
+              "eastern",
+              "litany",
+              "petition",
+              "passion",
+              "intercession",
+              "peace",
+              "franciscan",
+              "praise",
+              "biblical",
+              "eucharistic",
+              "ancient",
+              "virtues",
+              "confession",
+              "brief"
+            ]
+          }
+        },
+        "importance": {
+          "type": "string",
+          "description": "Liturgical significance level",
+          "enum": ["essential", "common", "devotional"]
+        },
+        "type": {
+          "type": "string",
+          "description": "Specific prayer type",
+          "examples": ["prayer", "scriptural", "devotional", "liturgical", "creed", "canticle", "litany", "chaplet"]
+        },
+        "description": {
+          "type": "string",
+          "description": "Brief explanation of the prayer's purpose and significance",
+          "minLength": 10
+        },
+        "origin": {
+          "type": "string",
+          "description": "Historical background or source of the prayer",
+          "minLength": 5
+        },
+        "origin_date": {
+          "type": "string",
+          "description": "Earliest known date or century of origin in ISO 8601 format. Use ranges (e.g., '0030/0033') for uncertain dates or '~' prefix (e.g., '~0200') for approximate dates",
+          "pattern": "^(~?\\d{4}(-\\d{2}(-\\d{2})?)?|\\d{4}/\\d{4}|~\\d{4})$",
+          "examples": ["0030/0033", "~0200", "1050/1150", "1858-02-11", "~1200"]
+        },
+        "usage": {
+          "type": "string",
+          "description": "Context in which the prayer is typically used",
+          "minLength": 10
+        },
+        "feast_days": {
+          "type": "array",
+          "description": "Associated liturgical celebrations and feast days",
+          "items": {
+            "type": "string"
+          }
+        },
+        "devotions": {
+          "type": "array",
+          "description": "Related devotional practices",
+          "items": {
+            "type": "string",
+            "examples": ["rosary", "divine-mercy", "sacred-heart", "stations-of-the-cross"]
+          }
+        },
+        "created_date": {
+          "type": "string",
+          "description": "Date the JSON file was created",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "last_modified": {
+          "type": "string",
+          "description": "Date the JSON file was last updated",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      }
+    },
+    "translations": {
+      "type": "object",
+      "description": "Prayer text in multiple languages",
+      "required": ["la", "en"],
+      "properties": {
+        "la": {
+          "$ref": "#/definitions/translation",
+          "description": "Latin translation (original liturgical language)"
+        },
+        "en": {
+          "$ref": "#/definitions/translation",
+          "description": "English translation"
+        },
+        "es": {
+          "$ref": "#/definitions/translation",
+          "description": "Spanish translation"
+        },
+        "fr": {
+          "$ref": "#/definitions/translation",
+          "description": "French translation"
+        },
+        "de": {
+          "$ref": "#/definitions/translation",
+          "description": "German translation"
+        },
+        "it": {
+          "$ref": "#/definitions/translation",
+          "description": "Italian translation"
+        },
+        "pt": {
+          "$ref": "#/definitions/translation",
+          "description": "Portuguese translation"
+        },
+        "pl": {
+          "$ref": "#/definitions/translation",
+          "description": "Polish translation"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "definitions": {
+    "translation": {
+      "type": "object",
+      "description": "Translation of a prayer in a specific language",
+      "required": ["language"],
+      "properties": {
+        "language": {
+          "type": "string",
+          "description": "Full name of the language",
+          "examples": ["Latin", "English", "Spanish", "French", "German", "Italian", "Portuguese", "Polish"]
+        },
+        "text": {
+          "type": "string",
+          "description": "The prayer text (for simple prayers without references)",
+          "minLength": 1
+        },
+        "content": {
+          "type": "array",
+          "description": "Array of content parts for prayers that reference other prayers",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/contentPart"
+          }
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes about this translation, historical context, or variations"
+        }
+      },
+      "oneOf": [
+        {
+          "required": ["text"],
+          "description": "Simple prayer with direct text"
+        },
+        {
+          "required": ["content"],
+          "description": "Complex prayer with references to other prayers"
+        },
+        {
+          "required": ["text", "content"],
+          "description": "Prayer with both direct text and structured content"
+        }
+      ]
+    },
+    "contentPart": {
+      "type": "object",
+      "description": "A part of prayer content (text, reference, or instruction)",
+      "required": ["type", "value"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Type of content part",
+          "enum": ["text", "prayer-reference", "instructions"]
+        },
+        "value": {
+          "type": "string",
+          "description": "Content value: actual text for 'text'/'instructions', prayer ID for 'prayer-reference'",
+          "minLength": 1
+        },
+        "count": {
+          "type": "integer",
+          "description": "Number of times to repeat this content part",
+          "minimum": 1,
+          "default": 1
+        },
+        "speaker": {
+          "type": "string",
+          "description": "Liturgical speaker role for dialogue prayers",
+          "enum": ["versicle", "response", "both"]
+        },
+        "optional": {
+          "type": "boolean",
+          "description": "Whether this content part is optional",
+          "default": false
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "prayer-reference"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+                "description": "Prayer ID in kebab-case"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

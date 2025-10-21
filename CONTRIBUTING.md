@@ -202,7 +202,7 @@ Contributors will be acknowledged in:
 
 ## 📜 License
 
-By contributing, you agree that your contributions will be licensed under the MIT License. Note that while the code is MIT licensed, the prayer content itself consists of traditional Catholic prayers that are in the public domain.
+By contributing, you agree that your contributions will be licensed under the CodexCommunion Digital Code License (CCCL) v1.0. Note that while the code and data structures are CCCL licensed, the prayer content itself consists of traditional Catholic prayers that are in the public domain.
 
 ## 🙏 Thank You
 

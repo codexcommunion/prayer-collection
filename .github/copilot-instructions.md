@@ -1,79 +1,111 @@
 # Prayer Collection Development Guide
 
 ## Project Overview
-This is an NPM package providing structured Catholic prayers as JSON files with multilingual support. The project follows a category-based architecture with strict data validation and TypeScript definitions.
+NPM package providing traditional Catholic prayers as structured JSON files with multilingual support and static data compilation for universal compatibility (Node.js + browsers).
 
-## Core Architecture
+## Critical Architecture Patterns
 
-### Data Structure
-- **Flat File Structure**: All prayers in single `prayers/` directory as `prayer-name.json`
-- **Multi-Label Classification**: Rich metadata with primary category + multiple labels
-  - `primary_category`: Main theological focus ("marian", "christological", "saints")
-  - `labels`: Array of classifications (["core", "essential", "rosary", "daily"])
-  - `importance`: Liturgical significance ("essential", "common", "devotional")
-- **Multilingual**: Each prayer supports 8 languages (la, en, es, fr, de, it, pt, pl) with required translations
-- **Metadata-driven**: Rich metadata includes origin dates, usage contexts, feast days, and devotions
+### Static Data Compilation (Universal Compatibility)
+**WHY**: Enables browser usage without filesystem operations - critical differentiator from typical JSON packages
 
-### Static Data Compilation
-- **Universal Compatibility**: Pre-compiled static data for Node.js + browser environments
-- **No Runtime File I/O**: All JSON files compiled into `lib/prayer-data.js` during build
-- **Bundler Friendly**: Works with Webpack, Vite, Rollup, Parcel without special configuration
+**Build Flow**:
+1. `scripts/generate-static-data.js` → Imports all JSON files, generates `lib/prayer-data.js` module
+2. `scripts/build.js` → Validates structure, creates `lib/prayer-index.json` + `lib/build-report.json`
+3. `index.js` → Imports from `lib/prayer-data.js` (NOT directly from `prayers/` directory)
+
+**Implication**: Never use `require('./prayers/some-prayer.json')` in runtime code. All prayer data MUST flow through the build pipeline.
+
+### Flat File Structure with Multi-Label Classification
+**Structure**: All prayers in single `prayers/` directory as `prayers/prayer-id.json` (no subdirectories)
+
+**Classification System** (see `prayers/our-father.json` example):
+- `primary_category`: Fixed theological enum ("marian", "christological", "saints", etc.)
+- `labels`: Free-form array (kebab-case) - MUST include `primary_category` 
+- `importance`: Liturgical weight ("essential", "common", "devotional")
+
+**Example**: `prayers/chaplet-of-divine-mercy.json` has `primary_category: "devotional"` and `labels: ["devotional", "mercy", "chaplet", "common"]`
+
+### Content Structure for Complex Prayers
+**Simple prayers** use `text` field: `{ "la": { "text": "Pater noster..." } }`
+
+**Complex prayers** (chaplets, rosaries) use `content` array to reference other prayers:
+```json
+{
+  "content": [
+    { "type": "instructions", "value": "Opening prayers:" },
+    { "type": "prayer-reference", "value": "our-father" },
+    { "type": "prayer-reference", "value": "hail-mary", "count": 3 },
+    { "type": "text", "value": "Glory be to the Father..." }
+  ]
+}
+```
+
+**getPrayerText()** function (lines 120-160 in `index.js`) recursively resolves references and assembles full text.
 
 ## Development Workflows
 
 ### Adding New Prayers
-1. **JSON Structure**: Copy existing prayer JSON, ensure `id` matches filename (kebab-case)
-2. **Label Classification**: Set `primary_category` and add appropriate `labels` array
-3. **Required Fields**: All metadata fields are mandatory, especially `origin_date` (use ISO 8601 ranges like "0030/0033")
-4. **Language Coverage**: Include all 8 supported languages; partial translations trigger warnings
+1. **Create JSON**: `prayers/new-prayer-id.json` (filename MUST match `metadata.id`)
+2. **Copy Template**: Use `prayers/our-father.json` as base structure
+3. **Required Metadata**: All 14 metadata fields mandatory (see `prayer-schema.json` lines 11-29)
+4. **Origin Dates**: ISO 8601 format - use ranges for uncertainty ("1050/1150"), prefix "~" for approximation ("~1200")
+5. **Translations**: 8 languages required (la, en, es, fr, de, it, pt, pl) - missing translations generate warnings, not errors
+6. **Validate**: Run `npm run build` - must pass to publish
 
-### Build System Commands
+### Validation Chain
+**Two validation modes**:
+- `npm run validate` - Custom validation (zero dependencies, always available)
+- `npm run validate:schema` - JSON Schema validation (requires `ajv` dev dependency, more detailed errors)
+
+**Critical Rules** (enforced in `scripts/validate.js` lines 47-69):
+- Filename matches `metadata.id` exactly
+- `primary_category` appears in `labels` array (warning if missing)
+- `labels` array not empty
+- Required languages (la, en) must have `text` OR `content` field
+- No duplicate prayer IDs across all files
+
+### Build Commands Critical Path
 ```bash
-npm run build      # Generates static data + validates JSONs, creates lib/build-report.json
-npm run validate   # Comprehensive validation with detailed error reporting
-npm test          # Runs API function tests
-npm run test:browser # Tests browser compatibility
-npm run prepublishOnly # Auto-runs build + validate before publishing
+npm run build          # 1. Generate static data 2. Validate 3. Create build-report.json
+npm run validate       # Standalone validation (run after any JSON edit)
+npm test               # API function tests (uses lib/prayer-data.js)
+npm run test:browser   # Browser compatibility tests
+npm run prepublishOnly # AUTO-RUNS on `npm publish` - build + validate MUST pass
 ```
 
-### Git Workflow
-To maintain code quality and minimize risk:
+**Pre-publish Hook**: `package.json` line 19 - `npm publish` blocked if validation fails
 
-1. **Branching**: Always create a feature branch for new work (`git checkout -b feature/add-new-prayer`)
-2. **Incremental Commits**: Make frequent, small commits during development to capture progress and enable easy rollbacks
-3. **Validation**: Run `npm run validate` and `npm test` before each commit
-4. **Merge Strategy**: When work is complete, merge back to main with squash commits if the branch has many small commits
-5. **Push**: Push feature branches to origin for backup and collaboration
+## API Patterns
 
-## Code Patterns
+### Functional API Design (index.js)
+**Immutability**: All functions return copies (`[...ALL_PRAYERS]`, `{ ...PRAYERS[id] }`) - prevent mutations
+**Graceful Degradation**: Returns `null` for missing data, never throws on valid input
+**Pre-indexed Data**: Static lookups via `PRAYERS_BY_CATEGORY`, `PRAYERS_BY_LABEL` (built at compile time)
 
-### API Design Philosophy
-- **Functional API**: All exports are pure functions (`getPrayerById`, `getPrayersByCategory`)
-- **Graceful Degradation**: Returns `null` for missing prayers, throws errors only for invalid categories
-- **Type Safety**: Full TypeScript definitions in `index.d.ts` with `Prayer`, `PrayerMetadata` interfaces
+**Example**:
+```javascript
+getPrayersByLabel('rosary') // Returns pre-indexed array from PRAYERS_BY_LABEL
+getPrayerById('invalid-id') // Returns null, not error
+getPrayerText('hail-mary', 'en', true) // skipOptional=true for nested references
+```
 
-### Data Validation Rules
-- **Filename Convention**: JSON filename must match `metadata.id` exactly
-- **Label Validation**: `primary_category` should match one label in `labels` array
-- **Date Formats**: Use ISO 8601, ranges for uncertain dates ("1050/1150"), approximate with "~" prefix
-- **Language Codes**: ISO 639-1 standard (la, en, es, fr, de, it, pt, pl)
+### TypeScript Integration
+`index.d.ts` defines `Prayer`, `PrayerMetadata`, `Translation`, `LanguageCode` types
+No runtime overhead - pure type hints for consumers
 
-### Common Gotchas
-- **Label Consistency**: Ensure `primary_category` appears in `labels` array
-- **Missing Translations**: Warnings (not errors) for incomplete language coverage
-- **ID Conflicts**: Build fails if multiple prayers share same ID
-- **JSON Syntax**: Any malformed JSON breaks validation
+## Common Gotchas
 
-## Integration Points
+1. **Label Consistency**: Forgetting to include `primary_category` in `labels` array triggers warning
+2. **Content vs Text**: Complex prayers need `content` array with `prayer-reference` types - can't use simple `text`
+3. **Date Ranges**: Uncertain dates require forward slash separator ("1050/1150"), not dash
+4. **Build Before Test**: Tests import from `lib/prayer-data.js` - must run `npm run build` after JSON changes
+5. **ID Filename Mismatch**: `prayers/hail-mary.json` with `"id": "hail-mary-prayer"` fails validation
 
-### NPM Package Structure
-- **Entry Point**: `index.js` provides runtime API, `index.d.ts` for TypeScript
-- **Distribution**: Only `prayers/`, `lib/`, `index.*` files included via `package.json` files field
-- **Pre-publish**: `prepublishOnly` hook runs build + validation automatically
+## Sacred Content Guidelines
+These are liturgical Catholic prayers - maintain theological accuracy and use established translations. See `CONTRIBUTING.md` for full guidelines on respectful contribution.
 
-### External Dependencies
-- **Zero Runtime Dependencies**: Pure Node.js fs/path modules only
-- **Build Dependencies**: Node.js >=12.0.0 required for scripts
-- **Validation Logic**: Custom validation in `scripts/validate.js`, not using external schema validators
-
-When working on this codebase, always run `npm run validate` after JSON changes and understand that the build system is central to data integrity - all prayers must pass validation to publish.
+## File Dependencies
+- **Runtime**: `index.js` → `lib/prayer-data.js` (generated)
+- **Build**: `scripts/build.js` → calls `scripts/generate-static-data.js`
+- **Validation**: `scripts/validate.js` (standalone) OR `scripts/validate-with-schema.js` (uses `prayer-schema.json`)
+- **Distribution**: Only `prayers/`, `lib/`, `index.js`, `index.d.ts` published (see `package.json` files field)
