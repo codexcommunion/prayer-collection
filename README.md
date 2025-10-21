@@ -58,20 +58,21 @@ const text: string | null = getPrayerText('hail-mary', 'la' as LanguageCode);
 
 ## Documentation
 
-### 📚 Core Documentation
+### For Users
+- **[API Reference](docs/API_REFERENCE.md)** → Points to [index.d.ts](index.d.ts) for complete API
+- **[Usage Examples](docs/USAGE_EXAMPLES.md)** → Quick-start code for Node.js, React, Vue
+- **[Prayer Organization](docs/PRAYER_ORGANIZATION.md)** → Classification system overview
 
-- **[Prayer Organization](docs/PRAYER_ORGANIZATION.md)** - Classification system, categories, labels, and importance levels
-- **[Data Structure](docs/DATA_STRUCTURE.md)** - Complete JSON schema, metadata fields, and content structure
-- **[API Reference](docs/API_REFERENCE.md)** - Complete API documentation with all functions and TypeScript types
-- **[Usage Examples](docs/USAGE_EXAMPLES.md)** - Code examples for Node.js, TypeScript, React, and Vue.js
-- **[Architecture](docs/ARCHITECTURE.md)** - Implementation details, build system, and performance optimization
+### For Contributors
+- **[Contributing Guide](CONTRIBUTING.md)** → GitHub issue or PR workflow
+- **[Data Structure](docs/DATA_STRUCTURE.md)** → JSON prayer format
+- **[Architecture](docs/ARCHITECTURE.md)** → Build system and validation
 
-### 🛠️ Additional Resources
-
-- **[JSON Schema](SCHEMA.md)** - Formal JSON Schema for validation and IDE support
-- **[Contributing Guide](CONTRIBUTING.md)** - Guidelines for contributing to the project
-- **[Testing Guide](TESTING.md)** - Information about running tests and validation
-- **[Pending Prayers](pending_prayers.md)** - Upcoming prayers planned for future releases
+### Reference Files (Self-Documenting)
+- **[index.d.ts](index.d.ts)** → TypeScript types and JSDoc for all functions
+- **[prayer-schema.json](prayer-schema.json)** → JSON Schema for validation and IDE autocomplete
+- **[lib/prayer-index.json](lib/prayer-index.json)** → Auto-generated list of all prayers
+- **[scripts/](scripts/)** → Build and validation implementation
 
 ## Key Concepts
 
@@ -134,8 +135,6 @@ npm run test:browser   # Test browser compatibility
 
 VS Code users get automatic validation and auto-completion! The workspace is configured to use `prayer-schema.json` for all prayer files.
 
-See [SCHEMA.md](SCHEMA.md) for details on JSON Schema validation.
-
 ### Adding New Prayers
 
 1. Create JSON file in `prayers/` directory (filename must match prayer ID)
@@ -196,6 +195,3 @@ This license permits free use, modification, and distribution for any lawful pur
 
 Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
----
-
-**CodexCommunion** - Building tools for Catholic faith and tradition

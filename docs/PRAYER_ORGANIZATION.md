@@ -2,88 +2,62 @@
 
 Prayers are organized using a flexible **multi-label classification system** that allows prayers to belong to multiple categories simultaneously.
 
-## Primary Categories
+## Understanding the System
 
-Each prayer has one primary theological focus:
+### Primary Categories
+Each prayer has **one primary theological focus**. For the authoritative list, see:
+- **`prayer-schema.json`** - Lines 45-56 define the enum of valid primary categories
+- **`lib/prayer-index.json`** - Shows which categories are currently in use
 
-- **`penitential`** - Prayers of repentance and confession (Act of Contrition, Confiteor)
-- **`seasonal`** - Prayers for specific liturgical seasons (Advent Antiphons, Christmas Prayer)
-- **`marian`** - Prayers to the Virgin Mary (Hail Mary, Angelus, Memorare, Hail Holy Queen)
-- **`christological`** - Prayers focused on Jesus Christ (Our Father, Jesus Prayer)
-- **`creeds`** - Statements of faith (Apostles' Creed)
-- **`liturgical`** - Formal liturgical prayers (Glory Be, Te Deum)
-- **`devotional`** - Private devotional prayers (Divine Mercy Chaplet)
-- **`holy-spirit`** - Prayers to the Holy Spirit (Come Holy Spirit, Veni Creator Spiritus)
-- **`for-the-dead`** - Prayers for the deceased (Eternal Rest, Prayer for the Dead)
-- **`daily`** - Prayers for daily recitation (Morning Offering, Evening Prayer)
-- **`saints`** - Prayers for saint intercession (St. Michael Prayer, Litany of Loreto)
+Common primary categories include: `marian`, `christological`, `saints`, `penitential`, `liturgical`, `devotional`, `creeds`, `holy-spirit`, `for-the-dead`, `daily`, `seasonal`
 
-## Labels
+### Labels (Free-Form Tags)
+Prayers can have **multiple labels** for flexible classification. Labels are free-form and customizable - create new ones as needed using kebab-case format (e.g., `my-custom-label`).
 
-Prayers can have multiple labels for flexible classification. **Labels are free-form** and can be customized for each prayer. Below are commonly used labels, but contributors are encouraged to create new labels as needed (using kebab-case format):
+**Where to find labels:**
+- **`lib/prayer-index.json`** - Complete list of all labels currently in use
+- **`prayer-schema.json`** - Common examples (but not restricted to these)
+- **Existing prayer files** - See how prayers are labeled in `prayers/` directory
 
-### Common Labels
+The `primary_category` must be included in the `labels` array.
 
-- **`core`** - Essential prayers every Catholic should know
-- **`essential`** - Prayers of highest liturgical importance  
-- **`common`** - Widely known prayers
-- **`devotional`** - Private devotional prayers
-- **`daily`** - Prayers for daily recitation
-- **`rosary`** - Prayers used in the Rosary
-- **`mass`** - Prayers used in the Mass
-- **`protection`** - Prayers for spiritual protection
-- **`marian`** - Related to Mary
-- **`christological`** - Related to Christ
-- **`saints`** - Related to saints
-- **`penitential`** - Related to repentance
-- **`liturgical`** - Formal liturgical use
-- **`creeds`** - Statements of faith
-- **`holy-spirit`** - Related to the Holy Spirit
-- **`for-the-dead`** - Prayers for the deceased
-- **`evening`** - Evening prayers
-- **`morning`** - Morning prayers
-- **`mercy`** - Mercy-focused prayers
-- **`chaplet`** - Chaplet prayers
-- **`angels`** - Angel-related prayers
-- **`seasonal`** - Seasonal prayers (Advent, Christmas, Lent, Easter)
-- **`meals`** - Prayers before/after meals
-- **`family`** - Family prayers
-- **`contemplative`** - Contemplative prayers
-- **`eastern`** - Eastern Catholic traditions
-- **`litany`** - Litany prayers
-- **`petition`** - Petition prayers
-- **`intercession`** - Intercessory prayers
-- **`peace`** - Peace prayers
-- **`franciscan`** - Franciscan spirituality
-- **`praise`** - Prayers of praise
-
-> **Note**: This list is not exhaustive. Contributors can create new labels as needed to best describe each prayer. Labels must follow kebab-case format (e.g., `my-new-label`).
-
-## Importance Levels
-
+### Importance Levels
+Three levels defined in `prayer-schema.json`:
 - **`essential`** - Core prayers of fundamental importance
 - **`common`** - Standard prayers in regular use
 - **`devotional`** - Optional prayers for personal devotion
 
 ## Classification Examples
 
-- **Our Father**: `christological` + `["core", "essential", "christological", "daily", "rosary", "mass"]`
-- **Hail Mary**: `marian` + `["core", "essential", "marian", "rosary", "daily"]`
-- **St. Michael Prayer**: `saints` + `["saints", "protection", "common"]`
+Look at actual prayer files to see how classification works:
+
+- **`prayers/our-father.json`**: 
+  - `primary_category: "christological"`
+  - `labels: ["core", "essential", "christological", "daily", "rosary", "mass"]`
+  - `importance: "essential"`
+
+- **`prayers/hail-mary.json`**: 
+  - `primary_category: "marian"`
+  - `labels: ["core", "essential", "marian", "rosary", "daily"]`
+  - `importance: "essential"`
+
+- **`prayers/prayer-to-st-michael.json`**: 
+  - `primary_category: "saints"`
+  - `labels: ["saints", "protection", "common", "angels"]`
+  - `importance: "common"`
 
 ## Language Codes
 
-The project uses ISO 639-1 language codes:
+Eight languages supported (ISO 639-1 codes):
 
-- `la` - Latin (original liturgical language)
-- `en` - English
-- `es` - Spanish
-- `fr` - French
-- `de` - German
-- `it` - Italian
-- `pt` - Portuguese
-- `pl` - Polish
+`la` (Latin) • `en` (English) • `es` (Spanish) • `fr` (French) • `de` (German) • `it` (Italian) • `pt` (Portuguese) • `pl` (Polish)
 
-## Prayer Reference
+## Current Collection Reference
 
-See [lib/prayer-index.json](../lib/prayer-index.json) for all available prayers and their classifications.
+**See [`lib/prayer-index.json`](../lib/prayer-index.json)** for:
+- All available prayer IDs
+- Complete list of primary categories in use
+- Complete list of labels in use
+- Prayer counts by category and label
+
+This file is generated by `npm run build` and always reflects the current state of the collection.

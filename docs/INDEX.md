@@ -1,111 +1,47 @@
 # Documentation Index
 
-Quick reference guide to the prayer-collection documentation structure.
+Quick navigation guide for the prayer-collection package documentation.
 
-## Main Documentation
+## Documentation Files
 
-### README.md
-**Purpose**: Quick start guide and overview  
-**Contents**: Installation, basic usage examples, key features, links to detailed docs
+| File | Purpose |
+|------|---------|
+| [README.md](../README.md) | Installation, quick start, overview |
+| [CONTRIBUTING.md](../CONTRIBUTING.md) | How to contribute (GitHub issue or PR) |
+| [DATA_STRUCTURE.md](DATA_STRUCTURE.md) | JSON prayer format guide |
+| [API_REFERENCE.md](API_REFERENCE.md) | API overview → see [index.d.ts](../index.d.ts) for details |
+| [USAGE_EXAMPLES.md](USAGE_EXAMPLES.md) | Code examples for Node.js, React, Vue |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Build system overview → see [scripts/](../scripts/) for details |
+| [PRAYER_ORGANIZATION.md](PRAYER_ORGANIZATION.md) | Classification overview → see [prayer-schema.json](../prayer-schema.json) for schema |
 
-### docs/PRAYER_ORGANIZATION.md
-**Purpose**: Classification system reference  
-**Contents**: 
-- Primary categories (11 theological focuses)
-- Labels (40+ classification tags)
-- Importance levels
-- Language codes
-- Classification examples
+## Source Files (Authoritative Documentation)
 
-### docs/DATA_STRUCTURE.md
-**Purpose**: JSON schema and data format  
-**Contents**:
-- Complete JSON structure
-- Metadata field definitions
-- Translation fields
-- Content structure for prayer references
-- Speaker roles in liturgical dialogue
+| File | Contents |
+|------|----------|
+| [index.d.ts](../index.d.ts) | TypeScript types and JSDoc for all API functions |
+| [index.js](../index.js) | API implementation with inline documentation |
+| [prayer-schema.json](../prayer-schema.json) | JSON Schema defining prayer structure and categories |
+| [lib/prayer-index.json](../lib/prayer-index.json) | Auto-generated list of all available prayers |
+| [scripts/](../scripts/) | Build system implementation (see inline comments) |
+| [prayers/](../prayers/) | JSON files for all prayers (browse for examples) |
 
-### docs/API_REFERENCE.md
-**Purpose**: Complete API documentation  
-**Contents**:
-- All function signatures
-- Usage examples for each function
-- TypeScript type definitions
-- Parameter descriptions
-- Return value types
+## Quick Start Paths
 
-### docs/USAGE_EXAMPLES.md
-**Purpose**: Framework-specific code examples  
-**Contents**:
-- Node.js/JavaScript examples
-- TypeScript examples
-- React examples (including hooks)
-- Vue.js examples (Composition & Options API)
+**I want to use this package:**
+1. [README.md](../README.md) - Install and basic usage
+2. [USAGE_EXAMPLES.md](USAGE_EXAMPLES.md) - Framework-specific examples
+3. [index.d.ts](../index.d.ts) - All available functions
 
-### docs/ARCHITECTURE.md
-**Purpose**: Implementation and build system  
-**Contents**:
-- Universal compatibility architecture
-- Build pipeline details
-- Performance optimizations
-- File structure
-- Development workflow
-- Publishing process
-- Troubleshooting guide
+**I want to contribute a prayer:**
+1. [CONTRIBUTING.md](../CONTRIBUTING.md) - GitHub issue or PR workflow
+2. [DATA_STRUCTURE.md](DATA_STRUCTURE.md) - JSON format guide
+3. [prayers/our-father.json](../prayers/our-father.json) - Example to copy
 
-## Additional Resources
+**I want to understand how it works:**
+1. [ARCHITECTURE.md](ARCHITECTURE.md) - Build flow overview
+2. [scripts/build.js](../scripts/build.js) - Build implementation
+3. [index.js](../index.js) - API implementation
 
-### CONTRIBUTING.md
-Guidelines for contributing to the project
+---
 
-### TESTING.md
-Information about running tests and validation
-
-### SCHEMA.md
-JSON Schema documentation for validation and IDE support
-
-### pending_prayers.md
-List of prayers planned for future releases
-
-### lib/prayer-index.json
-Generated file listing all available prayers with metadata
-
-### prayer-schema.json
-Formal JSON Schema (Draft 7) for prayer data validation
-
-## Quick Navigation
-
-### For Users
-1. Start with **README.md** for installation and quick start
-2. Check **docs/USAGE_EXAMPLES.md** for your framework
-3. Reference **docs/API_REFERENCE.md** for specific functions
-4. See **docs/PRAYER_ORGANIZATION.md** for available prayers and categories
-
-### For Contributors
-1. Read **CONTRIBUTING.md** for guidelines
-2. Study **docs/DATA_STRUCTURE.md** for JSON format
-3. Review **docs/ARCHITECTURE.md** for build system
-4. Check **pending_prayers.md** for what needs to be added
-
-### For Developers
-1. Start with **README.md** overview
-2. Read **docs/ARCHITECTURE.md** for implementation details
-3. Reference **docs/API_REFERENCE.md** for types and functions
-4. See **docs/USAGE_EXAMPLES.md** for integration patterns
-
-## File Organization
-
-```
-prayer-collection/
-├── README.md                          # Main entry point
-├── docs/
-│   ├── PRAYER_ORGANIZATION.md        # Classification system
-│   ├── DATA_STRUCTURE.md             # JSON schema
-│   ├── API_REFERENCE.md              # Complete API docs
-│   ├── USAGE_EXAMPLES.md             # Code examples
-│   └── ARCHITECTURE.md               # Implementation details
-├── CONTRIBUTING.md                    # Contribution guidelines
-├── TESTING.md                        # Testing guide
-└── pending_prayers.md                # Future additions
-```
+**💡 Self-Documenting Codebase**: Most documentation files point to authoritative source files rather than duplicating information. When in doubt, check the actual source code, schema files, or generated indexes.
